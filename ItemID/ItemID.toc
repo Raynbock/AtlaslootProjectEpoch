@@ -1,0 +1,12 @@
+## Title: ItemID
+## Version: 1.10.3
+## Interface: 60100
+## Notes: Displays the IDs of items, spells and more in the game.
+## DefaultState: Enabled
+## Author: Kjasi
+## URL: https://bitbucket.org/Kjasi/kjasis-wow-addons
+## X-URL: https://bitbucket.org/Kjasi/kjasis-wow-addons
+## X-Website: https://bitbucket.org/Kjasi/kjasis-wow-addons
+## X-Feedback: https://bitbucket.org/Kjasi/kjasis-wow-addons
+## SavedVariables: ItemID_Options
+Load.xml
