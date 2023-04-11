@@ -1,0 +1,45 @@
+## Interface: 30300
+## Title: AtlasLoot
+## Notes: Shows the possible loot from the bosses
+## Author: Hegarol
+## Version: v5.11.04
+## X-eMail: manager@atlasloot.net
+## X-Credits: Daviesh, Lag, Cellelach, Asurn, Pernicus and many others
+## X-Category: Map
+## X-License: GPL v2
+## X-Website: http://www.atlasloot.net
+## X-Embeds: Ace3, DewdropLib, FuBarPlugin-2.0, LibBabble-Boss-3.0, LibBabble-Faction-3.0, LibBabble-Inventory-3.0, LibBabble-Zone-3.0
+## Title-deDE: AtlasLoot Enhanced
+## Notes-deDE: Zeigt mögliche Beute von Bossen
+## Title-frFR: AtlasLoot Enhanced
+## Notes-frFR: Montre le butin possible des boss
+## Title-esES: AtlasLoot Enhanced
+## Notes-esES: Muestra el posible botin de los jefes finales
+## Title-koKR: AtlasLoot Enhanced
+## Notes-koKR: Shows the possible loot from the bosses
+## Title-zhCN: AtlasLoot Enhanced
+## Notes-zhCN: ??????????????????
+## Title-zhTW: |r|cFF0099FF[??]|rAL ???????
+## Notes-zhTW: ????????????????????????????????????
+## RealTitle-zhCN: [??]????????
+## RealTitle-zhTW: [??]AL ????[???]
+## Notes-ruRU: ?????????? ???? ????????? ?????? ? ??????
+## SavedVariables: AtlasLootOptions, AtlasLootDB, AtlasLootWishList
+## SavedVariablesPerCharacter: AtlasLootCharDB, AtlasLootFilterDB
+## OptionalDeps: Alphamap, LootLink, ItemSync, DewdropLib, FuBarPlugin-3.0, FuBar, Ace3, LibBabble-Boss-3.0, LibBabble-Faction-3.0, LibBabble-Inventory-3.0, LibBabble-Zone-3.0
+## X-Curse-Packaged-Version: v5.11.04
+## X-Curse-Project-Name: Atlasloot Enhanced
+## X-Curse-Project-ID: atlasloot-enhanced
+## X-Curse-Repository-ID: wow/atlasloot-enhanced/mainline
+
+embeds.xml
+
+Locales\Locales.xml
+TableRegister\TableRegister.xml
+AtlasLayout\AtlasLayout.xml
+Add_Ons\Addons.xml
+Menus\Menus.xml
+Core\AtlasLoot.xml
+DefaultFrame\AtlaslootDefaultFrame.xml
+
+modules.xml
