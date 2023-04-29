@@ -3621,6 +3621,21 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		-----------------
 
 	AtlasLoot_Data["Auberdine"] = {
+		{ 1, 0, "Achievement_character_nightelf_female", "=q6=#r2#", ""};
+		{ 2, 60126, "inv_gauntlets_05", "=q2=Auberdine Gloves", "=ds=#s11#, #a3#"};
+		{ 3, 60128, "inv_gauntlets_12", "=q2=Auberdine Gauntlets", "=ds=#s11#, #a3#"};
+		{ 17, 60127, "inv_gauntlets_15", "=q2=Auberdine Handwraps", "=ds=#s11#, #a3#"};
+		{ 5, 0, "Achievement_character_nightelf_female", "=q6=#r3#", ""};
+		{ 6, 60129, "inv_shoulder_09", "=q2=Auberdine Mantle", "=ds=#s11#, #a3#"};
+		{ 21, 60130, "inv_shoulder_06", "=q2=Auberdine Shoulderpads", "=ds=#s11#, #a3#"};
+		{ 7, 60131, "inv_shoulder_07", "=q2=Auberdine Spaulders", "=ds=#s11#, #a3#"};
+		{ 9, 0, "Achievement_character_nightelf_female", "=q6=#r4#", ""};
+		{ 10, 60132, "inv_helmet_32", "=q2=Auberdine Hat", "=ds=#s11#, #a3#"};
+		{ 11, 60133, "inv_helmet_20", "=q2=Auberdine Headwrap", "=ds=#s11#, #a3#"};
+		{ 25, 60134, "inv_helmet_03", "=q2=Auberdine Helmet", "=ds=#s11#, #a3#"};
+		{ 13, 0, "Achievement_character_nightelf_female", "=q6=#r5#", ""};
+		{ 14, 60125, "inv_jewelry_necklace_02", "=q3=Auberdine Amulet", "=ds=#s1#, #a2#"};
+		{ 29, 60124, "inv_staff_01", "=q3=Moonkin Rod", "=ds=#s8#, #a1#"};
 		Back = "REPMENU";
 	};
 
@@ -3637,6 +3652,21 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		-----------------
 
 	AtlasLoot_Data["Sepulcher"] = {
+		{ 1, 0, "achievement_character_undead_female", "=q6=#r2#", ""};
+		{ 6, 60145, "inv_misc_bandana_03", "=q2=Sepulcher Girdle", "=ds=#s11#, #a3#"};
+		{ 21, 60146, "inv_belt_09", "=q2=Sepulcher Cord", "=ds=#s11#, #a3#"};
+		{ 7, 60147, "inv_belt_03", "=q2=Sepulcher Reinforced Belt", "=ds=#s11#, #a3#"};
+		{ 5, 0, "achievement_character_undead_female", "=q6=#r3#", ""};
+		{ 2, 60142, "inv_shoulder_09", "=q2=Sepulcher Mantle", "=ds=#s11#, #a3#"};
+		{ 3, 60143, "inv_shoulder_06", "=q2=Sepulcher Shoulderpads", "=ds=#s11#, #a3#"};
+		{ 17, 60144, "inv_shoulder_07", "=q2=Sepulcher Spaulders", "=ds=#s11#, #a3#"};
+		{ 9, 0, "achievement_character_undead_female", "=q6=#r4#", ""};
+		{ 10, 60148, "inv_helmet_27", "=q2=Auberdine Hood", "=ds=#s11#, #a3#"};
+		{ 11, 60149, "inv_misc_bandana_01", "=q2=Auberdine Mask", "=ds=#s11#, #a3#"};
+		{ 25, 60150, "inv_helmet_09", "=q2=Auberdine Helmet", "=ds=#s11#, #a3#"};
+		{ 13, 0, "achievement_character_undead_female", "=q6=#r5#", ""};
+		{ 14, 60141, "inv_jewelry_ring_12", "=q3=Sepulcher Signet", "=ds=#s1#, #a2#"};
+		{ 29, 60140, "ability_mount_whitedirewolf", "=q3=Child of Arugal", "=ds=#s8#, #a1#"};
 		Back = "REPMENU";
 	};
 
