@@ -287,7 +287,7 @@ function AtlasLoot_OnVariablesLoaded()
 		AtlasLootItemsFrame:Hide();
 	end
 	--Check and migrate old WishList entry format to the newer one
-	if(((strfind(AtlasLootCharDB.AtlasLootVersion, "Beta")) or (AtlasLootCharDB.AtlasLootVersion == nil) or (tonumber(AtlasLootCharDB.AtlasLootVersion) < 40301)) and AtlasLootCharDB and AtlasLootCharDB["WishList"] and #AtlasLootCharDB["WishList"]~=0) then
+	if(((AtlasLootCharDB.AtlasLootVersion == nil) or (tonumber(AtlasLootCharDB.AtlasLootVersion) < 40301)) and AtlasLootCharDB and AtlasLootCharDB["WishList"] and #AtlasLootCharDB["WishList"]~=0) then
 		--Check if we really need to do a migration since it will load all modules
 		--We also create a helper table here which store IDs that need to search for
 		local idsToSearch = {};
@@ -316,7 +316,7 @@ function AtlasLoot_OnVariablesLoaded()
 		end
 		AtlasLootCharDB.AtlasLootVersion = VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES;
 	end
-	if((strfind(AtlasLootCharDB.AtlasLootVersion, "Beta")) or (AtlasLootCharDB.AtlasLootVersion == nil) or (tonumber(AtlasLootCharDB.AtlasLootVersion) < 40301)) then
+	if((AtlasLootCharDB.AtlasLootVersion == nil) or (tonumber(AtlasLootCharDB.AtlasLootVersion) < 40301)) then
 		AtlasLootCharDB.AtlasLootVersion = VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES;
 		AtlasLootCharDB.AutoQuery = false;
 		AtlasLootOptions_Init();

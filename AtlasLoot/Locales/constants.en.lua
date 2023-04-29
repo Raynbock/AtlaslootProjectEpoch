@@ -534,7 +534,6 @@ if AL then
 	AL["Promotional Mounts"] = true;
 	AL["Rare Mounts"] = true;
 	AL["Mount Drops"] = true;
-	AL["Drops"] = true;
 
 	-- Darkmoon Faire
 	AL["Darkmoon Faire Rewards"] = true;
