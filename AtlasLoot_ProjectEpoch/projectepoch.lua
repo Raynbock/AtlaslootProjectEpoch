@@ -722,44 +722,43 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		------------------
 
 	AtlasLoot_Data["Gnomeregan1"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..AL["Namdo Bizzfizzle"], "=ec1=#j28#"};
-		{ 2, 14639, "", "=q1=Schematic: Minor Recombobulator", "=ds=#p5# (140)"};
-		{ 4, 0, "INV_Box_01", "=q6="..BabbleBoss["Techbot"], "=ec1=#j28#"};
-		{ 5, 9444, "", "=q1=Techbot CPU Shell", "=ds=#w8#", "", "69.3%"};
-		{ 6, 9277, "", "=q1=Techbot's Memory Core", "=ds=#m3#", "", "100%"};
-		{ 8, 0, "INV_Box_01", "=q6="..BabbleBoss["Grubbis"], ""};
-		{ 9, 9445, "", "=q3=Grubbis Paws", "=ds=#s9#, #a3#", "", "9.22%"};
-		{ 11, 0, "INV_Box_01", "=q6="..BabbleBoss["Viscous Fallout"], ""};
-		{ 12, 9454, "", "=q3=Acidic Walkers", "=ds=#s12#, #a1#", "", "54.02%"};
-		{ 13, 9453, "", "=q3=Toxic Revenger", "=ds=#h1#, #w4#", "", "19.05%"};
-		{ 14, 9452, "", "=q3=Hydrocane", "=ds=#w9#", "", "18.25%"};
+		{ 1, 0, "INV_Box_01", "=q6=Grubbis&Chomper", ""};
+		{ 2, 9445, "", "=q3=Grubbis Paws", "=ds=#s9#, #a3#", "", "9.22%"};
+		{ 4, 60567, "", "=q2=Strangely Strong Stone Spear", "", "", ""};
+		{ 5, 60568, "", "=q2=Trogghide Pants", "", "", ""};
+		{ 6, 60565, "", "=q3=Chompers Chomper", "", "", ""};
+		{ 3, 60566, "", "=q3=Slippery Sole Sandals", "", "", ""};
+		{ 8, 0, "INV_Box_01", "=q6="..BabbleBoss["Viscous Fallout"], ""};
+		{ 9, 9454, "", "=q3=Acidic Walkers", "=ds=#s12#, #a1#", "", "54.02%"};
+		{ 10, 9453, "", "=q3=Toxic Revenger", "=ds=#h1#, #w4#", "", "19.05%"};
+		{ 11, 9452, "", "=q3=Hydrocane", "=ds=#w9#", "", "18.25%"};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Electrocutioner 6000"], ""};
 		{ 17, 9448, "", "=q3=Spidertank Oilrag", "=ds=#s8#, #a1#", "", "28.37%"};
 		{ 18, 9447, "", "=q3=Electrocutioner Lagnut", "=ds=#s13#", "", "28.44%"};
 		{ 19, 9446, "", "=q3=Electrocutioner Leg", "=ds=#h1#, #w10#", "", "13.19%"};
 		{ 20, 6893, "", "=q1=Workshop Key", "=ds=#e9#"};
-		{ 22, 0, "INV_Box_01", "=q6="..BabbleBoss["Crowd Pummeler 9-60"], ""};
-		{ 23, 9450, "", "=q3=Gnomebot Operating Boots", "=ds=#s12#, #a2#", "", "60.45%"};
-		{ 24, 9449, "", "=q3=Manual Crowd Pummeler", "=ds=#h2#, #w6#", "", "33.14%"};
-		{ 26, 0, "INV_Box_01", "=q6="..BabbleBoss["Dark Iron Ambassador"], ""};
-		{ 27, 9455, "", "=q3=Emissary Cuffs", "=ds=#s8#, #a2# =q2=#m16#", "", "33.96%"};
-		{ 28, 9457, "", "=q3=Royal Diplomatic Scepter", "=ds=#h1#, #w6#", "", "17.79%"};
-		{ 29, 9456, "", "=q3=Glass Shooter", "=ds=#w5#", "", "38.01%"};
+		{ 23, 0, "INV_Box_01", "=q6="..BabbleBoss["Crowd Pummeler 9-60"], ""};
+		{ 24, 9450, "", "=q3=Gnomebot Operating Boots", "=ds=#s12#, #a2#", "", "60.45%"};
+		{ 25, 9449, "", "=q3=Manual Crowd Pummeler", "=ds=#h2#, #w6#", "", "33.14%"};
 		Next = "Gnomeregan2";
 		Back = "DUNGEONMENU";
 	};
 
 	AtlasLoot_Data["Gnomeregan2"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Mekgineer Thermaplugg"], ""};
-		{ 2, 9492, "", "=q3=Electromagnetic Gigaflux Reactivator", "=ds=#s1#, #a1#", "", "7.65%"};
-		{ 3, 9461, "", "=q3=Charged Gear", "=ds=#s13# =q2=#m16#", "", "28.49%"};
-		{ 4, 9459, "", "=q3=Thermaplugg's Left Arm", "=ds=#h2#, #w1#", "", "18.05%"};
-		{ 5, 9458, "", "=q3=Thermaplugg's Central Core", "=ds=#w8#", "", "28.61%"};
-		{ 6, 4415, "", "=q3=Schematic: Craftsman's Monocle", "=ds=#p5# (185)", "", ""};
-		{ 7, 4413, "", "=q2=Schematic: Discombobulator Ray", "=ds=#p5# (160)", "", ""};
-		{ 8, 4411, "", "=q2=Schematic: Flame Deflector", "=ds=#p5# (125)", "", "0.7%"};
-		{ 9, 7742, "", "=q1=Schematic: Gnomish Cloaking Device", "=ds=#p5# (200)", "", ""};
-		{ 10, 9299, "", "=q1=Thermaplugg's Safe Combination", "=ds=#m3#", "", "100%"};
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Dark Iron Ambassador"], ""};
+		{ 2, 9455, "", "=q3=Emissary Cuffs", "=ds=#s8#, #a2# =q2=#m16#", "", "33.96%"};
+		{ 3, 9457, "", "=q3=Royal Diplomatic Scepter", "=ds=#h1#, #w6#", "", "17.79%"};
+		{ 4, 9456, "", "=q3=Glass Shooter", "=ds=#w5#", "", "38.01%"};
+		{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Mekgineer Thermaplugg"], ""};
+		{ 7, 9492, "", "=q3=Electromagnetic Gigaflux Reactivator", "=ds=#s1#, #a1#", "", "7.65%"};
+		{ 8, 9461, "", "=q3=Charged Gear", "=ds=#s13# =q2=#m16#", "", "28.49%"};
+		{ 9, 9459, "", "=q3=Thermaplugg's Left Arm", "=ds=#h2#, #w1#", "", "18.05%"};
+		{ 10, 9458, "", "=q3=Thermaplugg's Central Core", "=ds=#w8#", "", "28.61%"};
+		{ 11, 4415, "", "=q3=Schematic: Craftsman's Monocle", "=ds=#p5# (185)", "", ""};
+		{ 12, 4413, "", "=q2=Schematic: Discombobulator Ray", "=ds=#p5# (160)", "", ""};
+		{ 13, 4411, "", "=q2=Schematic: Flame Deflector", "=ds=#p5# (125)", "", "0.7%"};
+		{ 14, 7742, "", "=q1=Schematic: Gnomish Cloaking Device", "=ds=#p5# (200)", "", ""};
+		{ 15, 9299, "", "=q1=Thermaplugg's Safe Combination", "=ds=#m3#", "", "100%"};
 		{ 16, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
 		{ 17, 9508, "", "=q3=Mechbuilder's Overalls", "=ds=#s5#, #a1#", "", "0.02%"};
 		{ 18, 9491, "", "=q3=Hotshot Pilot's Gloves", "=ds=#s9#, #a1#", "", "0.01%"};
@@ -849,13 +848,17 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 2, 14149, "", "=q3=Subterranean Cape", "=ds=#s4#", "", "31.59%"};
 		{ 3, 14148, "", "=q3=Crystalline Cuffs", "=ds=#s8#, #a1#", "", "33.91%"};
 		{ 4, 14145, "", "=q3=Cursed Felblade", "=ds=#h1#, #w10#", "", "15.98%"};
-		{ 5, 14540, "", "=q1=Taragaman the Hungerer's Heart", "=ds=#m3#", "", "100%"};
-		{ 7, 0, "INV_Box_01", "=q6="..AL["Zelemar the Wrathful"], ""};
-		{ 8, 24225, "", "=q1=Blood of the Wrathful", "=ds=#m3#", "", "100%"};
-		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Jergosh the Invoker"], ""};
-		{ 17, 14150, "", "=q3=Robe of Evocation", "=ds=#s5#, #a1#", "", "36.40%"};
-		{ 18, 14147, "", "=q3=Cavedweller Bracers", "=ds=#s8#, #a3#", "", "34.35%"};
-		{ 19, 14151, "", "=q3=Chanting Blade", "=ds=#h1#, #w4#", "", "17.10%"};
+		{ 5, 60571, "", "=q2=Felguard Sash", "", "", ""};
+		{ 6, 14540, "", "=q1=Taragaman the Hungerer's Heart", "=ds=#m3#", "", "100%"};
+		{ 8, 0, "INV_Box_01", "=q6="..AL["Zelemar the Wrathful"], ""};
+		{ 9, 24225, "", "=q1=Blood of the Wrathful", "=ds=#m3#", "", "100%"};
+		{ 11, 0, "INV_Box_01", "=q6="..BabbleBoss["Jergosh the Invoker"], ""};
+		{ 12, 14150, "", "=q3=Robe of Evocation", "=ds=#s5#, #a1#", "", "36.40%"};
+		{ 13, 14147, "", "=q3=Cavedweller Bracers", "=ds=#s8#, #a3#", "", "34.35%"};
+		{ 14, 14151, "", "=q3=Chanting Blade", "=ds=#h1#, #w4#", "", "17.10%"};
+		{ 16, 0, "INV_Box_01", "=q6=Bazzalan", ""};
+		{ 17, 60569, "", "=q2=Bazzalan´s Shroud", "", "", ""};
+		{ 18, 60574, "", "=q2=Satyrchain Epaulets", "", "", ""};
 		Back = "DUNGEONMENU";
 	};
 
@@ -1749,14 +1752,16 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Marisa du'Paige"], "=ec1=#j28#"};
 		{ 2, 3019, "", "=q2=Noble's Robe", "=ds=#s5#, #a1#", "", "22.4%"};
 		{ 3, 4660, "", "=q2=Walking Boots", "=ds=#s12#, #a1#", "", "71.4%"};
-		{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Brainwashed Noble"], "=ec1=#j28#"};
-		{ 6, 5967, "", "=q2=Girdle of Nobility", "=ds=#s10#, #a1#", "", "70.4%"};
-		{ 7, 3902, "", "=q2=Staff of Nobles", "=ds=#w9#", "", "23.0%"};
-		{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Foreman Thistlenettle"], "=ec1=#j28#"};
-		{ 10, 1875, "", "=q1=Thistlenettle's Badge", "=ds=#m3#", "", "100%"};
-		{ 12, 0, "INV_Box_01", "=q6="..BabbleBoss["Rhahk'Zor"], ""};
-		{ 13, 872, "", "=q3=Rockslicer", "=ds=#h2#, #w1#", "", "3.13%"};
-		{ 14, 5187, "", "=q3=Rhahk'Zor's Hammer", "=ds=#h2#, #w6#", "", "77.98%"};
+		{ 4, 0, "INV_Box_01", "=q6="..BabbleBoss["Brainwashed Noble"], "=ec1=#j28#"};
+		{ 5, 5967, "", "=q2=Girdle of Nobility", "=ds=#s10#, #a1#", "", "70.4%"};
+		{ 6, 3902, "", "=q2=Staff of Nobles", "=ds=#w9#", "", "23.0%"};
+		{ 7, 0, "INV_Box_01", "=q6="..BabbleBoss["Foreman Thistlenettle"], "=ec1=#j28#"};
+		{ 8, 1875, "", "=q1=Thistlenettle's Badge", "=ds=#m3#", "", "100%"};
+		{ 10, 0, "INV_Box_01", "=q6=Rizzo", ""};
+		{ 11, 60846, "", "=q3=Scabbers", "", "", ""};		
+		{ 13, 0, "INV_Box_01", "=q6="..BabbleBoss["Rhahk'Zor"], ""};
+		{ 14, 872, "", "=q3=Rockslicer", "=ds=#h2#, #w1#", "", "3.13%"};
+		{ 15, 5187, "", "=q3=Rhahk'Zor's Hammer", "=ds=#h2#, #w6#", "", "77.98%"};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Miner Johnson"], ""};
 		{ 17, 5444, "", "=q3=Miner's Cape", "=ds=#s4#", "", "54.88%"};
 		{ 18, 5443, "", "=q3=Gold-plated Buckler", "=ds=#w8#", "", "37.21%"};
@@ -1788,20 +1793,23 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 18, 5198, "", "=q3=Cookie's Stirring Rod", "=ds=#w12#", "", "30.90%"};
 		{ 19, 8490, "", "=q1=Cat Carrier (Siamese)", "=ds=#e13#", "", "12.38%"};
 		{ 21, 0, "INV_Box_01", "=q6=Scinti", ""};
-		{ 22, 0000, "", "=q2=Twinkling Cape", "=ds=#sr#", "", ""};
+		{ 22, 60083, "", "=q3=Emberlicked Greaves", "", "", ""};
+		{ 23, 60084, "", "=q2=Tinfire Blades", "", "", ""};
+		{ 24, 60085, "", "=q2=Twinkling Cape", "", "", ""};
+		{ 25, 60421, "", "=q1=Eternal Ember", "", "", ""};
 		Next = "TheDeadmines3";
 		Prev = "TheDeadmines1";
 		Back = "DUNGEONMENU";
 	};
 
 	AtlasLoot_Data["TheDeadmines3"] = {
-		{ 21, 0, "INV_Box_01", "=q6=#n6#", ""};
-		{ 22, 5193, "", "=q3=Cape of the Brotherhood", "=ds=#s4#", "", "21.25%"};
-		{ 23, 5202, "", "=q3=Corsair's Overshirt", "=ds=#s5#, #a1#", "", "22.86%"};
-		{ 24, 10399, "", "=q3=Blackened Defias Armor", "=ds=#s5#, #a2#", "", "14.77%"};
-		{ 25, 5191, "", "=q3=Cruel Barb", "=ds=#h1#, #w10#", "", "14.17%"};
-		{ 26, 2874, "", "=q1=An Unsent Letter", "=ds=#m2#"};
-		{ 27, 3637, "", "=q1=Head of VanCleef", "=ds=#m3#"};
+		{ 1, 0, "INV_Box_01", "=q6=#n6#", ""};
+		{ 2, 5193, "", "=q3=Cape of the Brotherhood", "=ds=#s4#", "", "21.25%"};
+		{ 3, 5202, "", "=q3=Corsair's Overshirt", "=ds=#s5#, #a1#", "", "22.86%"};
+		{ 4, 10399, "", "=q3=Blackened Defias Armor", "=ds=#s5#, #a2#", "", "14.77%"};
+		{ 5, 5191, "", "=q3=Cruel Barb", "=ds=#h1#, #w10#", "", "14.17%"};
+		{ 6, 2874, "", "=q1=An Unsent Letter", "=ds=#m2#"};
+		{ 7, 3637, "", "=q1=Head of VanCleef", "=ds=#m3#"};
 		Prev = "TheDeadmines2";
 		Back = "DUNGEONMENU";
 	};
@@ -3622,20 +3630,20 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	AtlasLoot_Data["Auberdine"] = {
 		{ 1, 0, "Achievement_character_nightelf_female", "=q6=#r2#", ""};
-		{ 2, 60126, "inv_gauntlets_05", "=q2=Auberdine Gloves", "=ds=#s11#, #a3#"};
-		{ 3, 60128, "inv_gauntlets_12", "=q2=Auberdine Gauntlets", "=ds=#s11#, #a3#"};
-		{ 17, 60127, "inv_gauntlets_15", "=q2=Auberdine Handwraps", "=ds=#s11#, #a3#"};
-		{ 5, 0, "Achievement_character_nightelf_female", "=q6=#r3#", ""};
-		{ 6, 60129, "inv_shoulder_09", "=q2=Auberdine Mantle", "=ds=#s11#, #a3#"};
-		{ 21, 60130, "inv_shoulder_06", "=q2=Auberdine Shoulderpads", "=ds=#s11#, #a3#"};
-		{ 7, 60131, "inv_shoulder_07", "=q2=Auberdine Spaulders", "=ds=#s11#, #a3#"};
-		{ 9, 0, "Achievement_character_nightelf_female", "=q6=#r4#", ""};
-		{ 10, 60132, "inv_helmet_32", "=q2=Auberdine Hat", "=ds=#s11#, #a3#"};
-		{ 11, 60133, "inv_helmet_20", "=q2=Auberdine Headwrap", "=ds=#s11#, #a3#"};
-		{ 25, 60134, "inv_helmet_03", "=q2=Auberdine Helmet", "=ds=#s11#, #a3#"};
-		{ 13, 0, "Achievement_character_nightelf_female", "=q6=#r5#", ""};
-		{ 14, 60125, "inv_jewelry_necklace_02", "=q3=Auberdine Amulet", "=ds=#s1#, #a2#"};
-		{ 29, 60124, "inv_staff_01", "=q3=Moonkin Rod", "=ds=#s8#, #a1#"};
+		{ 2, 60126, "", "=q2=Auberdine Gloves", ""};
+		{ 3, 60128, "", "=q2=Auberdine Gauntlets", ""};
+		{ 4, 60127, "", "=q2=Auberdine Handwraps", ""};
+		{ 6, 0, "Achievement_character_nightelf_female", "=q6=#r3#", ""};
+		{ 7, 60129, "", "=q2=Auberdine Mantle", ""};
+		{ 8, 60130, "", "=q2=Auberdine Shoulderpads", ""};
+		{ 9, 60131, "", "=q2=Auberdine Spaulders", ""};
+		{ 16, 0, "Achievement_character_nightelf_female", "=q6=#r4#", ""};
+		{ 17, 60132, "", "=q2=Auberdine Hat", ""};
+		{ 18, 60133, "", "=q2=Auberdine Headwrap", ""};
+		{ 19, 60134, "", "=q2=Auberdine Helmet", ""};
+		{ 21, 0, "Achievement_character_nightelf_female", "=q6=#r5#", ""};
+		{ 22, 60125, "", "=q3=Auberdine Amulet", ""};
+		{ 23, 60124, "", "=q3=Moonkin Rod", ""};
 		Back = "REPMENU";
 	};
 
@@ -3644,6 +3652,54 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		-----------------
 
 	AtlasLoot_Data["Wildhammer Clan"] = {
+		{ 1, 0, "ability_mount_goldengryphon", "=q6=#r2#", ""};
+		{ 2, 60642, "", "=q2=Aerie Mittens", ""};
+		{ 3, 60643, "", "=q2=Wildhammer Wraps", ""};
+		{ 4, 60644, "", "=q2=Ancient Chain Gage", ""};
+		{ 5, 60645, "", "=q2=Snapjaw Shell Gauntlets", ""};
+		{ 7, 0, "ability_mount_goldengryphon", "=q6=#r3#", ""};
+		{ 8, 60646, "", "=q2=Sentry Off Cuts", ""};
+		{ 9, 60647, "", "=q2=Gryphon Tamer Boots", ""};
+		{ 10, 60648, "", "=q2=Aerie Boots", ""};
+		{ 11, 60649, "", "=q2=Mountainous Sabatons", ""};
+		{ 16, 0, "ability_mount_goldengryphon", "=q6=#r4#", ""};
+		{ 17, 60650, "", "=q2=Hinterland Girdle", ""};
+		{ 18, 60651, "", "=q2=Winged Belt", ""};
+		{ 19, 60652, "", "=q2=Rustic Wildhammer Girdle", ""};
+		{ 20, 60653, "", "=q2=Aerie Band", ""};
+		{ 22, 0, "ability_mount_goldengryphon", "=q6=#r5#", ""};
+		{ 23, 60654, "", "=q3=Falstad´s Cloak", ""};
+		{ 24, 60655, "", "=q3=Gryphon Rider Drape", ""};
+		{ 25, 60656, "", "=q3=Aviary Shroud", ""};
+		{ 26, 0, "inv_misc_pet_02", "=q1=Gryphon Hatchling", ""};
+		Back = "REPMENU";
+	};
+
+		-----------------
+		--- Raventusk Tribe ---
+		-----------------
+
+	AtlasLoot_Data["Raventusk Tribe"] = {
+		{ 1, 0, "achievement_character_troll_female", "=q6=#r2#", ""};
+		{ 2, 60615, "", "=q2=Forest Mitten", ""};
+		{ 3, 60616, "", "=q2=Raventusk Wraps", ""};
+		{ 4, 60617, "", "=q2=Tribal Gage", ""};
+		{ 5, 60618, "", "=q2=Snapjaw Shell Gauntlets", ""};
+		{ 7, 0, "achievement_character_troll_female", "=q6=#r3#", ""};
+		{ 8, 60619, "", "=q2=Leafy Sandals", ""};
+		{ 9, 60620, "", "=q2=Gnarled Galoshes", ""};
+		{ 10, 60621, "", "=q2=Raventusk Boots", ""};
+		{ 11, 60622, "", "=q2=Jungle Sabatons", ""};
+		{ 16, 0, "achievement_character_troll_female", "=q6=#r4#", ""};
+		{ 17, 60627, "", "=q2=Grassy Girdle", ""};
+		{ 18, 60628, "", "=q2=Raventusk Belt", ""};
+		{ 19, 60629, "", "=q2=Rustic Tribal Girdle", ""};
+		{ 20, 60630, "", "=q2=Village Band", ""};
+		{ 22, 0, "achievement_character_troll_female", "=q6=#r5#", ""};
+		{ 23, 60623, "", "=q3=Moz´jin´s Cape", ""};
+		{ 24, 60624, "", "=q3=Drummer Drape", ""};
+		{ 25, 60625, "", "=q3=Second War Shroud", ""};
+		{ 26, 60626, "", "=q1=Turtle Egg", ""};
 		Back = "REPMENU";
 	};
 
@@ -3653,20 +3709,20 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	AtlasLoot_Data["Sepulcher"] = {
 		{ 1, 0, "achievement_character_undead_female", "=q6=#r2#", ""};
-		{ 6, 60145, "inv_misc_bandana_03", "=q2=Sepulcher Girdle", "=ds=#s11#, #a3#"};
-		{ 21, 60146, "inv_belt_09", "=q2=Sepulcher Cord", "=ds=#s11#, #a3#"};
-		{ 7, 60147, "inv_belt_03", "=q2=Sepulcher Reinforced Belt", "=ds=#s11#, #a3#"};
-		{ 5, 0, "achievement_character_undead_female", "=q6=#r3#", ""};
-		{ 2, 60142, "inv_shoulder_09", "=q2=Sepulcher Mantle", "=ds=#s11#, #a3#"};
-		{ 3, 60143, "inv_shoulder_06", "=q2=Sepulcher Shoulderpads", "=ds=#s11#, #a3#"};
-		{ 17, 60144, "inv_shoulder_07", "=q2=Sepulcher Spaulders", "=ds=#s11#, #a3#"};
-		{ 9, 0, "achievement_character_undead_female", "=q6=#r4#", ""};
-		{ 10, 60148, "inv_helmet_27", "=q2=Auberdine Hood", "=ds=#s11#, #a3#"};
-		{ 11, 60149, "inv_misc_bandana_01", "=q2=Auberdine Mask", "=ds=#s11#, #a3#"};
-		{ 25, 60150, "inv_helmet_09", "=q2=Auberdine Helmet", "=ds=#s11#, #a3#"};
-		{ 13, 0, "achievement_character_undead_female", "=q6=#r5#", ""};
-		{ 14, 60141, "inv_jewelry_ring_12", "=q3=Sepulcher Signet", "=ds=#s1#, #a2#"};
-		{ 29, 60140, "ability_mount_whitedirewolf", "=q3=Child of Arugal", "=ds=#s8#, #a1#"};
+		{ 7, 60145, "", "=q2=Sepulcher Girdle", ""};
+		{ 8, 60146, "", "=q2=Sepulcher Cord", ""};
+		{ 9, 60147, "", "=q2=Sepulcher Reinforced Belt", ""};
+		{ 6, 0, "achievement_character_undead_female", "=q6=#r3#", ""};
+		{ 2, 60142, "", "=q2=Sepulcher Mantle", ""};
+		{ 3, 60143, "", "=q2=Sepulcher Shoulderpads", ""};
+		{ 4, 60144, "", "=q2=Sepulcher Spaulders", ""};
+		{ 16, 0, "achievement_character_undead_female", "=q6=#r4#", ""};
+		{ 17, 60148, "", "=q2=Auberdine Hood", ""};
+		{ 18, 60149, "", "=q2=Auberdine Mask", ""};
+		{ 19, 60150, "", "=q2=Auberdine Helmet", ""};
+		{ 21, 0, "achievement_character_undead_female", "=q6=#r5#", ""};
+		{ 22, 60141, "", "=q3=Sepulcher Signet", ""};
+		{ 23, 60140, "", "=q3=Child of Arugal", ""};
 		Back = "REPMENU";
 	};
 

@@ -8,6 +8,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 1, "Argent1", "inv_jewelry_talisman_07", "=ds="..BabbleFaction["Argent Dawn"], "=q5="..BabbleZone["Eastern Plaguelands"]}; 
 		{ 6, "Auberdine", "achievement_character_nightelf_male", "=ds="..BabbleFaction["Auberdine"], "=q5="..BabbleZone["Auberdine"]}; 
 		{ 7, "Wildhammer Clan", "Ability_mount_gryphon_01", "=ds="..BabbleFaction["Wildhammer Clan"], "=q5="..BabbleZone["Arathi Highlands"]}; 
+		{ 22, "Raventusk Tribe", "achievement_character_troll_male", "=ds="..BabbleFaction["Raventusk Tribe"], "=q5="..BabbleZone["Arathi Highlands"]}; 
 		{ 21, "Sepulcher", "Achievement_character_undead_male", "=ds="..BabbleFaction["Sepulcher"], "=q5="..BabbleZone["Silverpine Forest"]}; 
 		{ 10, "MiscFactions1", "INV_Misc_Head_Centaur_01", "=ds="..BabbleFaction["Gelkis Clan Centaur"], "=q5="..BabbleZone["Desolace"]};
 		{ 16, "AlteracFactions", "INV_Jewelry_StormPikeTrinket_01", "=ds="..BabbleFaction["Stormpike Guard"], "=q5="..BabbleFaction["Alliance"].." - "..BabbleZone["Alterac Valley"]};

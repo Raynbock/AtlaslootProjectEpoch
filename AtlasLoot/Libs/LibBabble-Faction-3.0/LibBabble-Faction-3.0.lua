@@ -59,6 +59,7 @@ lib:SetBaseTranslations {
 	Orgrimmar = "Orgrimmar",
 	Ratchet = "Ratchet",
 	Ravenholdt = "Ravenholdt",
+	["Raventusk Tribe"] = "Raventusk Tribe",
 	Revered = "Revered",
 	Sepulcher = "Sepulcher",
 	["Sha'tari Skyguard"] = "Sha'tari Skyguard",

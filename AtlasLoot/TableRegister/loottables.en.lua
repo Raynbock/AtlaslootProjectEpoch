@@ -386,6 +386,8 @@ end
 	AtlasLoot_TableNames["Auberdine"] = { BabbleFaction["Auberdine"], "AtlasLootProjectEpoch" };
   -- Wildhammer Clan
 	AtlasLoot_TableNames["Wildhammer Clan"] = { BabbleFaction["Wildhammer Clan"], "AtlasLootProjectEpoch" };
+  -- Raventusk Tribe
+	AtlasLoot_TableNames["Raventusk Tribe"] = { BabbleFaction["Raventusk Tribe"], "AtlasLootProjectEpoch" };
   -- Sepulcher
 	AtlasLoot_TableNames["Sepulcher"] = { BabbleFaction["Sepulcher"], "AtlasLootProjectEpoch" };
   -- Thorium Brotherhood
