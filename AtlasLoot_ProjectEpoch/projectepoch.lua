@@ -722,9 +722,12 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		------------------
 
 	AtlasLoot_Data["Glittermurk"] = {
+		{ 1, 0, "INV_Box_01", "=q6=Supervisor Grimgash", ""};
 		{ 1, 0, "INV_Box_01", "=q6=Foreman Sprocket", ""};
 		{ 2, 60986, "", "=q3=Heavy Metal Belt", "", "", ""};
 		{ 3, 60991, "", "=q3=Shredder Spaulders", "", "", ""};
+		{ 1, 0, "INV_Box_01", "=q6=???", ""};
+		{ 1, 0, "INV_Box_01", "=q6=Prismscale", ""};
 		{ 5, 0, "INV_Box_01", "=q6=Murklurk", ""};
 		{ 6, 61058, "", "=q3=Shadowcasters Hood", "", "", ""};
 		{ 7, 60970, "", "=q3=Amulet of Brawn", "", "", ""};
