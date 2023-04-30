@@ -1,6 +1,6 @@
 ## Title: ItemID
 ## Version: 1.10.3
-## Interface: 60100
+## Interface: 30300
 ## Notes: Displays the IDs of items, spells and more in the game.
 ## DefaultState: Enabled
 ## Author: Kjasi
