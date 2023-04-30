@@ -730,6 +730,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 7, 60970, "", "=q3=Amulet of Brawn", "", "", ""};
 		{ 9, 0, "INV_Box_01", "=q6=Gnash", ""};
 		{ 10, 60987, "", "=q3=Naga Precision", "", "", ""};
+		{ 11, 60982, "", "=q3=Encrusted Fetish", "", "", ""};
 		Back = "DUNGEONMENU";
 	};
 
