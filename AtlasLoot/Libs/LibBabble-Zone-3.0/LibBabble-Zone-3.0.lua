@@ -97,6 +97,7 @@ lib:SetBaseTranslations {
 	Ghostlands = "Ghostlands",
 	Gilneas = "Gilneas",
 	["Gilneas City"] = "Gilneas City",
+	["Glittermurk Mines"] = "Glittermurk Mines",
 	Gnomeregan = "Gnomeregan",
 	Graveyard = "Graveyard",
 	["Grim Batol"] = "Grim Batol",

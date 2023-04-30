@@ -489,6 +489,7 @@ if AL then
 	AL["Stormwind Stockades"] = true;
 	AL["Blackfathom Deeps"] = true;
 	AL["Gnomeregan"] = true;
+	AL["Glittermurk Mines"] = true;
 	AL["Razorfen Kraul"] = true;
 	AL["Scarlet Monastery"] = true;
 	AL["Razorfen Downs"] = true;

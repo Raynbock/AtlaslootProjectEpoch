@@ -718,6 +718,22 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	};
 
 		------------------
+		--- Zul'Farrak ---
+		------------------
+
+	AtlasLoot_Data["Glittermurk"] = {
+		{ 1, 0, "INV_Box_01", "=q6=Foreman Sprocket", ""};
+		{ 2, 60986, "", "=q3=Heavy Metal Belt", "", "", ""};
+		{ 3, 60991, "", "=q3=Shredder Spaulders", "", "", ""};
+		{ 5, 0, "INV_Box_01", "=q6=Murklurk", ""};
+		{ 6, 61058, "", "=q3=Shadowcasters Hood", "", "", ""};
+		{ 7, 60970, "", "=q3=Amulet of Brawn", "", "", ""};
+		{ 9, 0, "INV_Box_01", "=q6=Gnash", ""};
+		{ 10, 60987, "", "=q3=Naga Precision", "", "", ""};
+		Back = "DUNGEONMENU";
+	};
+
+		------------------
 		--- Gnomeregan ---
 		------------------
 
@@ -826,15 +842,13 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Princess Theradras"], ""};
 		{ 17, 17780, "", "=q4=Blade of Eternal Darkness", "=ds=#h1#, #w4#", "", "0.20%"};
 		{ 18, 17715, "", "=q3=Eye of Theradras", "=ds=#s1#, #a1#", "", "13.47%"};
-		{ 19, 17714, "", "=q3=Bracers of the Stone Princess", "=ds=#s8#, #a3#", "", "20.06%"};
-		{ 20, 17711, "", "=q3=Elemental Rockridge Leggings", "=ds=#s11#, #a4#", "", "14.96%"};
-		{ 21, 17707, "", "=q3=Gemshard Heart", "=ds=#s2#", "", "15.30%"};
-		{ 22, 17713, "", "=q3=Blackstone Ring", "=ds=#s13#", "", "18.92%"};
-		{ 23, 17710, "", "=q3=Charstone Dirk", "=ds=#h1#, #w4#", "", "14.24%"};
-		{ 24, 17766, "", "=q3=Princess Theradras' Scepter", "=ds=#h2#, #w6#", "", "16.44%"};
-		{ 26, 0, "INV_Box_01", "=q6="..AL["Quest Item"], ""};
-		{ 27, 17764, "", "=q1=Gem of the Fourth Khan", "=ds=#m3#", "", "100%"};
-		{ 28, 17765, "", "=q1=Gem of the Fifth Khan", "=ds=#m3#", "", "100%"};
+		{ 19, 61096, "", "=q3=Theradras´Cuffs", "", "", ""};
+		{ 20, 17714, "", "=q3=Bracers of the Stone Princess", "=ds=#s8#, #a3#", "", "20.06%"};
+		{ 21, 17711, "", "=q3=Elemental Rockridge Leggings", "=ds=#s11#, #a4#", "", "14.96%"};
+		{ 22, 17707, "", "=q3=Gemshard Heart", "=ds=#s2#", "", "15.30%"};
+		{ 23, 17713, "", "=q3=Blackstone Ring", "=ds=#s13#", "", "18.92%"};
+		{ 24, 17710, "", "=q3=Charstone Dirk", "=ds=#h1#, #w4#", "", "14.24%"};
+		{ 25, 17766, "", "=q3=Princess Theradras' Scepter", "=ds=#h2#, #w6#", "", "16.44%"};
 		Prev = "Maraudon1";
 		Back = "DUNGEONMENU";
 	};
@@ -2142,7 +2156,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 25, 9474, "", "=q3=Jinxed Hoodoo Kilt", "=ds=#s11#, #a2#", "", "20.95%"};
 		{ 26, 9475, "", "=q3=Diabolic Skiver", "=ds=#w7#", "", "20.06%"};
 		{ 28, 0, "INV_Box_01", "=q6=Sergeant Bly", ""};
-		{ 29, 8548, "", "=q1=Divino-matic Rod", "=ds=#m3#", "", "100%"};
+		{ 30, 8548, "", "=q1=Divino-matic Rod", "=ds=#m3#", "", "100%"};
+		{ 29, 61057, "", "=q3=Bly´s Shield", "", "", ""};
 		Next = "ZFHydromancerVelratha";
 		Back = "DUNGEONMENU";
 	};
@@ -3699,11 +3714,12 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 18, 60628, "", "=q2=Raventusk Belt", ""};
 		{ 19, 60629, "", "=q2=Rustic Tribal Girdle", ""};
 		{ 20, 60630, "", "=q2=Village Band", ""};
-		{ 22, 0, "achievement_character_troll_female", "=q6=#r5#", ""};
-		{ 23, 60623, "", "=q3=Moz´jin´s Cape", ""};
-		{ 24, 60624, "", "=q3=Drummer Drape", ""};
-		{ 25, 60625, "", "=q3=Second War Shroud", ""};
-		{ 26, 60626, "", "=q1=Turtle Egg", ""};
+		{ 21, 60914, "", "=q1=Schematic: Raventusk Disguise", ""};
+		{ 23, 0, "achievement_character_troll_female", "=q6=#r5#", ""};
+		{ 24, 60623, "", "=q3=Moz´jin´s Cape", ""};
+		{ 25, 60624, "", "=q3=Drummer Drape", ""};
+		{ 26, 60625, "", "=q3=Second War Shroud", ""};
+		{ 27, 60626, "", "=q1=Turtle Egg", ""};
 		Back = "REPMENU";
 	};
 

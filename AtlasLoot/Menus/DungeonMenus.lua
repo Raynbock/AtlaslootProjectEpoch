@@ -9,8 +9,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 16, "", "achievement_level_20", "=ds="..AL["20"], ""};
 		{ 6, "", "achievement_level_30", "=ds="..AL["30"], ""};
 		{ 21, "", "achievement_level_40", "=ds="..AL["40"], ""};
-		{ 11, "", "achievement_level_50", "=ds="..AL["50"], ""};
-		{ 26, "", "achievement_level_60", "=ds="..AL["60"], ""};
+		{ 12, "", "achievement_level_50", "=ds="..AL["50"], ""};
+		{ 27, "", "achievement_level_60", "=ds="..AL["60"], ""};
 		{ 2, "RagefireChasm", "spell_shadow_summonfelguard", "=ds="..AL["Ragefire Chasm"], "=q5=Level 13+"};
 		{ 4, "WailingCaverns1", "achievement_boss_bazil_akumai", "=ds="..AL["Wailing Caverns"], "=q5=Level 18+"};
 		{ 3, "TheDeadmines1", "achievement_boss_edwinvancleef", "=ds="..AL["Deadmines"], "=q5=Level 17+"};
@@ -23,11 +23,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 22, "RazorfenDowns1", "achievement_boss_amnennar_the_coldbringer", "=ds="..AL["Razorfen Downs"], "=q5=Level 38+"};
 		{ 23, "UldMagreganDeepshadow", "achievement_dungeon_ulduarraid_titan_01", "=ds="..AL["Uldaman"], "=q5=Level 44+"};
 		{ 24, "ZFAntusul", "achievement_boss_chiefukorzsandscalp", "=ds="..AL["Zul'Farrak"], "=q5=Level 44+"};
-		{ 12, "Maraudon1", "achievement_boss_princesstheradras", "=ds="..AL["Maraudon"], "=q5=Level 47+"};
-		{ 13, "STTrollMinibosses", "achievement_boss_shadeoferanikus", "=ds="..AL["Sunken Temple"], "=q5=Level 51+"};
-		{ 14, "Blackrock", "achievement_boss_emperordagranthaurissan", "=ds="..AL["Blackrock Depths"], "=q5=Level 49-60"};
-		{ 27, "Scholo1", "spell_shadow_shadesofdarkness", "=ds="..AL["Scholomance"], "=q5=Level 59+"};
-		{ 28, "Stratholme", "spell_deathknight_armyofthedead", "=ds="..AL["Stratholme"], "=q5=Level 58+"};
+		{ 25, "Glittermurk", "achievement_goblinheaddead", "=ds="..AL["Glittermurk Mines"], "=q5=Level 40+"};
+		{ 13, "Maraudon1", "achievement_boss_princesstheradras", "=ds="..AL["Maraudon"], "=q5=Level 47+"};
+		{ 14, "STTrollMinibosses", "achievement_boss_shadeoferanikus", "=ds="..AL["Sunken Temple"], "=q5=Level 51+"};
+		{ 15, "Blackrock", "achievement_boss_emperordagranthaurissan", "=ds="..AL["Blackrock Depths"], "=q5=Level 49-60"};
+		{ 28, "Scholo1", "spell_shadow_shadesofdarkness", "=ds="..AL["Scholomance"], "=q5=Level 59+"};
+		{ 29, "Stratholme", "spell_deathknight_armyofthedead", "=ds="..AL["Stratholme"], "=q5=Level 58+"};
 	};
 
 	AtlasLoot_Data["Scarletmenu"] = {

@@ -37,7 +37,7 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "2";
 local VERSION_MINOR = "0";
-local VERSION_BOSSES = "01";
+local VERSION_BOSSES = "03";
 ATLASLOOT_VERSION = "|cffFF8400Project Epoch "..VERSION_MAJOR.." v."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 --Now allows for multiple compatible Atlas versions.  Always put the newest first
 ATLASLOOT_CURRENT_ATLAS = {"1.17.1", "1.17.0"};
@@ -287,7 +287,7 @@ function AtlasLoot_OnVariablesLoaded()
 		AtlasLootItemsFrame:Hide();
 	end
 	--Check and migrate old WishList entry format to the newer one
-	if(((AtlasLootCharDB.AtlasLootVersion == nil) or (tonumber(AtlasLootCharDB.AtlasLootVersion) < 2000)) and AtlasLootCharDB and AtlasLootCharDB["WishList"] and #AtlasLootCharDB["WishList"]~=0) then
+	if(((AtlasLootCharDB.AtlasLootVersion == nil) or (tonumber(AtlasLootCharDB.AtlasLootVersion) < 2002)) and AtlasLootCharDB and AtlasLootCharDB["WishList"] and #AtlasLootCharDB["WishList"]~=0) then
 		--Check if we really need to do a migration since it will load all modules
 		--We also create a helper table here which store IDs that need to search for
 		local idsToSearch = {};
@@ -316,7 +316,7 @@ function AtlasLoot_OnVariablesLoaded()
 		end
 		AtlasLootCharDB.AtlasLootVersion = VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES;
 	end
-	if((AtlasLootCharDB.AtlasLootVersion == nil) or (tonumber(AtlasLootCharDB.AtlasLootVersion) < 2000)) then
+	if((AtlasLootCharDB.AtlasLootVersion == nil) or (tonumber(AtlasLootCharDB.AtlasLootVersion) < 2002)) then
 		AtlasLootCharDB.AtlasLootVersion = VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES;
 		AtlasLootCharDB.AutoQuery = false;
 		AtlasLootOptions_Init();
