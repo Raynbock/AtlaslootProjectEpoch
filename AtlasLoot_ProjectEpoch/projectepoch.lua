@@ -1842,22 +1842,24 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	AtlasLoot_Data["TheStockade"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Targorr the Dread"], ""};
-		{ 2, 3630, "", "=q1=Head of Targorr", "=ds=#m3#", "", "100%"};
-		{ 4, 0, "INV_Box_01", "=q6="..BabbleBoss["Kam Deepfury"], ""};
-		{ 5, 2280, "", "=q3=Kam's Walking Stick", "=ds=#w9#", "", "0.62%"};
-		{ 6, 3640, "", "=q1=Head of Deepfury", "=ds=#m3#", "", "100%"};
-		{ 8, 0, "INV_Box_01", "=q6=Hamhock", ""};
-		{ 9, 60584, "", "=q2=Wand of Ogrehair", "", "", ""};
-		{ 11, 0, "INV_Box_01", "=q6="..BabbleBoss["Bazil Thredd"], ""};
-		{ 12, 2926, "", "=q1=Head of Bazil Thredd", "=ds=#m3#", "", "100%"};
-		{ 14, 0, "INV_Box_01", "=q6="..BabbleBoss["Dextren Ward"], ""};
-		{ 15, 3628, "", "=q1=Hand of Dextren Ward", "=ds=#m3#", "", "100%"};
-		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Bruegal Ironknuckle"], ""};
-		{ 17, 3228, "", "=q3=Jimmied Handcuffs", "=ds=#s8#, #a3#", "", "54.73%"};
-		{ 18, 2942, "", "=q3=Iron Knuckles", "=ds=#h1#, #w13#", "", "18.18%"};
-		{ 19, 2941, "", "=q3=Prison Shank", "=ds=#h1#, #w4#", "", "16.05%"};
-		{ 21, 0, "INV_Box_01", "=q6=#n11#", ""};
-		{ 22, 2909, "", "=q1=Red Wool Bandana", "=ds=#m3#"};
+		{ 2, 60579, "", "=q2=Bone of Unknown Origins", "", "", ""};
+		{ 3, 3630, "", "=q1=Head of Targorr", "=ds=#m3#", "", "100%"};
+		{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Kam Deepfury"], ""};
+		{ 6, 2280, "", "=q2=Kam's Walking Stick", "=ds=#w9#", "", "0.62%"};
+		{ 7, 60583, "", "=q2=Spellbuckler", "", "", ""};
+		{ 8, 3640, "", "=q1=Head of Deepfury", "=ds=#m3#", "", "100%"};
+		{ 10, 0, "INV_Box_01", "=q6=Hamhock", ""};
+		{ 11, 60584, "", "=q2=Wand of Ogrehair", "", "", ""};
+		{ 13, 0, "INV_Box_01", "=q6="..BabbleBoss["Bazil Thredd"], ""};
+		{ 14, 2926, "", "=q1=Head of Bazil Thredd", "=ds=#m3#", "", "100%"};
+		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Dextren Ward"], ""};
+		{ 17, 3628, "", "=q1=Hand of Dextren Ward", "=ds=#m3#", "", "100%"};
+		{ 19, 0, "INV_Box_01", "=q6="..BabbleBoss["Bruegal Ironknuckle"], ""};
+		{ 20, 3228, "", "=q3=Jimmied Handcuffs", "=ds=#s8#, #a3#", "", "54.73%"};
+		{ 21, 2942, "", "=q3=Iron Knuckles", "=ds=#h1#, #w13#", "", "18.18%"};
+		{ 22, 2941, "", "=q3=Prison Shank", "=ds=#h1#, #w4#", "", "16.05%"};
+		{ 24, 0, "INV_Box_01", "=q6=#n11#", ""};
+		{ 25, 2909, "", "=q1=Red Wool Bandana", "=ds=#m3#"};
 		Back = "DUNGEONMENU";
 	};
 
