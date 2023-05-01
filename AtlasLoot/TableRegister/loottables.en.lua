@@ -165,6 +165,7 @@ end
   -- Shadowfang Keep
 	AtlasLoot_TableNames["ShadowfangKeep1"] = { BabbleZone["Shadowfang Keep"], "AtlasLootProjectEpoch" };
 	AtlasLoot_TableNames["ShadowfangKeep2"] = { BabbleZone["Shadowfang Keep"], "AtlasLootProjectEpoch" };
+	AtlasLoot_TableNames["ShadowfangKeep3"] = { BabbleZone["Shadowfang Keep"], "AtlasLootProjectEpoch" };
   -- The Stockade
 	AtlasLoot_TableNames["TheStockade"] = { BabbleZone["The Stockade"], "AtlasLootProjectEpoch" };
   -- Stratholme

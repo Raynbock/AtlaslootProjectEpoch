@@ -20,13 +20,13 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 7, "Gnomeregan1", "achievement_boss_mekgineer_thermaplugg ", "=ds="..AL["Gnomeregan"], "=q5=Level 30+"};
 		{ 8, "RazorfenKraul1", "achievement_boss_charlgarazorflank", "=ds="..AL["Razorfen Kraul"], "=q5=Level 30+"};
 		{ 9, "Scarletmenu", "Inv_helmet_52", "=ds="..AL["Scarlet Monastery"], "=q5=Level 30-34-36-38+"};
-		{ 22, "RazorfenDowns1", "achievement_boss_amnennar_the_coldbringer", "=ds="..AL["Razorfen Downs"], "=q5=Level 38+"};
+		{ 10, "RazorfenDowns1", "achievement_boss_amnennar_the_coldbringer", "=ds="..AL["Razorfen Downs"], "=q5=Level 38+"};
 		{ 23, "UldMagreganDeepshadow", "achievement_dungeon_ulduarraid_titan_01", "=ds="..AL["Uldaman"], "=q5=Level 44+"};
 		{ 24, "ZFAntusul", "achievement_boss_chiefukorzsandscalp", "=ds="..AL["Zul'Farrak"], "=q5=Level 44+"};
-		{ 25, "Glittermurk", "achievement_goblinheaddead", "=ds="..AL["Glittermurk Mines"], "=q5=Level 40+"};
-		{ 13, "Maraudon1", "achievement_boss_princesstheradras", "=ds="..AL["Maraudon"], "=q5=Level 47+"};
-		{ 14, "STTrollMinibosses", "achievement_boss_shadeoferanikus", "=ds="..AL["Sunken Temple"], "=q5=Level 51+"};
-		{ 15, "Blackrock", "achievement_boss_emperordagranthaurissan", "=ds="..AL["Blackrock Depths"], "=q5=Level 49-60"};
+		{ 22, "Glittermurk", "achievement_goblinheaddead", "=ds="..AL["Glittermurk Mines"], "=q5=Level 40+"};
+		{ 25, "Maraudon1", "achievement_boss_princesstheradras", "=ds="..AL["Maraudon"], "=q5=Level 47+"};
+		{ 13, "STTrollMinibosses", "achievement_boss_shadeoferanikus", "=ds="..AL["Sunken Temple"], "=q5=Level 51+"};
+		{ 14, "Blackrock", "achievement_boss_emperordagranthaurissan", "=ds="..AL["Blackrock Depths"], "=q5=Level 49-60"};
 		{ 28, "Scholo1", "spell_shadow_shadesofdarkness", "=ds="..AL["Scholomance"], "=q5=Level 59+"};
 		{ 29, "Stratholme", "spell_deathknight_armyofthedead", "=ds="..AL["Stratholme"], "=q5=Level 58+"};
 	};

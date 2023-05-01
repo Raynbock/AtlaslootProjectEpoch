@@ -1447,14 +1447,13 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		-----------------------
 
 	AtlasLoot_Data["ShadowfangKeep1"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Deathsworn Captain"], ""};
-		{ 2, 6642, "", "=q3=Phantom Armor", "=ds=#s5#, #a3#", "", "30.49%"};
-		{ 3, 6641, "", "=q3=Haunting Blade", "=ds=#h2#, #w10#", "", "58.60%"};
-		{ 5, 0, "INV_Box_01", "=q6="..AL["Rethilgore"], ""};
-		{ 6, 5254, "", "=q3=Rugged Spaulders", "=ds=#s3#, #a2#", "", "84.73%"};
-		{ 8, 0, "INV_Box_01", "=q6="..AL["Felsteed"], ""};
-		{ 9, 6341, "", "=q3=Eerie Stable Lantern", "=ds=#s15#", "", "5.48%"};
-		{ 10, 932, "", "=q1=Fel Steed Saddlebags", "=ds=#m12# #e1#", "", "16.46%"};
+		{ 1, 0, "INV_Box_01", "=q6="..AL["Rethilgore"], ""};
+		{ 2, 5254, "", "=q2=Rugged Spaulders", "=ds=#s3#, #a2#", "", "84.73%"};
+		{ 4, 0, "INV_Box_01", "=q6="..AL["Felsteed"], ""};
+		{ 5, 6341, "", "=q3=Eerie Stable Lantern", "=ds=#s15#", "", "5.48%"};
+		{ 6, 932, "", "=q1=Fel Steed Saddlebags", "=ds=#m12# #e1#", "", "16.46%"};
+		{ 8, 0, "INV_Box_01", "=q6=Steward Graves", ""};
+		{ 9, 60235, "", "=q3=Graves Rod", "=ds=#h1#, #w6#", "", "37.93%"};
 		{ 12, 0, "INV_Box_01", "=q6="..BabbleBoss["Razorclaw the Butcher"], ""};
 		{ 13, 6226, "", "=q3=Bloody Apron", "=ds=#s5#, #a1#", "", "39.47%"};
 		{ 14, 6633, "", "=q3=Butcher's Slicer", "=ds=#h1#, #w10#", "", "39.53%"};
@@ -1468,39 +1467,48 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 24, 0, "INV_Box_01", "=q6="..BabbleBoss["Odo the Blindwatcher"], ""};
 		{ 25, 6319, "", "=q3=Girdle of the Blindwatcher", "=ds=#s10#, #a2#", "", "57.15%"};
 		{ 26, 6318, "", "=q3=Odo's Ley Staff", "=ds=#w9#", "", "29.97%"};
-		{ 28, 0, "INV_Box_01", "=q6="..BabbleBoss["Fenrus the Devourer"], ""};
-		{ 29, 6340, "", "=q3=Fenrus' Hide", "=ds=#s4#", "", "58.02%"};
-		{ 30, 3230, "", "=q3=Black Wolf Bracers", "=ds=#s8#, #a2#", "", "14.76%"};
+		{ 28, 0, "INV_Box_01", "=q6="..BabbleBoss["Deathsworn Captain"], ""};
+		{ 29, 6642, "", "=q3=Phantom Armor", "=ds=#s5#, #a3#", "", "30.49%"};
+		{ 30, 6641, "", "=q3=Haunting Blade", "=ds=#h2#, #w10#", "", "58.60%"};
 		Next = "ShadowfangKeep2";
 		Back = "DUNGEONMENU";
 	};
 	
 	AtlasLoot_Data["ShadowfangKeep2"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Arugal's Voidwalker"], ""};
-		{ 2, 5943, "", "=q3=Rift Bracers", "=ds=#s8#, #a3#", "", "3%"};
-		{ 4, 0, "INV_Box_01", "=q6="..BabbleBoss["Wolf Master Nandos"], ""};
-		{ 5, 6314, "", "=q3=Wolfmaster Cape", "=ds=#s4#", "", "33.25%"};
-		{ 6, 3748, "", "=q3=Feline Mantle", "=ds=#s3#, #a1#", "", "48.55%"};
-		{ 8, 0, "INV_Box_01", "=q6="..BabbleBoss["Archmage Arugal"], ""};
-		{ 9, 6324, "", "=q3=Robes of Arugal", "=ds=#s5#, #a1#", "", "30.50%"};
-		{ 10, 6392, "", "=q3=Belt of Arugal", "=ds=#s10#, #a1#", "", "30.51%"};
-		{ 11, 6220, "", "=q3=Meteor Shard", "=ds=#h1#, #w4#", "", "15.78%"};
-		{ 12, 24224, "", "=q1=Crate of Bloodforged Ingots", "=ds=#m3#"};
-		{ 13, 6895, "", "=q1=Jordan's Smithing Hammer", "=ds=#m3#"};
-		{ 14, 6283, "", "=q1=The Book of Ur", "=ds=#m3#"};
-		{ 16, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
-		{ 17, 2292, "", "=q3=Necrology Robes", "=ds=#s5#, #a1#", "", "0.01%"};
-		{ 18, 1974, "", "=q3=Mindthrust Bracers", "=ds=#s8#, #a1#", "", "0.02%"};
-		{ 19, 1489, "", "=q3=Gloomshroud Armor", "=ds=#s5#, #a2#", "", "0.01%"};
-		{ 20, 1935, "", "=q3=Assassin's Blade", "=ds=#h1#, #w4#", "", "0.01%"};
-		{ 21, 1482, "", "=q3=Shadowfang", "=ds=#h1#, #w10#", "", "0.01%"};
-		{ 22, 2205, "", "=q3=Duskbringer", "=ds=#h2#, #w10#", "", "0.01%"};
-		{ 23, 2807, "", "=q3=Guillotine Axe", "=ds=#h1#, #w1#", "", "0.01%"};
-		{ 24, 1318, "", "=q3=Night Reaver", "=ds=#h2#, #w1#", "", "0.01%"};
-		{ 25, 1483, "", "=q3=Face Smasher", "=ds=#h1#, #w6#", "", "0.02%"};
-		{ 26, 3194, "", "=q3=Black Malice", "=ds=#h2#, #w6#", "", "0.02%"};
-		{ 27, 1484, "", "=q3=Witching Stave", "=ds=#w9#", "", "0.01%"};
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Fenrus the Devourer"], ""};
+		{ 2, 6340, "", "=q3=Fenrus' Hide", "=ds=#s4#", "", "58.02%"};
+		{ 3, 3230, "", "=q3=Black Wolf Bracers", "=ds=#s8#, #a2#", "", "14.76%"};
+		{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Arugal's Voidwalker"], ""};
+		{ 6, 5943, "", "=q3=Rift Bracers", "=ds=#s8#, #a3#", "", "3%"};
+		{ 8, 0, "INV_Box_01", "=q6="..BabbleBoss["Wolf Master Nandos"], ""};
+		{ 9, 6314, "", "=q3=Wolfmaster Cape", "=ds=#s4#", "", "33.25%"};
+		{ 10, 3748, "", "=q3=Feline Mantle", "=ds=#s3#, #a1#", "", "48.55%"};
+		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Archmage Arugal"], ""};
+		{ 17, 6324, "", "=q3=Robes of Arugal", "=ds=#s5#, #a1#", "", "30.50%"};
+		{ 18, 6392, "", "=q3=Belt of Arugal", "=ds=#s10#, #a1#", "", "30.51%"};
+		{ 19, 6220, "", "=q3=Meteor Shard", "=ds=#h1#, #w4#", "", "15.78%"};
+		{ 20, 24224, "", "=q1=Crate of Bloodforged Ingots", "=ds=#m3#"};
+		{ 21, 6895, "", "=q1=Jordan's Smithing Hammer", "=ds=#m3#"};
+		{ 22, 6283, "", "=q1=The Book of Ur", "=ds=#m3#"};
+		Next = "ShadowfangKeep3";
 		Prev = "ShadowfangKeep1";
+		Back = "DUNGEONMENU";
+	};
+	
+	AtlasLoot_Data["ShadowfangKeep3"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..AL["Trash Mobs"], ""};
+		{ 2, 2292, "", "=q3=Necrology Robes", "=ds=#s5#, #a1#", "", "0.01%"};
+		{ 3, 1974, "", "=q3=Mindthrust Bracers", "=ds=#s8#, #a1#", "", "0.02%"};
+		{ 4, 1489, "", "=q3=Gloomshroud Armor", "=ds=#s5#, #a2#", "", "0.01%"};
+		{ 5, 1935, "", "=q3=Assassin's Blade", "=ds=#h1#, #w4#", "", "0.01%"};
+		{ 6, 1482, "", "=q3=Shadowfang", "=ds=#h1#, #w10#", "", "0.01%"};
+		{ 7, 2205, "", "=q3=Duskbringer", "=ds=#h2#, #w10#", "", "0.01%"};
+		{ 8, 2807, "", "=q3=Guillotine Axe", "=ds=#h1#, #w1#", "", "0.01%"};
+		{ 9, 1318, "", "=q3=Night Reaver", "=ds=#h2#, #w1#", "", "0.01%"};
+		{ 10, 1483, "", "=q3=Face Smasher", "=ds=#h1#, #w6#", "", "0.02%"};
+		{ 11, 3194, "", "=q3=Black Malice", "=ds=#h2#, #w6#", "", "0.02%"};
+		{ 12, 1484, "", "=q3=Witching Stave", "=ds=#w9#", "", "0.01%"};
+		Prev = "ShadowfangKeep2";
 		Back = "DUNGEONMENU";
 	};
 
