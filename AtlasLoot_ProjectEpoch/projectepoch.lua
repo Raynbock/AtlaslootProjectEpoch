@@ -723,14 +723,16 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	AtlasLoot_Data["Glittermurk"] = {
 		{ 1, 0, "INV_Box_01", "=q6=Supervisor Grimgash", ""};
-		{ 3, 0, "INV_Box_01", "=q6=Foreman Sprocket", ""};
-		{ 4, 60986, "", "=q3=Heavy Metal Belt", "", "", ""};
-		{ 5, 60991, "", "=q3=Shredder Spaulders", "", "", ""};
-		{ 7, 0, "INV_Box_01", "=q6=???", ""};
-		{ 9, 0, "INV_Box_01", "=q6=Prismscale", ""};
-		{ 11, 0, "INV_Box_01", "=q6=Murklurk", ""};
-		{ 12, 61058, "", "=q3=Shadowcasters Hood", "", "", ""};
-		{ 13, 60970, "", "=q3=Amulet of Brawn", "", "", ""};
+		{ 2, 60994, "", "=q3=Staff of Motivation", "", "", ""};
+		{ 4, 0, "INV_Box_01", "=q6=Foreman Sprocket", ""};
+		{ 5, 60986, "", "=q3=Heavy Metal Belt", "", "", ""};
+		{ 6, 60991, "", "=q3=Shredder Spaulders", "", "", ""};
+		{ 8, 0, "INV_Box_01", "=q6=???", ""};
+		{ 9, 60983, "", "=q3=Faded Ring of Truestrike", "", "", ""};
+		{ 11, 0, "INV_Box_01", "=q6=Prismscale", ""};
+		{ 13, 0, "INV_Box_01", "=q6=Murklurk", ""};
+		{ 14, 61058, "", "=q3=Shadowcasters Hood", "", "", ""};
+		{ 15, 60970, "", "=q3=Amulet of Brawn", "", "", ""};
 		{ 16, 0, "INV_Box_01", "=q6=Gnash", ""};
 		{ 17, 60987, "", "=q3=Naga Precision", "", "", ""};
 		{ 18, 60982, "", "=q3=Encrusted Fetish", "", "", ""};
