@@ -727,16 +727,18 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 4, 0, "INV_Box_01", "=q6=Foreman Sprocket", ""};
 		{ 5, 60986, "", "=q3=Heavy Metal Belt", "", "", ""};
 		{ 6, 60991, "", "=q3=Shredder Spaulders", "", "", ""};
-		{ 8, 0, "INV_Box_01", "=q6=???", ""};
-		{ 9, 60983, "", "=q3=Faded Ring of Truestrike", "", "", ""};
-		{ 11, 0, "INV_Box_01", "=q6=Prismscale", ""};
-		{ 13, 0, "INV_Box_01", "=q6=Murklurk", ""};
-		{ 14, 61058, "", "=q3=Shadowcasters Hood", "", "", ""};
-		{ 15, 60970, "", "=q3=Amulet of Brawn", "", "", ""};
-		{ 16, 0, "INV_Box_01", "=q6=Gnash", ""};
-		{ 17, 60987, "", "=q3=Naga Precision", "", "", ""};
-		{ 18, 60980, "", "=q3=Crown of Tides", "", "", ""};
-		{ 19, 60982, "", "=q3=Encrusted Fetish", "", "", ""};
+		{ 7, 60995, "", "=q3=Steel Pickaxe", "", "", ""};
+		{ 9, 0, "INV_Box_01", "=q6=???", ""};
+		{ 10, 60983, "", "=q3=Faded Ring of Truestrike", "", "", ""};
+		{ 12, 0, "INV_Box_01", "=q6=Prismscale", ""};
+		{ 16, 0, "INV_Box_01", "=q6=Murklurk", ""};
+		{ 17, 61058, "", "=q3=Shadowcasters Hood", "", "", ""};
+		{ 18, 60970, "", "=q3=Amulet of Brawn", "", "", ""};
+		{ 20, 0, "INV_Box_01", "=q6=Gnash", ""};
+		{ 21, 60987, "", "=q3=Naga Precision", "", "", ""};
+		{ 22, 60980, "", "=q3=Crown of Tides", "", "", ""};
+		{ 23, 60982, "", "=q3=Encrusted Fetish", "", "", ""};
+		{ 24, 60973, "", "=q3=Buckler of Seas", "", "", ""};
 		Back = "DUNGEONMENU";
 	};
 
