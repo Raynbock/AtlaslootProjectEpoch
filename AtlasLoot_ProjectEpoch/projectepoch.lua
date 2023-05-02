@@ -730,7 +730,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 7, 60995, "", "=q3=Steel Pickaxe", "", "", ""};
 		{ 9, 0, "INV_Box_01", "=q6=???", ""};
 		{ 10, 60983, "", "=q3=Faded Ring of Truestrike", "", "", ""};
-		{ 12, 0, "INV_Box_01", "=q6=Prismscale", ""};
+		{ 11, 60981, "", "=q3=Deepsea Coral", "", "", ""};
+		{ 13, 0, "INV_Box_01", "=q6=Prismscale", ""};
 		{ 16, 0, "INV_Box_01", "=q6=Murklurk", ""};
 		{ 17, 61058, "", "=q3=Shadowcasters Hood", "", "", ""};
 		{ 18, 60970, "", "=q3=Amulet of Brawn", "", "", ""};
