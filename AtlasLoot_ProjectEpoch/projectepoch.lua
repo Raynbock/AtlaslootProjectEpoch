@@ -1026,9 +1026,10 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	AtlasLoot_Data["SMLibrary"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Houndmaster Loksey"], ""};
-		{ 2, 7756, "", "=q3=Dog Training Gloves", "=ds=#s9#, #a2#", "", "53.66%"};
+		{ 2, 61053, "", "=q3=Houndmaster´s Bow", "", "", ""};
 		{ 3, 7710, "", "=q3=Loksey's Training Stick", "=ds=#w9#", "", "13.96%"};
-		{ 4, 3456, "", "=q3=Dog Whistle", "=ds=#e13#", "", "21.33%"};
+		{ 4, 7756, "", "=q2=Dog Training Gloves", "=ds=#s9#, #a2#", "", "53.66%"};
+		{ 5, 3456, "", "=q2=Dog Whistle", "=ds=#e13#", "", "21.33%"};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Arcanist Doan"], ""};
 		{ 17, 34227, "", "=q4=Deadman's Hand", "=ds=#s13#", "", ""};
 		{ 18, 7712, "", "=q3=Mantle of Doan", "=ds=#s3#, #a1#", "", "41.96%"};
