@@ -123,6 +123,7 @@ end
 	AtlasLoot_TableNames["TheDeadmines3"] = { BabbleZone["The Deadmines"], "AtlasLootProjectEpoch" };
   -- Glittermurk Mines
 	AtlasLoot_TableNames["Glittermurk"] = { BabbleZone["Glittermurk Mines"], "AtlasLootProjectEpoch" };
+	AtlasLoot_TableNames["Glittermurk2"] = { BabbleZone["Glittermurk Mines"], "AtlasLootProjectEpoch" };
   -- Gnomeregan
 	AtlasLoot_TableNames["Gnomeregan1"] = { BabbleZone["Gnomeregan"], "AtlasLootProjectEpoch" };
 	AtlasLoot_TableNames["Gnomeregan2"] = { BabbleZone["Gnomeregan"], "AtlasLootProjectEpoch" };
