@@ -2183,10 +2183,11 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 6, 9372, "", "=q4=Sul'thraze the Lasher", "=ds=#h2#, #w10#"};
 		{ 8, 0, "INV_Box_01", "=q6=Theka the Martyr", ""};
 		{ 9, 61060, "", "=q3=Scarred Leggings", "", "", ""};
-		{ 10, 10660, "", "=q1=First Mosh'aru Tablet", "=ds=#m3#", "", "100%"};
-		{ 12, 0, "INV_Box_01", "=q6=Witch Doctor Zum'rah", ""};
-		{ 13, 18083, "", "=q3=Jumanza Grips", "=ds=#s9#, #a1#", "", "24.97%"};
-		{ 14, 18082, "", "=q3=Zum'rah's Vexing Cane", "=ds=#w9#", "", "11.98%"};
+		{ 10, 61061, "", "=q3=Theka´s Seal of Vigilance", "", "", ""};
+		{ 11, 10660, "", "=q1=First Mosh'aru Tablet", "=ds=#m3#", "", "100%"};
+		{ 13, 0, "INV_Box_01", "=q6=Witch Doctor Zum'rah", ""};
+		{ 14, 18083, "", "=q3=Jumanza Grips", "=ds=#s9#, #a1#", "", "24.97%"};
+		{ 15, 18082, "", "=q3=Zum'rah's Vexing Cane", "=ds=#w9#", "", "11.98%"};
 		{ 16, 0, "INV_Box_01", "=q6=Sandfury Executioner", ""};
 		{ 17, 8444, "", "=q1=Executioner's Key", "=ds=#e9#"};
 		{ 19, 0, "INV_Box_01", "=q6=Nekrum Gutchewer", ""};
