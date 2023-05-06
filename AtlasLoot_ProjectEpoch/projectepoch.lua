@@ -738,8 +738,9 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 20, 60971, "", "=q3=Aquablade", "", "", ""};
 		{ 22, 0, "INV_Box_01", "=q6=Prismscale", ""};
 		{ 23, 60974, "", "=q3=Chromatic Wand", "", "", ""};
-		{ 24, 61002, "", "=q3=Warding Scale", "", "", ""};
-		{ 25, 61001, "", "=q2=Venturing Bracelets", "", "", ""};
+		{ 24, 60999, "", "=q3=Unknown Stone Tooth", "", "", ""};
+		{ 25, 61002, "", "=q3=Warding Scale", "", "", ""};
+		{ 26, 61001, "", "=q2=Venturing Bracelets", "", "", ""};
 		Next = "Glittermurk2";
 		Back = "DUNGEONMENU";
 	};
@@ -2174,10 +2175,11 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 5, 9379, "", "=q3=Sang'thraze the Deflector", "=ds=#h1#, #w10#", "", "2.10%"};
 		{ 6, 9372, "", "=q4=Sul'thraze the Lasher", "=ds=#h2#, #w10#"};
 		{ 8, 0, "INV_Box_01", "=q6=Theka the Martyr", ""};
-		{ 9, 10660, "", "=q1=First Mosh'aru Tablet", "=ds=#m3#", "", "100%"};
-		{ 11, 0, "INV_Box_01", "=q6=Witch Doctor Zum'rah", ""};
-		{ 12, 18083, "", "=q3=Jumanza Grips", "=ds=#s9#, #a1#", "", "24.97%"};
-		{ 13, 18082, "", "=q3=Zum'rah's Vexing Cane", "=ds=#w9#", "", "11.98%"};
+		{ 9, 61060, "", "=q3=Scarred Leggings", "", "", ""};
+		{ 10, 10660, "", "=q1=First Mosh'aru Tablet", "=ds=#m3#", "", "100%"};
+		{ 12, 0, "INV_Box_01", "=q6=Witch Doctor Zum'rah", ""};
+		{ 13, 18083, "", "=q3=Jumanza Grips", "=ds=#s9#, #a1#", "", "24.97%"};
+		{ 14, 18082, "", "=q3=Zum'rah's Vexing Cane", "=ds=#w9#", "", "11.98%"};
 		{ 16, 0, "INV_Box_01", "=q6=Sandfury Executioner", ""};
 		{ 17, 8444, "", "=q1=Executioner's Key", "=ds=#e9#"};
 		{ 19, 0, "INV_Box_01", "=q6=Nekrum Gutchewer", ""};
@@ -2196,12 +2198,13 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	AtlasLoot_Data["ZFHydromancerVelratha"] = {
 		{ 1, 0, "INV_Box_01", "=q6=Hydromancer Velratha", ""};
-		{ 2, 9234, "", "=q1=Tiara of the Deep", "=ds=#m3#", "", "100%"};
-		{ 3, 10661, "", "=q1=Second Mosh'aru Tablet", "=ds=#m3#", "", "100%"};
-		{ 5, 0, "INV_Box_01", "=q6=Gahz'rilla", ""};
-		{ 6, 9469, "", "=q3=Gahz'rilla Scale Armor", "=ds=#s5#, #a3#", "", "36.76%"};
-		{ 7, 9467, "", "=q3=Gahz'rilla Fang", "=ds=#h1#, #w4#", "", "36.83%"};
-		{ 8, 8707, "", "=q1=Gahz'rilla's Electrified Scale", "=ds=#m3#"};
+		{ 2, 61055, "", "=q3=Sandfury Slippers", "", "", ""};
+		{ 3, 9234, "", "=q1=Tiara of the Deep", "=ds=#m3#", "", "100%"};
+		{ 4, 10661, "", "=q1=Second Mosh'aru Tablet", "=ds=#m3#", "", "100%"};
+		{ 6, 0, "INV_Box_01", "=q6=Gahz'rilla", ""};
+		{ 7, 9469, "", "=q3=Gahz'rilla Scale Armor", "=ds=#s5#, #a3#", "", "36.76%"};
+		{ 8, 9467, "", "=q3=Gahz'rilla Fang", "=ds=#h1#, #w4#", "", "36.83%"};
+		{ 9, 8707, "", "=q1=Gahz'rilla's Electrified Scale", "=ds=#m3#"};
 		{ 16, 0, "INV_Box_01", "=q6=Chief Ukorz Sandscalp", ""};
 		{ 17, 9479, "", "=q3=Embrace of the Lycan", "=ds=#s1#, #a2#", "", "8.97%"};
 		{ 18, 9476, "", "=q3=Big Bad Pauldrons", "=ds=#s3#, #a4#", "", "28.17%"};
