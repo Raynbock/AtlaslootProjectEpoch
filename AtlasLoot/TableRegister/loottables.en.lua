@@ -291,7 +291,38 @@ end
 	AtlasLoot_TableNames["VWOWWeapons1"] = { BabbleEpoch["Weapon Sets"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["VWOWWeapons2"] = { BabbleEpoch["Weapon Sets"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["VWOWWeapons3"] = { BabbleEpoch["Weapon Sets"], "AtlasLootOriginalWoW" };
-  -- Crafted Sets - Blacksmithing - Mail
+ 	AtlasLoot_TableNames["Rookiesep1"] = { BabbleEpoch["Rookie Spellcaster's Regalia"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Rookieaep1"] = { BabbleEpoch["Rookie's Agile Regalia"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Rookiestep1"] = { BabbleEpoch["Rookie's Strong Regalia"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Rookiefep1"] = { BabbleEpoch["Rookie Fighter"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Skirmishsep1"] = { BabbleEpoch["Skirmishing Spellcaster's Regalia"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Skirmishhep1"] = { BabbleEpoch["Skirmishing Healer's Regalia"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Skirmishaep1"] = { BabbleEpoch["Skirmisher's Agile Regalia"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Skirmishstep1"] = { BabbleEpoch["Skirmisher's Strong Regalia"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Skirmishfep1"] = { BabbleEpoch["Skirmisher Fighter"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Combatantsep1"] = { BabbleEpoch["Combatant Spellcaster's Regalia"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Combatanthep1"] = { BabbleEpoch["Combatant Healer's Regalia"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Combatantaep1"] = { BabbleEpoch["Combatant's Agile Regalia"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Combatantstep1"] = { BabbleEpoch["Combatant's Strong Regalia"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Combatantfep1"] = { BabbleEpoch["Combatant Fighter"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Honorableep1"] = { BabbleEpoch["Honorable Fighter"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Aspirantsep1"] = { BabbleEpoch["Aspirant Spellcaster's Regalia"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Aspiranthep1"] = { BabbleEpoch["Aspirant Healer's Regalia"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Aspiranthep2"] = { BabbleEpoch["Aspirant Healer's Regalia"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Aspirantaep1"] = { BabbleEpoch["Aspirant's Agile Regalia"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Aspirantstep1"] = { BabbleEpoch["Aspirant's Strong Regalia"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Aspirantfep1"] = { BabbleEpoch["Aspirant Fighter"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Battlemageep1"] = { BabbleEpoch["Battlemage's Regalia"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Cenarionraep1"] = { BabbleEpoch["Cenarion Rainment"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Giantstep1"] = { BabbleEpoch["Giantstalker Armor"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Arcanistsep1"] = { BabbleEpoch["Arcanist Regalia"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Lawbringep1"] = { BabbleEpoch["Lawbringer Armor"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Prophep1"] = { BabbleEpoch["Vestments of Prophecy"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Nightslep1"] = { BabbleEpoch["Nightslayer Armor"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Earthfep1"] = { BabbleEpoch["The Earthfury"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Felhearep1"] = { BabbleEpoch["Felheart Raiment"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Battlegeep1"] = { BabbleEpoch["Battlegear of Might"], "AtlasLootOriginalWoW" };
+ -- Crafted Sets - Blacksmithing - Mail
   -- Crafted Sets - Blacksmithing - Plate
 	AtlasLoot_TableNames["BlacksmithingPlateImperialPlate"] = { AL["Imperial Plate"], "AtlasLootCrafting" };
   -- Crafted Sets - Leatherworking - Leather
@@ -492,8 +523,10 @@ end
 	AtlasLoot_TableNames["Tribal1"] = { TRIBAL, "AtlasLootCrafting" };
   -- Mining
 	AtlasLoot_TableNames["Mining1"] = { MINING, "AtlasLootCrafting" };
+	AtlasLoot_TableNames["Mining2"] = { MINING, "AtlasLootCrafting" };
   -- Herbalism
 	AtlasLoot_TableNames["Herbalism1"] = { HERBALISM, "AtlasLootCrafting" };
+	AtlasLoot_TableNames["Herbalism2"] = { HERBALISM, "AtlasLootCrafting" };
   -- Tailoring
 	AtlasLoot_TableNames["TailoringArmorOld1"] = { TAILORING..": "..AL["Cloth Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["TailoringArmorOld2"] = { TAILORING..": "..AL["Cloth Armor"], "AtlasLootCrafting" };
@@ -556,6 +589,7 @@ end
 
   -- Menus, the entry does nothing, but makes the generalised loot table code less complex
 	AtlasLoot_TableNames["WORLDBOSSMENU"] = { AL["World Bosses"], "Menu" };
+	AtlasLoot_TableNames["EPOCHSETMENU"] = { BabbleEpoch["New unsorted Sets"], "Menu" };
 	AtlasLoot_TableNames["RAREMENU"] = { BabbleEpoch["Rares"], "Menu" };
 	AtlasLoot_TableNames["SETSMISCMENU"] = { AL["Misc Sets"], "Menu" };
 	AtlasLoot_TableNames["SETSCLASSIC"] = { AL["Classic Sets"], "Menu" };

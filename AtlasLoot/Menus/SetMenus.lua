@@ -7,6 +7,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["SETMENU"] = {
 		{ 2, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
+		{ 16, "EPOCHSETMENU", "inv_chest_plate15", "=ds="..BabbleEpoch["New unsorted Sets"], ""};
 		{ 29, "MOUNTMENU", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Mounts"], ""};
 		{ 28, "PETMENU", "INV_Box_PetCarrier_01", "=ds="..AL["Vanity Pets"], ""};
 		{ 27, "Tabards1", "INV_Shirt_GuildTabard_01", "=ds="..AL["Tabards"], ""};
@@ -20,6 +21,40 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 3, "WorldEpics3", "INV_Jewelry_Amulet_01", "=ds="..AL["Level 50-60"], ""};
 		{ 1, "WorldEpics1", "INV_Jewelry_Ring_15", "=ds="..AL["Level 30-39"], ""};
 		{ 2, "WorldEpics2", "INV_Staff_29", "=ds="..AL["Level 40-49"], ""};
+		Back = "SETMENU";
+	};
+
+	AtlasLoot_Data["EPOCHSETMENU"] = {
+		{ 1, "Rookiesep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Rookie Spellcaster's Regalia"], ""};
+		{ 2, "Rookieaep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Rookie's Agile Regalia"], ""};
+		{ 3, "Rookiestep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Rookie's Strong Regalia"], ""};
+		{ 4, "Rookiefep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Rookie Fighter"], ""};
+		{ 5, "Skirmishsep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Skirmishing Spellcaster's Regalia"], ""};
+		{ 6, "Skirmishhep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Skirmishing Healer's Regalia"], ""};
+		{ 7, "Skirmishaep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Skirmisher's Agile Regalia"], ""};
+		{ 8, "Skirmishstep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Skirmisher's Strong Regalia"], ""};
+		{ 9, "Skirmishfep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Skirmisher Fighter"], ""};
+		{ 10, "Combatantsep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Combatant Spellcaster's Regalia"], ""};
+		{ 11, "Combatanthep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Combatant Healer's Regalia"], ""};
+		{ 12, "Combatantaep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Combatant's Agile Regalia"], ""};
+		{ 13, "Combatantstep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Combatant's Strong Regalia"], ""};
+		{ 14, "Combatantfep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Combatant Fighter"], ""};
+		{ 15, "Honorableep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Honorable Fighter"], ""};
+		{ 16, "Aspirantsep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Aspirant Spellcaster's Regalia"], ""};
+		{ 17, "Aspiranthep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Aspirant Healer's Regalia"], ""};
+		{ 18, "Aspirantaep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Aspirant's Agile Regalia"], ""};
+		{ 19, "Aspirantstep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Aspirant's Strong Regalia"], ""};
+		{ 20, "Aspirantfep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Aspirant Fighter"], ""};
+		{ 21, "Battlemageep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Battlemage's Regalia"], ""};
+		{ 22, "Cenarionraep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Cenarion Rainment"], ""};
+		{ 23, "Giantstep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Giantstalker Armor"], ""};
+		{ 24, "Arcanistsep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Arcanist Regalia"], ""};
+		{ 25, "Lawbringep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Lawbringer Armor"], ""};
+		{ 26, "Prophep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Vestments of Prophecy"], ""};
+		{ 27, "Nightslep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Nightslayer Armor"], ""};
+		{ 28, "Earthfep1", "inv_chest_plate15", "=ds="..BabbleEpoch["The Earthfury"], ""};
+		{ 29, "Felhearep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Felheart Raiment"], ""};
+		{ 30, "Battlegeep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Battlegear of Might"], ""};
 		Back = "SETMENU";
 	};
 

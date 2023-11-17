@@ -1410,6 +1410,17 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 23, 2775, "", "=q2=Silver Ore", "=ds=#sr# "};
 		{ 24, 2771, "", "=q1=Tin Ore", "=ds=#sr# "};
 		{ 25, 2770, "", "=q1=Copper Ore", "=ds=#sr# 1"};
+		Next = "Mining2";
+		Back = "CRAFTINGMENU";
+	};
+
+	AtlasLoot_Data["Mining2"] = {
+		{ 1, "s81297", "Spell_Holy_GreaterHeal", "=ds=Made of Metal", ""};
+		{ 2, "s81298", "Spell_Holy_GreaterHeal", "=ds=Made of Metal", ""};
+		{ 3, "s81299", "Spell_Holy_GreaterHeal", "=ds=Made of Metal", ""};
+		{ 4, "s81300", "Spell_Holy_GreaterHeal", "=ds=Made of Metal", ""};
+		{ 5, "s81301", "Spell_Holy_GreaterHeal", "=ds=Made of Metal", ""};
+		Prev = "Mining1";
 		Back = "CRAFTINGMENU";
 	};
 
@@ -1446,6 +1457,18 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 26, 2449, "", "=q1=Earthroot", "=ds=#sr# 15"};
 		{ 27, 765, "", "=q1=Silverleaf", "=ds=#sr# 1"};
 		{ 28, 2447, "", "=q1=Peacebloom", "=ds=#sr# 1"};
+		Next = "Herbalism2";
+		Back = "CRAFTINGMENU";
+	};
+
+	AtlasLoot_Data["Herbalism2"] = {
+		{ 16, "s81251", "Spell_Holy_GreaterHeal", "=ds=Lotus Affinity", ""};
+		{ 1, "s81252", "Spell_Holy_GreaterHeal", "=ds=Natural Talent", ""};
+		{ 2, "s81253", "Spell_Holy_GreaterHeal", "=ds=Natural Talent", ""};
+		{ 3, "s81254", "Spell_Holy_GreaterHeal", "=ds=Natural Talent", ""};
+		{ 4, "s81255", "Spell_Holy_GreaterHeal", "=ds=Natural Talent", ""};
+		{ 5, "s81256", "Spell_Holy_GreaterHeal", "=ds=Natural Talent", ""};
+		Prev = "Herbalism1";
 		Back = "CRAFTINGMENU";
 	};
 
