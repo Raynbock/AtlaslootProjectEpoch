@@ -7,14 +7,13 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["SETMENU"] = {
 		{ 2, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
-		{ 16, "EPOCHSETMENU", "inv_chest_plate15", "=ds="..BabbleEpoch["New unsorted Sets"], ""};
-		{ 29, "MOUNTMENU", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Mounts"], ""};
-		{ 28, "PETMENU", "INV_Box_PetCarrier_01", "=ds="..AL["Vanity Pets"], ""};
-		{ 27, "Tabards1", "INV_Shirt_GuildTabard_01", "=ds="..AL["Tabards"], ""};
-		{ 1, "SETSCLASSIC", "INV_Sword_43", "=ds=Sets", ""};
-		{ 3, "T0SET", "INV_Chest_Chain_03", "=ds="..AL["Dungeon 1/2 Sets"], ""};
-		{ 5, "OldKeys", "inv_misc_key_14", "=ds=Keys", ""};
-		{ 25, "T1T2T3SET", "INV_Pants_Mail_03", "=ds="..AL["Tier 1/2/3 Sets"], ""};
+		{ 19, "MOUNTMENU", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Mounts"], ""};
+		{ 20, "PETMENU", "INV_Box_PetCarrier_01", "=ds="..AL["Vanity Pets"], ""};
+		{ 5, "Tabards1", "INV_Shirt_GuildTabard_01", "=ds="..AL["Tabards"], ""};
+		{ 1, "SETSCLASSIC", "INV_Sword_43", "=ds=Misc Dungeon Sets", ""};
+		{ 16, "T0SET", "INV_Chest_Chain_03", "=ds="..AL["Dungeon 1/2 Sets"], ""};
+		{ 4, "OldKeys", "inv_misc_key_14", "=ds=Keys", ""};
+		{ 17, "T1T2T3SET", "INV_Pants_Mail_03", "=ds="..BabbleEpoch["Tier Sets"], ""};
 	};
 
 	AtlasLoot_Data["WORLDEPICS"] = {
@@ -24,45 +23,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Back = "SETMENU";
 	};
 
-	AtlasLoot_Data["EPOCHSETMENU"] = {
-		{ 1, "Rookiesep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Rookie Spellcaster's Regalia"], ""};
-		{ 2, "Rookieaep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Rookie's Agile Regalia"], ""};
-		{ 3, "Rookiestep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Rookie's Strong Regalia"], ""};
-		{ 4, "Rookiefep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Rookie Fighter"], ""};
-		{ 5, "Skirmishsep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Skirmishing Spellcaster's Regalia"], ""};
-		{ 6, "Skirmishhep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Skirmishing Healer's Regalia"], ""};
-		{ 7, "Skirmishaep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Skirmisher's Agile Regalia"], ""};
-		{ 8, "Skirmishstep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Skirmisher's Strong Regalia"], ""};
-		{ 9, "Skirmishfep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Skirmisher Fighter"], ""};
-		{ 10, "Combatantsep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Combatant Spellcaster's Regalia"], ""};
-		{ 11, "Combatanthep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Combatant Healer's Regalia"], ""};
-		{ 12, "Combatantaep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Combatant's Agile Regalia"], ""};
-		{ 13, "Combatantstep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Combatant's Strong Regalia"], ""};
-		{ 14, "Combatantfep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Combatant Fighter"], ""};
-		{ 15, "Honorableep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Honorable Fighter"], ""};
-		{ 16, "Aspirantsep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Aspirant Spellcaster's Regalia"], ""};
-		{ 17, "Aspiranthep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Aspirant Healer's Regalia"], ""};
-		{ 18, "Aspirantaep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Aspirant's Agile Regalia"], ""};
-		{ 19, "Aspirantstep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Aspirant's Strong Regalia"], ""};
-		{ 20, "Aspirantfep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Aspirant Fighter"], ""};
-		{ 21, "Battlemageep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Battlemage's Regalia"], ""};
-		{ 22, "Cenarionraep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Cenarion Rainment"], ""};
-		{ 23, "Giantstep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Giantstalker Armor"], ""};
-		{ 24, "Arcanistsep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Arcanist Regalia"], ""};
-		{ 25, "Lawbringep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Lawbringer Armor"], ""};
-		{ 26, "Prophep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Vestments of Prophecy"], ""};
-		{ 27, "Nightslep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Nightslayer Armor"], ""};
-		{ 28, "Earthfep1", "inv_chest_plate15", "=ds="..BabbleEpoch["The Earthfury"], ""};
-		{ 29, "Felhearep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Felheart Raiment"], ""};
-		{ 30, "Battlegeep1", "inv_chest_plate15", "=ds="..BabbleEpoch["Battlegear of Might"], ""};
-		Back = "SETMENU";
-	};
-
 	AtlasLoot_Data["MOUNTMENU"] = {
 		{ 1, "MountsAlliance1", "achievement_pvp_a_16", "=ds="..AL["Alliance Mounts"], ""};
 		{ 2, "MountsDrop1", "ability_mount_undeadhorse", "=ds="..BabbleEpoch["Mount Drops"], ""};
 		{ 16, "MountsHorde1", "achievement_pvp_h_16", "=ds="..AL["Horde Mounts"], ""};
-		{ 17, "MountsPvP1", "ability_mount_polarbear_black", "=ds="..AL["PvP Mounts"], ""};
 		Back = "SETMENU";
 	};
 
@@ -101,14 +65,14 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["T1T2T3SET"] = {
-		{ 1, "T1T2Druid", "Spell_Nature_Regeneration", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..AL["Tier 1/2 Sets"]};
-		{ 4, "T1T2Mage", "Spell_Frost_IceStorm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="..AL["Tier 1/2 Sets"]};
-		{ 7, "T1T2Priest", "Spell_Holy_PowerWordShield", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..AL["Tier 1/2 Sets"]};
-		{ 10, "T1T2Shaman", "Spell_FireResistanceTotem_01", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..AL["Tier 1/2 Sets"]};
-		{ 13, "T1T2Warrior", "Ability_Warrior_BattleShout", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..AL["Tier 1/2 Sets"]};
-		{ 16, "T1T2Hunter", "Ability_Hunter_RunningShot", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="..AL["Tier 1/2 Sets"]};
-		{ 19, "T1T2Paladin", "Spell_Holy_SealOfMight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..AL["Tier 1/2 Sets"]};
-		{ 22, "T1T2Rogue", "Ability_BackStab", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="..AL["Tier 1/2 Sets"]};
-		{ 25, "T1T2Warlock", "Spell_Shadow_CurseOfTounges", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="..AL["Tier 1/2 Sets"]};
+		{ 1, "Cenarionraep1", "Spell_Nature_Regeneration", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=q5="..BabbleEpoch["Tier 1 Set"]};
+		{ 4, "Arcanistsep1", "Spell_Frost_IceStorm", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=q5="..BabbleEpoch["Tier 1 Set"]};
+		{ 7, "Prophep1", "Spell_Holy_PowerWordShield", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=q5="..BabbleEpoch["Tier 1 Set"]};
+		{ 10, "Earthfep1", "Spell_FireResistanceTotem_01", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=q5="..BabbleEpoch["Tier 1 Set"]};
+		{ 13, "Battlegeep1", "Ability_Warrior_BattleShout", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=q5="..BabbleEpoch["Tier 1 Set"]};
+		{ 16, "Giantstep1", "Ability_Hunter_RunningShot", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=q5="..BabbleEpoch["Tier 1 Set"]};
+		{ 19, "Lawbringep1", "Spell_Holy_SealOfMight", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=q5="..BabbleEpoch["Tier 1 Set"]};
+		{ 22, "Nightslep1", "Ability_BackStab", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=q5="..BabbleEpoch["Tier 1 Set"]};
+		{ 25, "Felhearep1", "Spell_Shadow_CurseOfTounges", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=q5="..BabbleEpoch["Tier 1 Set"]};
 		Back = "SETMENU";
 	};

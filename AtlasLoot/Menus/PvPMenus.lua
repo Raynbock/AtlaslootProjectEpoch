@@ -5,25 +5,22 @@ local BabbleInventory = AtlasLoot_GetLocaleLibBabble("LibBabble-Inventory-3.0")
 local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["PVPMENU"] = {
-		{ 2, "PvP60Accessories1_A", "inv_jewelry_trinketpvp_01", "=ds="..AL["PvP Accessories"], "=q5="..AL["Level 60"]};
-		{ 3, "PVPSET", "INV_Axe_02", "=ds="..AL["PvP Armor Sets"], "=q5="..AL["Level 60"]};
-		{ 17, "PVPMENU2", "INV_Jewelry_Necklace_21", "=ds="..BabbleEpoch["Battleground Rewards"], ""};
-		{ 4, "PVPWeapons_A", "INV_Weapon_Bow_08", "=ds="..AL["PvP Weapons"], "=q5="..AL["Level 60"]};
-		{ 19, "MountsPvP2", "ability_mount_polarbear_black", "=ds="..AL["PvP Mounts"], ""};
+		{ 2, "EPOCHPVPSETMENU", "inv_chest_plate15", "=ds="..BabbleEpoch["Epoch PVP"], ""};
+		{ 16, "WSGMisc", "INV_Misc_Rune_07", "=ds="..BabbleEpoch["Misc. Vendor"], "=q5="..BabbleZone["Warsong Gulch"]};
+		{ 1, "PvP60Accessories1_A", "inv_bannerpvp_02", "=ds="..BabbleEpoch["PvP Vendor"], ""};
 	};
 
-	AtlasLoot_Data["PVPMENU2"] = {
-		{ 3, "ABMisc_A", "INV_Jewelry_Amulet_07", "=ds="..AL["Misc. Rewards"], "=q5="..BabbleZone["Arathi Basin"]};
-		{ 4, "ABSets1_A", "INV_Jewelry_Amulet_07", "=ds="..AL["Arathi Basin Sets"], ""};
-		{ 18, "AB4049_A", "INV_Jewelry_Amulet_07", "=ds="..AL["Level 40-49 Rewards"], "=q5="..BabbleZone["Arathi Basin"]};
-		{ 19, "AB2039_A", "INV_Jewelry_Amulet_07", "=ds="..AL["Level 20-39 Rewards"], "=q5="..BabbleZone["Arathi Basin"]};
-		{ 6, "WSGMisc", "INV_Misc_Rune_07", "=ds="..AL["Misc. Rewards"], "=q5="..BabbleZone["Warsong Gulch"]};
-		{ 7, "WSGAccessories_A", "INV_Misc_Rune_07", "=ds="..AL["Accessories"], "=q5="..BabbleZone["Warsong Gulch"]};
-		{ 21, "WSGWeapons_A", "INV_Misc_Rune_07", "=ds="..AL["Weapons"], "=q5="..BabbleZone["Warsong Gulch"]};
-		{ 22, "WSGArmor_A", "INV_Misc_Rune_07", "=ds="..BabbleInventory["Armor"], "=q5="..BabbleZone["Warsong Gulch"]};
-		{ 9, "AVMisc", "INV_Jewelry_Necklace_21", "=ds="..BabbleZone["Alterac Valley"], ""};
+	AtlasLoot_Data["EPOCHPVPSETMENU"] = {
+		{ 1, "Epochpvp15", "inv_chest_plate15", "=ds="..BabbleEpoch["Rookie Sets"], ""};
+		{ 3, "Epochpvp25", "inv_chest_plate15", "=ds="..BabbleEpoch["Skirmish Sets"], ""};
+		{ 5, "Epochpvp35", "inv_chest_plate15", "=ds="..BabbleEpoch["Combatant Sets"], ""};
+		{ 7, "Epochpvp45", "inv_chest_plate15", "=ds="..BabbleEpoch["Aspirant Sets"], ""};
+		{ 9, "Epochpvp55", "inv_chest_plate15", "=ds="..BabbleEpoch["Honorable Sets"], ""};
+		{ 11, "Epochpvp60", "inv_chest_plate15", "=ds="..BabbleEpoch["Honorable Sets"], ""};
+		{ 16, "Epochpvps1", "achievement_arena_2v2_5", "=ds="..BabbleEpoch["Season 1"], ""};
+		{ 18, "Epochpvpworld", "Inv_bannerpvp_03", "=ds="..BabbleEpoch["World PVP"], ""};
 		Back = "PVPMENU";
-		};
+	};
 
 	AtlasLoot_Data["PVPSET"] = {
 		{ 3, "PVPDruid", "Spell_Nature_Regeneration", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], ""};
@@ -36,6 +33,58 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 20, "PVPRogue", "Ability_BackStab", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], ""};
 		{ 21, "PVPWarlock", "Spell_Shadow_CurseOfTounges", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], ""};
 		Back = "PVPMENU";
+	};
+
+	AtlasLoot_Data["Epochpvp15"] = {
+		{ 1, "Rookiesep1", "spell_arcane_studentofmagic", "=ds="..BabbleEpoch["Rookie Spellcaster's Regalia"], ""};
+		{ 3, "Rookieaep1", "spell_holy_blessingofagility", "=ds="..BabbleEpoch["Rookie's Agile Regalia"], ""};
+		{ 4, "Rookiestep1", "spell_nature_strength", "=ds="..BabbleEpoch["Rookie's Strong Regalia"], ""};
+		{ 16, "Epochpvpwep15", "inv_weapon_shortblade_37", "=ds="..AL["Weapons"], ""};
+		{ 17, "Epochpvpmisc15", "inv_jewelry_ring_39", "=ds="..AL["Miscellaneous"], ""};
+		Back = "EPOCHPVPSETMENU";
+	};
+
+	AtlasLoot_Data["Epochpvp25"] = {
+		{ 1, "Skirmishsep1", "spell_arcane_studentofmagic", "=ds="..BabbleEpoch["Skirmishing Spellcaster's Regalia"], ""};
+		{ 2, "Skirmishhep1", "spell_holy_aspiration", "=ds="..BabbleEpoch["Skirmishing Healer's Regalia"], ""};
+		{ 4, "Skirmishaep1", "spell_holy_blessingofagility", "=ds="..BabbleEpoch["Skirmisher's Agile Regalia"], ""};
+		{ 5, "Skirmishstep1", "spell_nature_strength", "=ds="..BabbleEpoch["Skirmisher's Strong Regalia"], ""};
+		{ 16, "Epochpvpwep25", "inv_weapon_shortblade_37", "=ds="..AL["Weapons"], ""};
+		{ 17, "Epochpvpmisc25", "inv_jewelry_ring_39", "=ds="..AL["Miscellaneous"], ""};
+		Back = "EPOCHPVPSETMENU";
+	};
+
+	AtlasLoot_Data["Epochpvp35"] = {
+		{ 1, "Combatantsep1", "spell_arcane_studentofmagic", "=ds="..BabbleEpoch["Combatant Spellcaster's Regalia"], ""};
+		{ 2, "Combatanthep1", "spell_holy_aspiration", "=ds="..BabbleEpoch["Combatant Healer's Regalia"], ""};
+		{ 4, "Combatantaep1", "spell_holy_blessingofagility", "=ds="..BabbleEpoch["Combatant's Agile Regalia"], ""};
+		{ 5, "Combatantstep1", "spell_nature_strength", "=ds="..BabbleEpoch["Combatant's Strong Regalia"], ""};
+		{ 16, "Epochpvpwep35", "inv_weapon_shortblade_37", "=ds="..AL["Weapons"], ""};
+		{ 17, "Epochpvpmisc35", "inv_jewelry_ring_39", "=ds="..AL["Miscellaneous"], ""};
+		Back = "EPOCHPVPSETMENU";
+	};
+
+	AtlasLoot_Data["Epochpvp45"] = {
+		{ 1, "Aspirantsep1", "spell_arcane_studentofmagic", "=ds="..BabbleEpoch["Aspirant Spellcaster's Regalia"], ""};
+		{ 2, "Aspiranthep1", "spell_holy_aspiration", "=ds="..BabbleEpoch["Aspirant Healer's Regalia"], ""};
+		{ 4, "Aspirantaep1", "spell_holy_blessingofagility", "=ds="..BabbleEpoch["Aspirant's Agile Regalia"], ""};
+		{ 5, "Aspirantstep1", "spell_nature_strength", "=ds="..BabbleEpoch["Aspirant's Strong Regalia"], ""};
+		{ 16, "Epochpvpwep45", "inv_weapon_shortblade_37", "=ds="..AL["Weapons"], ""};
+		{ 17, "Epochpvpmisc45", "inv_jewelry_ring_39", "=ds="..AL["Miscellaneous"], ""};
+		Back = "EPOCHPVPSETMENU";
+	};
+
+	AtlasLoot_Data["Epochpvp55"] = {
+		{ 1, "Battlemageep1", "inv_chest_cloth_28", "=ds="..BabbleEpoch["Battlemage's Regalia"], ""};
+		{ 16, "Epochpvpwep55", "inv_weapon_shortblade_37", "=ds="..AL["Weapons"], ""};
+		{ 17, "Epochpvpmisc55", "inv_jewelry_ring_39", "=ds="..AL["Miscellaneous"], ""};
+		Back = "EPOCHPVPSETMENU";
+	};
+
+	AtlasLoot_Data["Epochpvp60"] = {
+		{ 16, "Epochpvpwep60", "inv_weapon_shortblade_37", "=ds="..AL["Weapons"], ""};
+		{ 17, "Epochpvpmisc60", "inv_jewelry_ring_39", "=ds="..AL["Miscellaneous"], ""};
+		Back = "EPOCHPVPSETMENU";
 	};
 
     --Please don't delete EmptyTable, it is needed as it is certain to load

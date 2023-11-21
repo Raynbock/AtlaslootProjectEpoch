@@ -291,6 +291,34 @@ end
 	AtlasLoot_TableNames["VWOWWeapons1"] = { BabbleEpoch["Weapon Sets"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["VWOWWeapons2"] = { BabbleEpoch["Weapon Sets"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["VWOWWeapons3"] = { BabbleEpoch["Weapon Sets"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvp15"] = { BabbleEpoch["Rookie Sets"], "Menu" };
+ 	AtlasLoot_TableNames["Epochpvp25"] = { BabbleEpoch["Skirmish Sets"], "Menu" };
+ 	AtlasLoot_TableNames["Epochpvp35"] = { BabbleEpoch["Combatant Sets"], "Menu" };
+ 	AtlasLoot_TableNames["Epochpvp45"] = { BabbleEpoch["Aspirant Sets"], "Menu" };
+ 	AtlasLoot_TableNames["Epochpvp55"] = { BabbleEpoch["Honorable Sets"], "Menu" };
+ 	AtlasLoot_TableNames["Epochpvp60"] = { BabbleEpoch["Honorable Sets"], "Menu" };
+ 	AtlasLoot_TableNames["Epochpvpmisc15"] = { AL["Miscellaneous"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvpmisc25"] = { AL["Miscellaneous"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvpmisc35"] = { AL["Miscellaneous"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvpmisc45"] = { AL["Miscellaneous"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvpmisc55"] = { AL["Miscellaneous"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvpmisc60"] = { AL["Miscellaneous"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvpmisc215"] = { AL["Miscellaneous"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvpmisc225"] = { AL["Miscellaneous"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvpmisc235"] = { AL["Miscellaneous"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvpmisc245"] = { AL["Miscellaneous"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvpmisc255"] = { AL["Miscellaneous"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvpmisc260"] = { AL["Miscellaneous"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvpwep15"] = { AL["Weapons"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvpwep25"] = { AL["Weapons"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvpwep35"] = { AL["Weapons"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvpwep45"] = { AL["Weapons"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvpwep55"] = { AL["Weapons"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvpwep60"] = { AL["Weapons"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvpwep235"] = { AL["Weapons"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvpwep245"] = { AL["Weapons"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvps1"] = { BabbleEpoch["Season 1"], "AtlasLootOriginalWoW" };
+ 	AtlasLoot_TableNames["Epochpvpworld"] = { BabbleEpoch["World PVP"], "AtlasLootOriginalWoW" };
  	AtlasLoot_TableNames["Rookiesep1"] = { BabbleEpoch["Rookie Spellcaster's Regalia"], "AtlasLootOriginalWoW" };
  	AtlasLoot_TableNames["Rookieaep1"] = { BabbleEpoch["Rookie's Agile Regalia"], "AtlasLootOriginalWoW" };
  	AtlasLoot_TableNames["Rookiestep1"] = { BabbleEpoch["Rookie's Strong Regalia"], "AtlasLootOriginalWoW" };
@@ -447,13 +475,15 @@ end
   -- Timbermaw Hold
 	AtlasLoot_TableNames["Timbermaw"] = { BabbleFaction["Timbermaw Hold"], "AtlasLootOriginalWoW" };
   -- Wildhammer Clan
-	AtlasLoot_TableNames["WildhammerClan"] = { BabbleFaction["Wildhammer Clan"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["WildhammerClan"] = { BabbleEpoch["Aerie Peak"], "AtlasLootOriginalWoW" };
   -- Raventusk Tribe
 	AtlasLoot_TableNames["RaventuskTribe"] = { BabbleEpoch["Raventusk Tribe"], "AtlasLootOriginalWoW" };
   -- Auberdine
 	AtlasLoot_TableNames["Auberdine"] = { BabbleEpoch["Auberdine"], "AtlasLootOriginalWoW" };
   -- Sepulcher
 	AtlasLoot_TableNames["Sepulcher"] = { BabbleEpoch["Sepulcher"], "AtlasLootOriginalWoW" };
+  -- Valors Expedition
+	AtlasLoot_TableNames["Valorsexp"] = { BabbleFaction["Valor´s Expedition"], "AtlasLootOriginalWoW" };
 
 --------------
 --- Trades ---
@@ -567,7 +597,7 @@ end
 	AtlasLoot_TableNames["ABSets1_H"] = { BabbleZone["Arathi Basin"].." "..AL["PvP Armor Sets"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["ABSets2_H"] = { BabbleZone["Arathi Basin"].." "..AL["PvP Armor Sets"], "AtlasLootOriginalWoW" };
    -- Warsong Gulch
-	AtlasLoot_TableNames["WSGMisc"] = { BabbleZone["Warsong Gulch"].." "..AL["Misc. Rewards"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["WSGMisc"] = { BabbleZone["Warsong Gulch"].." "..BabbleEpoch["Misc. Vendor"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["WSGAccessories_A"] = { BabbleZone["Warsong Gulch"].." "..AL["Accessories"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["WSGWeapons_A"] = { BabbleZone["Warsong Gulch"].." "..AL["Weapons"], "AtlasLootOriginalWoW" };  
 	AtlasLoot_TableNames["WSGArmor_A"] = { BabbleZone["Warsong Gulch"].." "..BabbleInventory["Armor"], "AtlasLootOriginalWoW" };
@@ -576,10 +606,10 @@ end
 	AtlasLoot_TableNames["WSGArmor_H"] = { BabbleZone["Warsong Gulch"].." "..BabbleInventory["Armor"], "AtlasLootOriginalWoW" };  
   -- World PvP
   -- Misc Other PvP
-	AtlasLoot_TableNames["PvP60Accessories1_A"] = { AL["PvP Accessories (Level 60)"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["PvP60Accessories2_A"] = { AL["PvP Accessories (Level 60)"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["PvP60Accessories1_H"] = { AL["PvP Accessories (Level 60)"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["PvP60Accessories2_H"] = { AL["PvP Accessories (Level 60)"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["PvP60Accessories1_A"] = { BabbleEpoch["PvP Vendor"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["PvP60Accessories2_A"] = { BabbleEpoch["PvP Vendor"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["PvP60Accessories1_H"] = { BabbleEpoch["PvP Vendor"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["PvP60Accessories2_H"] = { BabbleEpoch["PvP Vendor"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["PVPWeapons_A"] = { AL["PvP Weapons (Level 60)"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["PVPWeapons_H"] = { AL["PvP Weapons (Level 60)"], "AtlasLootOriginalWoW" };
 
@@ -589,16 +619,16 @@ end
 
   -- Menus, the entry does nothing, but makes the generalised loot table code less complex
 	AtlasLoot_TableNames["WORLDBOSSMENU"] = { AL["World Bosses"], "Menu" };
-	AtlasLoot_TableNames["EPOCHSETMENU"] = { BabbleEpoch["New unsorted Sets"], "Menu" };
+	AtlasLoot_TableNames["EPOCHPVPSETMENU"] = { BabbleEpoch["Epoch PVP"], "Menu" };
 	AtlasLoot_TableNames["RAREMENU"] = { BabbleEpoch["Rares"], "Menu" };
 	AtlasLoot_TableNames["SETSMISCMENU"] = { AL["Misc Sets"], "Menu" };
-	AtlasLoot_TableNames["SETSCLASSIC"] = { AL["Classic Sets"], "Menu" };
+	AtlasLoot_TableNames["SETSCLASSIC"] = { BabbleEpoch["Misc Dungeon Sets"], "Menu" };
 	AtlasLoot_TableNames["CRAFTSET1"] = { AL["Crafted Sets"].." : "..BLACKSMITHING, "Menu" };
 	AtlasLoot_TableNames["CRAFTSET2"] = { AL["Crafted Sets"].." : "..LEATHERWORKING, "Menu" };
 	AtlasLoot_TableNames["CRAFTSET3"] = { AL["Crafted Sets"].." : "..LEATHERWORKING, "Menu" };
 	AtlasLoot_TableNames["CRAFTSET4"] = { AL["Crafted Sets"].." : "..TAILORING, "Menu" };
 	AtlasLoot_TableNames["T0SET"] = { AL["Dungeon 1/2 Sets"], "Menu" };
-	AtlasLoot_TableNames["T1T2T3SET"] = { AL["Tier 1/2/3 Sets"], "Menu" };
+	AtlasLoot_TableNames["T1T2T3SET"] = { BabbleEpoch["Tier Sets"], "Menu" };
 	AtlasLoot_TableNames["T3SET"] = { AL["Tier 3 Sets"], "Menu" };
 	AtlasLoot_TableNames["REPMENU_ORIGINALWOW"] = { AL["Factions - Original WoW"], "Menu" };
 	AtlasLoot_TableNames["REPMENU"] = { AL["Factions"], "Menu" };
