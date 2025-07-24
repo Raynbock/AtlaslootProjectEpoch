@@ -2,7 +2,6 @@
 Atlasloot Enhanced
 Author Daviesh
 Loot browser associating loot with instance bosses
-Can be integrated with Atlas (http://www.atlasmod.com)
 
 Functions:
 AtlasLoot_OnEvent(event)
@@ -32,6 +31,7 @@ AtlasLoot = LibStub("AceAddon-3.0"):NewAddon("AtlasLoot");
 
 --Instance required libraries
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
+local BabbleEpoch = AtlasLoot_GetLocaleLibBabble("LibBabble-Epoch-3.0")
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 --Establish version number and compatible version of Atlas
@@ -143,7 +143,7 @@ StaticPopupDialogs["ATLASLOOT_SETUP"] = {
 
 --Popup Box for an old version of Atlas
 StaticPopupDialogs["ATLASLOOT_OLD_ATLAS"] = {
-  text = AL["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("]..ATLASLOOT_CURRENT_ATLAS[1].."/"..ATLASLOOT_PREVIEW_ATLAS[1]..AL[").  Depending on changes, there may be the occasional error, so please visit https://github.com/Raynbock/AtlaslootProjectEpoch/tree/main as soon as possible to update."],
+  text = AL["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("]..ATLASLOOT_CURRENT_ATLAS[1].."/"..ATLASLOOT_PREVIEW_ATLAS[1]..BabbleEpoch[").  Depending on changes, there may be the occasional error, so please visit https://github.com/Raynbock/AtlaslootProjectEpoch/tree/main as soon as possible to update."],
   button1 = AL["OK"],
   OnAccept = function()
 	  DEFAULT_CHAT_FRAME:AddMessage(BLUE..AL["AtlasLoot"]..": "..RED..AL["Incompatible Atlas Detected"]);
