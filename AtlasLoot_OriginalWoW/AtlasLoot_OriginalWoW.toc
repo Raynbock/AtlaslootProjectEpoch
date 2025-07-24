@@ -1,0 +1,12 @@
+## Interface: 30300
+## Title: AtlasLoot_OriginalWoW
+## Notes: Epoch AtlasLoot
+## Author: Hegarol, Raynbock/Felius(Epoch)
+## Version: v1.00.1
+## X-License: GPL v2
+## X-Website: https://github.com/Raynbock/AtlaslootProjectEpoch
+## Dependencies: AtlasLoot
+## LoadOnDemand: 1
+
+originalwow.lua
+localization.lua

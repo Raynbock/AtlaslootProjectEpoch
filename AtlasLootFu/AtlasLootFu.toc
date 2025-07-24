@@ -1,0 +1,15 @@
+## Interface: 30300
+## Title: AtlasLootFu
+## Notes: Minimap button for AtlasLoot
+## Author: Hegarol
+## Version: v1.00.1
+## X-License: GPL v2
+## X-Embeds: Ace2, FuBarPlugin-2.0, TabletLib
+## SavedVariables: AtlasLootFuDB
+## Dependencies: AtlasLoot
+## OptionalDeps: Ace2, FuBarPlugin-2.0, TabletLib, FuBar
+
+embeds.xml
+
+Locales.lua
+AtlasLootFu.lua

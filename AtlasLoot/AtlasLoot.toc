@@ -1,0 +1,24 @@
+## Interface: 30300
+## Title: AtlasLoot
+## Notes: Epoch AtlasLoot
+## Author: Hegarol, Raynbock/Felius(Epoch)
+## Version: v1.00.1
+## X-Credits: Daviesh, Lag, Cellelach, Asurn, Pernicus and many others
+## X-License: GPL v2
+## X-Website: https://github.com/Raynbock/AtlaslootProjectEpoch
+## X-Embeds: Ace3, DewdropLib, FuBarPlugin-2.0, LibBabble-Boss-3.0, LibBabble-Faction-3.0, LibBabble-Inventory-3.0, LibBabble-Zone-3.0
+## SavedVariables: AtlasLootOptions, AtlasLootDB, AtlasLootWishList
+## SavedVariablesPerCharacter: AtlasLootCharDB, AtlasLootFilterDB
+## OptionalDeps: Alphamap, LootLink, ItemSync, DewdropLib, FuBarPlugin-3.0, FuBar, Ace3, LibBabble-Boss-3.0, LibBabble-Faction-3.0, LibBabble-Inventory-3.0, LibBabble-Zone-3.0
+
+embeds.xml
+
+Locales\Locales.xml
+TableRegister\TableRegister.xml
+AtlasLayout\AtlasLayout.xml
+Add_Ons\Addons.xml
+Menus\Menus.xml
+Core\AtlasLoot.xml
+DefaultFrame\AtlaslootDefaultFrame.xml
+
+modules.xml
