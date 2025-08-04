@@ -92,9 +92,9 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["CRAFTSET1"] = {
 		{ 1, "", "INV_Chest_Plate05", "=q6="..GetSpellInfo(2018), "=q5="..BabbleInventory["Plate"] };
-		{ 2, "BlacksmithingPlateImperialPlate", "INV_Belt_01", "=ds="..AL["Imperial Plate"], "" };
+		{ 2, "Darkironplate", "inv_helmet_22", "=ds="..BabbleEpoch["Dark Iron Plate"], "" };
+		{ 3, "BlacksmithingPlateImperialPlate", "INV_Belt_01", "=ds="..AL["Imperial Plate"], "" };
 		{ 16, "", "INV_Chest_Chain_04", "=q6="..GetSpellInfo(2018), "=q5="..BabbleInventory["Mail"] };
-		{ 17, "Darkironplate", "INV_Belt_01", "=ds="..BabbleEpoch["Dark Iron Plate"], "" };
 		Next = "CRAFTSET2";
 		Back = "CRAFTINGMENU";
 	};
