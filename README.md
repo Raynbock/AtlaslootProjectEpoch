@@ -11,8 +11,14 @@ This is a modified version of Atlas Loot that contains Project Epoch custom data
 
 If you want to help fill out Atlasloot, use the Optional included Addon **AnyIDTooltip**, screenshot the Item and send it in the Discords Atlasloot Channel.
 
+Optional you can find Atlas here:https://github.com/Raynbock/Atlas-Project-Epoch
+
 Special thanks to:
+
 Bennylavaa for helping me out with github and giving me tips.
+
 Hawaiisa for helping to fix an Atlasloot version problem.
+
 Bleedp for helping me change a bunsh of ID´s before release.
+
 And alot of Epoch players for reporting their findings.
