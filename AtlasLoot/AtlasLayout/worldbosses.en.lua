@@ -5,27 +5,28 @@ This file defines the loot buttons in the Atlas interface for the WorldBosses ma
 
 AtlasLootWBBossButtons = {
 
-    FourDragons = {
-        "";
-        "";
-        "";
-        "";
-        "";
-        "";
-        "";
-        "";
-        "";
-        "";
-        "";
-        "";
-        "DLethon";
-        "DEmeriss";
-        "DTaerar";
-        "DYsondre";
+    Corruptedancient = {
+        "Corruptedancient";
+        };
+
+    Gonzor = {
+        "Gonzor";
+        };
+
+    Kinggnok = {
+        "Kinggnok";
+        };
+
+    Silithidlurker = {
+        "Silithidlurker";
+        };
+
+    Volchan = {
+        "Volchan";
         };
 
     Azuregos = {
-        "WorldBossesClassic";
+        "Azuregos";
         };
 
     };

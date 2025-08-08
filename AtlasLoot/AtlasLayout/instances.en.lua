@@ -32,7 +32,6 @@ AtlasLootNewBossButtons = {
     BlackrockDepths = {
         "OldKeys";
         "OldKeys";
-        "OldKeys";
         "";
         "BRDLordRoccor";
         "";
@@ -44,8 +43,9 @@ AtlasLootNewBossButtons = {
         "BRDArena";
         "BRDArena";
         "BRDArena";
-        "BRDArena";
-        "BRDArena";
+        "BRDArena2";
+        "BRDArena2";
+        "BRDArena2";
         "BRDTheldren";
         "";
         "";
@@ -78,7 +78,7 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "";
-        "CorenDirebrew";
+        "";
         "";
         "BRDFlamelash";
         "BRDPanzor";
@@ -96,11 +96,10 @@ AtlasLootNewBossButtons = {
         "BRDBSPlans";
         "";
         "BRDTrash";
-        "VWOWSets1";
+        "VWOWSets44";
         };
 
     BlackrockSpireEnt = {
-        "";
         "";
         "";
         "";
@@ -115,6 +114,7 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "BRMScarshieldQuartermaster";
+        "";
         };
 
     BlackrockSpireUpper = {
@@ -521,10 +521,8 @@ AtlasLootNewBossButtons = {
         };
 
     Uldaman = {
-        "OldKeys";
         "";
         "";
-        "UldBaelog";
         "UldBaelog";
         "UldBaelog";
         "UldBaelog";
@@ -627,6 +625,20 @@ AtlasLootBossButtons = {
   -- Classic Instances --
   -----------------------
 
+    BaradinHold = {
+        "";
+        "BaradinHold";
+        "BaradinHold";
+        "BaradinHold";
+        "BaradinHold";
+        "BaradinHold2";
+        "BaradinHold2";
+        "BaradinHold2";
+        "BaradinHold2";
+        "";
+        "Epochset";
+        };
+
     BlackfathomDeeps = {
         "";
         "BlackfathomDeeps1";
@@ -650,7 +662,6 @@ AtlasLootBossButtons = {
     BlackrockDepths = {
         "OldKeys";
         "OldKeys";
-        "OldKeys";
         "";
         "BRDLordRoccor";
         "";
@@ -662,8 +673,9 @@ AtlasLootBossButtons = {
         "BRDArena";
         "BRDArena";
         "BRDArena";
-        "BRDArena";
-        "BRDArena";
+        "BRDArena2";
+        "BRDArena2";
+        "BRDArena2";
         "BRDTheldren";
         "";
         "";
@@ -687,7 +699,7 @@ AtlasLootBossButtons = {
         "BRDGeneralAngerforge";
         "BRDGolemLordArgelmach";
         "";
-        "";
+        "BRDBSPlans";
         "BRDGuzzler";
         "";
         "";
@@ -696,11 +708,10 @@ AtlasLootBossButtons = {
         "";
         "";
         "";
-        "CorenDirebrew";
         "";
         "BRDFlamelash";
         "BRDPanzor";
-        "";
+        "BRDBSPlans";
         "BRDTomb";
         "BRDLyceum";
         "BRDMagmus";
@@ -714,11 +725,10 @@ AtlasLootBossButtons = {
         "BRDBSPlans";
         "";
         "BRDTrash";
-        "VWOWSets1";
+        "VWOWSets44";
         };
 
     BlackrockSpireEnt = {
-        "";
         "";
         "";
         "";
@@ -733,16 +743,16 @@ AtlasLootBossButtons = {
         "";
         "";
         "BRMScarshieldQuartermaster";
+        "";
         };
 
     BlackrockSpireUpper = {
-        "OldKeys";
         "";
         "";
         "";
         "UBRSEmberseer";
         "UBRSSolakar";
-        "UBRSFLAME";
+        "";
         "UBRSQuestItems";
         "UBRSQuestItems";
         "UBRSRunewatcher";
@@ -756,13 +766,11 @@ AtlasLootBossButtons = {
         "UBRSDrakkisath";
         "";
         "";
-        "";
         "UBRSTrash";
         "T0SET";
         };
 
     BlackrockSpireLower = {
-        "OldKeys";
         "";
         "";
         "";
@@ -782,8 +790,8 @@ AtlasLootBossButtons = {
         "LBRSQuestItems";
         "LBRSQuestItems";
         "LBRSQuestItems";
-        "LBRSQuestItems";
         "LBRSGrimaxe";
+        "LBRSQuestItems";
         "LBRSSmolderweb";
         "LBRSCrystalFang";
         "";
@@ -800,13 +808,25 @@ AtlasLootBossButtons = {
         "T0SET";
         };
 
+    GlittermurkMines = {
+        "";
+        "";
+        "Glittermurk";
+        "Glittermurk";
+        "Glittermurk";
+        "Glittermurk";
+        "Glittermurk";
+        "Glittermurk2";
+        "Glittermurk2";
+        };
+
     Gnomeregan = {
         "OldKeys";
         "";
         "";
         "";
         "Gnomeregan1";
-        "";
+        "Gnomeregan1";
         "";
         "";
         "";
@@ -834,25 +854,25 @@ AtlasLootBossButtons = {
         "";
         "";
         "";
-        "Gnomeregan1";
-        "Gnomeregan1";
+        "Gnomeregan3";
+        "Gnomeregan3";
         };
         
     Maraudon = {
         "";
         "";
         "";
-        "Maraudon2";
+        "Maraudon3";
+        "Maraudon1";
+        "Maraudon1";
+        "Maraudon3";
         "Maraudon1";
         "Maraudon1";
         "Maraudon2";
-        "Maraudon1";
-        "Maraudon1";
-        "Maraudon1";
         "Maraudon2";
         "Maraudon2";
         "Maraudon2";
-        "Maraudon2";
+        "Maraudon3";
         "LunarFestival1";
         };
 
@@ -872,6 +892,7 @@ AtlasLootBossButtons = {
         "";
         "";
         "";
+        "RagefireChasm";
         "RagefireChasm";
         "RagefireChasm";
         "RagefireChasm";
@@ -913,9 +934,6 @@ AtlasLootBossButtons = {
         "Argent1";
         "OldKeys";
         "SCHOLOQuestItems";
-        "OldKeys";
-        "OldKeys";
-        "OldKeys";
         "";
         "";
         "";
@@ -944,10 +962,7 @@ AtlasLootBossButtons = {
         "";
         "";
         "SCHOLOTrash";
-        "VWOWScholo";
-        "VWOWScholo";
-        "VWOWScholo";
-        "VWOWScholo";
+        "VWOWScholol1";
         };
 
     ShadowfangKeep = {
@@ -957,26 +972,22 @@ AtlasLootBossButtons = {
         "";
         "";
         "";
+        "ShadowfangKeep1";
+        "ShadowfangKeep3";
+        "ShadowfangKeep3";
+        "ShadowfangKeep1";
+        "ShadowfangKeep1";
+        "ShadowfangKeep1";
+        "ShadowfangKeep2";
+        "ShadowfangKeep2";
+        "ShadowfangKeep2";
+        "ShadowfangKeep2";
+        "ShadowfangKeep3";
+        "ShadowfangKeep2";
+        "ShadowfangKeep2";
+        "ShadowfangKeep1";
         "";
-        "Valentineday3";
-        "";
-        "";
-        "";
-        "ShadowfangKeep1";
-        "ShadowfangKeep2";
-        "ShadowfangKeep2";
-        "ShadowfangKeep1";
-        "ShadowfangKeep1";
-        "ShadowfangKeep1";
-        "ShadowfangKeep1";
-        "ShadowfangKeep1";
-        "ShadowfangKeep1";
-        "ShadowfangKeep2";
-        "ShadowfangKeep2";
-        "ShadowfangKeep2";
-        "ShadowfangKeep2";
-        "";
-        "ShadowfangKeep2";
+        "ShadowfangKeep3";
         };
 
     SMArmory = {
@@ -985,7 +996,7 @@ AtlasLootBossButtons = {
         "SMHerod";
         "";
         "SMTrash";
-        "VWOWSets1";
+        "VWOWSets33";
         };
 
     SMCathedral = {
@@ -996,7 +1007,7 @@ AtlasLootBossButtons = {
         "SMCathedral";
         "";
         "SMTrash";
-        "VWOWSets1";
+        "VWOWSets33";
         };
 
     SMGraveyard = {
@@ -1004,14 +1015,13 @@ AtlasLootBossButtons = {
         "SMGraveyard";
         "";
         "";
-        "HeadlessHorseman";
         "SMGraveyard";
         "SMGraveyard";
         "SMGraveyard";
         "SMGraveyard";
         "";
         "SMTrash";
-        "VWOWSets1";
+        "VWOWSets33";
         };
 
     SMLibrary = {
@@ -1020,7 +1030,7 @@ AtlasLootBossButtons = {
         "SMLibrary";
         "";
         "SMTrash";
-        "VWOWSets1";
+        "VWOWSets33";
         };
 
     Stratholme = {
@@ -1028,13 +1038,11 @@ AtlasLootBossButtons = {
         "OldKeys";
         "OldKeys";
         "STRATStratholmeCourier";
-        "OldKeys";
         "";
         "";
         "STRATSkull";
         "STRATStratholmeCourier";
         "STRATFrasSiabi";
-        "STRATAtiesh";
         "STRATHearthsingerForresten";
         "STRATTheUnforgiven";
         "LunarFestival1";
@@ -1066,7 +1074,7 @@ AtlasLootBossButtons = {
         "";
         "";
         "";
-        "VWOWSets2";
+        "VWOWSets55";
         "";
         "STRATTrash";
         };
@@ -1079,13 +1087,14 @@ AtlasLootBossButtons = {
         "TheDeadmines1";
         "TheDeadmines1";
         "TheDeadmines1";
+        "TheDeadmines1";
         "TheDeadmines2";
         "TheDeadmines2";
         "TheDeadmines2";
         "TheDeadmines2";
-        "TheDeadmines2";
+        "TheDeadmines3";
         "";
-        "VWOWSets1";
+        "VWOWSets11";
         };
 
     TheDeadminesEnt = {
@@ -1100,7 +1109,7 @@ AtlasLootBossButtons = {
         "";
         "TheStockade";
         "TheStockade";
-        "";
+        "TheStockade";
         "TheStockade";
         "TheStockade";
         "TheStockade";
@@ -1110,7 +1119,6 @@ AtlasLootBossButtons = {
 
     TheSunkenTemple = {
         "";
-        "OldKeys";
         "";
         "";
         "";
@@ -1138,11 +1146,19 @@ AtlasLootBossButtons = {
         "STTrash";
         };
 
+    TheSunkenTempleEnt = {
+        "";
+        "";
+        "STJade";
+        "";
+        "";
+        "";
+        "";
+        };
+
     Uldaman = {
-        "OldKeys";
         "";
         "";
-        "UldBaelog";
         "UldBaelog";
         "UldBaelog";
         "UldBaelog";
@@ -1162,6 +1178,7 @@ AtlasLootBossButtons = {
         "";
         "";
         "UldTrash";
+        "VWOWSets77";
         };
 
     UldamanEnt = {
@@ -1177,7 +1194,9 @@ AtlasLootBossButtons = {
 
     WailingCaverns = {
         "";
-        "";
+        "WailingCaverns1";
+        "WailingCaverns1";
+        "WailingCaverns1";
         "WailingCaverns1";
         "WailingCaverns1";
         "WailingCaverns1";
@@ -1185,24 +1204,21 @@ AtlasLootBossButtons = {
         "WailingCaverns2";
         "WailingCaverns2";
         "WailingCaverns2";
-        "WailingCaverns2";
         "";
-        "WailingCaverns2";
-        "";
-        "VWOWSets1";
+        "VWOWSets22";
         };
 
     WailingCavernsEnt = {
         "";
         "";
-        "WailingCaverns1";
-        "WailingCaverns1";
-        "WailingCaverns1";
+        "WailingCavernsEnt";
+        "WailingCavernsEnt";
+        "WailingCavernsEnt";
         "";
         "";
         "";
         "";
-        "WailingCaverns1";
+        "WailingCavernsEnt";
         "";
         };
 

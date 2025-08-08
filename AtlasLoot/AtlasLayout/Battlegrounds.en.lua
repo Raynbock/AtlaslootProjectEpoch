@@ -9,7 +9,6 @@ This file defines the loot buttons in the Atlas interface for the battleground m
 AtlasLootBattlegrounds = {
 
     AlteracValleyNorth = {
-        "AlteracFactions";
         "";
         "";
         "";
@@ -70,12 +69,12 @@ AtlasLootBattlegrounds = {
         "";
         "";
         "";
-        "AVMisc";
-        "AVBlue_A";
+        "";
+        "";
+        "";
         };
     
     AlteracValleySouth = {
-        "AlteracFactions";
         "";
         "";
         "";
@@ -119,13 +118,12 @@ AtlasLootBattlegrounds = {
         "";
         "";
         "";
-        "AVMisc";
-        "AVBlue_A";
+        "";
+        "";
+        "";
     };
     
     ArathiBasin = {
-        "MiscFactions";
-        "MiscFactions";
         "";
         "";
         "";
@@ -134,11 +132,13 @@ AtlasLootBattlegrounds = {
         "";
         "";
         "";
-        "ABMisc_A";
-        "AB2039_A";
-        "AB4049_A";
         "";
-        "ABSets1_A";
+        "";
+        "";
+        "";
+        "";
+        "";
+        "";
     };
     
     WarsongGulch = {
@@ -148,8 +148,5 @@ AtlasLootBattlegrounds = {
         "";
         "";
         "WSGMisc";
-        "WSGAccessories_A";
-        "WSGWeapons_A";
-        "WSGArmor_A";
     };
 };

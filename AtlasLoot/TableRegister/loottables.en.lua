@@ -67,6 +67,7 @@ end
 	AtlasLoot_TableNames["BRDLordRoccor"] = { BabbleBoss["Lord Roccor"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["BRDHighInterrogatorGerstahn"] = { BabbleBoss["High Interrogator Gerstahn"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["BRDArena"] = { "Ring of Law", "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BRDArena2"] = { "Ring of Law", "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["BRDTheldren"] = { AL["Theldren"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["BRDHoundmaster"] = { BabbleBoss["Houndmaster Grebmar"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["BRDForgewright"] = { "Monument of Franclorn Forgewright", "AtlasLootOriginalWoW" };
@@ -130,12 +131,13 @@ end
 	AtlasLoot_TableNames["TheDeadmines1"] = { BabbleZone["The Deadmines"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["TheDeadmines2"] = { BabbleZone["The Deadmines"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["TheDeadmines3"] = { BabbleZone["The Deadmines"], "AtlasLootOriginalWoW" };
-  -- Glittermurk Mine
-	AtlasLoot_TableNames["Glittermurk"] = { BabbleEpoch["Glittermurk Mine"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Glittermurk2"] = { BabbleEpoch["Glittermurk Mine"], "AtlasLootOriginalWoW" };
+  -- Glittermurk Mines
+	AtlasLoot_TableNames["Glittermurk"] = { BabbleEpoch["Glittermurk Mines"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Glittermurk2"] = { BabbleEpoch["Glittermurk Mines"], "AtlasLootOriginalWoW" };
   -- Gnomeregan
 	AtlasLoot_TableNames["Gnomeregan1"] = { BabbleZone["Gnomeregan"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Gnomeregan2"] = { BabbleZone["Gnomeregan"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Gnomeregan3"] = { BabbleZone["Gnomeregan"], "AtlasLootOriginalWoW" };
   -- Maraudon
 	AtlasLoot_TableNames["Maraudon1"] = { BabbleZone["Maraudon"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Maraudon2"] = { BabbleZone["Maraudon"], "AtlasLootOriginalWoW" };
@@ -221,6 +223,7 @@ end
 	AtlasLoot_TableNames["STRATBaronRivendare"] = { BabbleBoss["Baron Rivendare"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["STRATTrash"] = { AL["Trash Mobs"].." ("..BabbleZone["Stratholme"]..")", "AtlasLootOriginalWoW" };
   -- Sunken Temple
+	AtlasLoot_TableNames["STJade"] = { "Jade", "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["STSpawnOfHakkar"] = { "Spawn of Hakkar", "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["STTrollMinibosses"] = { "Troll Minibosses", "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["STAtalalarion"] = { BabbleBoss["Atal'alarion"], "AtlasLootOriginalWoW" };
@@ -251,6 +254,7 @@ end
 	AtlasLoot_TableNames["UldArchaedas"] = { BabbleBoss["Archaedas"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["UldTrash"] = { AL["Trash Mobs"].." ("..BabbleZone["Uldaman"]..")", "AtlasLootOriginalWoW" };
   -- Wailing Caverns
+	AtlasLoot_TableNames["WailingCavernsEnt"] = { BabbleZone["Wailing Caverns"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["WailingCaverns1"] = { BabbleZone["Wailing Caverns"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["WailingCaverns2"] = { BabbleZone["Wailing Caverns"], "AtlasLootOriginalWoW" };
   -- Zul'Farrak
@@ -283,8 +287,8 @@ end
 	AtlasLoot_TableNames["PVPWarlock"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["PVPWarrior"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "AtlasLootOriginalWoW" };
   -- Vanilla WoW Sets
-	AtlasLoot_TableNames["Epochset"] = { BabbleEpoch["Rune Warder"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Epochset0"] = { BabbleEpoch["Rune Warder"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Epochset"] = { BabbleEpoch["Rune Warder Set"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Epochset0"] = { BabbleEpoch["Rune Warder Set"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Epochset2"] = { BabbleEpoch["Epoch Sets"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Epochset3"] = { BabbleEpoch["Epoch Sets"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Epochset4"] = { BabbleEpoch["Epoch Sets"], "AtlasLootOriginalWoW" };
@@ -471,7 +475,7 @@ end
 --- World Bosses ---
 --------------------
 
-  -- Azuregos
+	AtlasLoot_TableNames["Azuregos"] = { BabbleEpoch["Azuregos"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Corruptedancient"] = { BabbleEpoch["Corrupted Ancient"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Gonzor"] = { BabbleEpoch["Gonzor"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Kinggnok"] = { BabbleEpoch["King Gnok"], "AtlasLootOriginalWoW" };

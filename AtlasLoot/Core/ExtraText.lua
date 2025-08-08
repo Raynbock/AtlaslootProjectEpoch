@@ -16,6 +16,10 @@ local ORANGE = "|cffFF8400";
 local INDENT = "   ";
 
 AtlasLoot_ExtraText = {
+    BaradinHold = {
+        "";
+        GREY..INDENT..BabbleEpoch["Rune Warder Set"];
+    };
     BlackfathomDeeps = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
@@ -81,10 +85,7 @@ AtlasLoot_ExtraText = {
     Scholomance = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
-        GREY..INDENT..AL["Set: Necropile Raiment"];
-        GREY..INDENT..AL["Set: Cadaverous Garb"];
-        GREY..INDENT..AL["Set: Bloodmail Regalia"];
-        GREY..INDENT..AL["Set: Deathbone Guardian"];
+        GREY..INDENT..BabbleEpoch["Scholomance Sets"];
     };
     ShadowfangKeep = {
         "";
@@ -105,6 +106,7 @@ AtlasLoot_ExtraText = {
     Uldaman = {
         "";
         GREY..INDENT..AL["Trash Mobs"];
+        GREY..INDENT..BabbleEpoch["Uldic Set"];
     };
     WailingCaverns = {
         "";
@@ -135,8 +137,5 @@ AtlasLoot_ExtraText = {
     WarsongGulch = {
         "";
         GREEN..AL["Misc. Rewards"];
-        GREEN..AL["Accessories"];
-        GREEN..AL["Weapons"];
-        GREEN..BabbleInventory["Armor"];
     };    
 };

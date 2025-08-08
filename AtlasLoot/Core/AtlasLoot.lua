@@ -35,10 +35,15 @@ local BabbleEpoch = AtlasLoot_GetLocaleLibBabble("LibBabble-Epoch-3.0")
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 --Establish version number and compatible version of Atlas
-local VERSION_MAJOR = "1";
-local VERSION_MINOR = "00";
-local VERSION_BOSSES = "1";
-ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Epoch v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
+local EPOCH_VERSION_MAJOR = "1";
+local EPOCH_VERSION_MINOR = "00";
+local EPOCH_VERSION_BOSSES = "1";
+
+local VERSION_MAJOR = "5";
+local VERSION_MINOR = "11";
+local VERSION_BOSSES = "04";
+
+ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Epoch v"..EPOCH_VERSION_MAJOR.."."..EPOCH_VERSION_MINOR.."."..EPOCH_VERSION_BOSSES.."|r";
 --Now allows for multiple compatible Atlas versions.  Always put the newest first
 ATLASLOOT_CURRENT_ATLAS = {"1.17.1", "1.17.0"};
 ATLASLOOT_PREVIEW_ATLAS = {"1.17.3", "1.17.2"};
@@ -316,7 +321,7 @@ function AtlasLoot_OnVariablesLoaded()
 		end
 		AtlasLootCharDB.AtlasLootVersion = VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES;
 	end
-	if((AtlasLootCharDB.AtlasLootVersion == nil) or (tonumber(AtlasLootCharDB.AtlasLootVersion) < 100001)) then
+	if((AtlasLootCharDB.AtlasLootVersion == nil) or (tonumber(AtlasLootCharDB.AtlasLootVersion) < 40301)) then
 		AtlasLootCharDB.AtlasLootVersion = VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES;
 		AtlasLootCharDB.AutoQuery = false;
 		AtlasLootOptions_Init();
@@ -1263,8 +1268,6 @@ dataSource: Location of the loot table
 function AtlasLoot_GetLODModule(dataSource)
 	if (dataSource=="AtlasLootOriginalWoW") then
 		return "AtlasLoot_OriginalWoW";
-	elseif (dataSource=="AtlasLootBurningCrusade") then
-		return "AtlasLoot_BurningCrusade";
 	elseif (dataSource=="AtlasLootCrafting") then
 		return "AtlasLoot_Crafting";
 	elseif (dataSource=="AtlasLootWorldEvents") then

@@ -46,7 +46,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 7, "VWOWSets6", "INV_Boots_Cloth_05", "=ds="..AL["Ironweave Battlesuit"], "=q5="..AL["Various Locations"]};
 		{ 4, "VWOWSets7", "inv_chest_plate16", "=ds="..BabbleEpoch["Uldic Plate"], "=q5="..BabbleZone["Uldaman"]};
 		{ 8, "VWOWScholo", "INV_Shoulder_02", "=ds="..AL["Scholomance Sets"], "=q5="..BabbleZone["Scholomance"]};
-		{ 10, "Epochset0", "INV_Shoulder_03", "=ds="..BabbleEpoch["Rune Warder"], "=q5="..BabbleEpoch["Baradin Hold"]};
+		{ 10, "Epochset0", "INV_Shoulder_03", "=ds="..BabbleEpoch["Rune Warder Set"], "=q5="..BabbleEpoch["Baradin Hold"]};
 		{ 16, "VWOWWeapons", "INV_Weapon_ShortBlade_16", "=ds="..AL["Spider's Kiss"], "=q5="..BabbleZone["Lower Blackrock Spire"]};
 		{ 17, "VWOWWeapons", "INV_Sword_43", "=ds="..AL["Dal'Rend's Arms"], "=q5="..BabbleZone["Upper Blackrock Spire"]};
 		Back = "SETMENU";

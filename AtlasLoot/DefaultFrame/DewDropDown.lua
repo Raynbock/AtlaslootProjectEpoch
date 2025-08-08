@@ -17,10 +17,10 @@ AtlasLoot_DewDropDown = {
 	[1] = {
 		[AL["Classic Instances"]] = {
 			[1] = {
-				{ BabbleZone["Blackfathom Deeps"], "BlackfathomDeeps1", "Table" },
+				{ BabbleEpoch["Baradin Hold"], "BaradinHold", "Table" },
 			},
 			[2] = {
-				{ BabbleEpoch["Baradin Hold"], "BaradinHold", "Table" },
+				{ BabbleZone["Blackfathom Deeps"], "BlackfathomDeeps1", "Table" },
 			},
 			[3] = {
 				{ BabbleZone["Blackrock Depths"], "BlackrockDepths", "Submenu" },
@@ -38,7 +38,7 @@ AtlasLoot_DewDropDown = {
 				{ BabbleZone["The Deadmines"], "TheDeadmines1", "Table" },
 			},
 			[8] = {
-				{ BabbleEpoch["Glittermurk Mine"], "Glittermurk", "Table" },
+				{ BabbleEpoch["Glittermurk Mines"], "Glittermurk", "Table" },
 			},
 			[9] = {
 				{ BabbleZone["Gnomeregan"], "Gnomeregan1", "Table" },
@@ -176,7 +176,6 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["Set: Chain of the Scarlet Crusade"], "VWOWSets33" },
 	},
 	["Scholomance"] = {
-		{ "", "SCHOLOBloodStewardofKirtonos" },
 		{ "", "SCHOLOKirtonostheHerald" },
 		{ "", "SCHOLOJandiceBarov" },
 		{ "", "SCHOLORattlegore" },
@@ -193,10 +192,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "SCHOLOLadyIlluciaBarov" },
 		{ "", "SCHOLODarkmasterGandling" },
 		{ "", "SCHOLOTrash" },
-		{ AL["Set: Necropile Raiment"], "VWOWScholol1" },
-		{ AL["Set: Cadaverous Garb"], "VWOWScholol1" },
-		{ AL["Set: Bloodmail Regalia"], "VWOWScholol1" },
-		{ AL["Set: Deathbone Guardian"], "VWOWScholol1" },
+		{ BabbleEpoch["Scholomance Sets"], "VWOWScholol1" },
 	},
 	["Stratholme"] = {
 		{ BabbleBoss["Skul"], "STRATSkull" },
@@ -239,7 +235,6 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["Trash Mobs"], "STTrash" },
 	},
 	["Uldaman"] = {
-		{ BabbleBoss["Digmaster Shovelphlange"], "UldShovelphlange" },
 		{ AtlasLoot_TableNames["UldBaelog"][1], "UldBaelog" },
 		{ BabbleBoss["Revelosh"], "UldRevelosh" },
 		{ BabbleBoss["Ironaya"], "UldIronaya" },
