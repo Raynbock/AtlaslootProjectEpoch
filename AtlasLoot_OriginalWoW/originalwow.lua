@@ -3805,17 +3805,17 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 7, 61152, "", "=q2=Combatant´s Medical Knife", "", "17 #wsg#", ""};
 		{ 8, 61153, "", "=q2=Combatant´s Frill", "", "17 #wsg#", ""};
 		{ 9, 61154, "", "=q2=Combatant´s Tome", "", "17 #wsg#", ""};
-		{ 10, 61155, "", "=q2=Combatant´s Staff", "", "17 #wsg#", ""};
-		{ 11, 61156, "", "=q2=Combatant´s Stave", "", "17 #wsg#", ""};
+		{ 10, 61155, "", "=q2=Combatant´s Staff", "", "37 #wsg#", ""};
+		{ 11, 61156, "", "=q2=Combatant´s Stave", "", "37 #wsg#", ""};
 		{ 12, 61157, "", "=q2=Combatant´s Spellfist", "", "17 #wsg#", ""};
 		{ 13, 61158, "", "=q2=Combatant´s Spellhammer", "", "17 #wsg#", ""};
 		{ 14, 61159, "", "=q2=Combatant´s Spellsword", "", "17 #wsg#", ""};
 		{ 15, 61160, "", "=q2=Combatant´s Healing Knuckles", "", "17 #wsg#", ""};
 		{ 16, 61161, "", "=q2=Combatant´s Scepter", "", "17 #wsg#", ""};
 		{ 17, 61162, "", "=q2=Combatant´s Brand", "", "17 #wsg#", ""};
-		{ 18, 61167, "", "=q2=Combatant´s Battleaxe", "", "17 #wsg#", ""};
+		{ 18, 61167, "", "=q2=Combatant´s Battleaxe", "", "37 #wsg#", ""};
 		{ 19, 61168, "", "=q2=Combatant´s Maul", "", "17 #wsg#", ""};
-		{ 20, 61169, "", "=q2=Combatant´s Greatsword", "", "17 #wsg#", ""};
+		{ 20, 61169, "", "=q2=Combatant´s Greatsword", "", "37 #wsg#", ""};
 		{ 21, 61170, "", "=q2=Combatant´s Spellshield", "", "17 #wsg#", ""};
 		{ 22, 61171, "", "=q2=Combatant´s Shield", "", "17 #wsg#", ""};
 		{ 23, 61172, "", "=q2=Combatant´s Protector", "", "17 #wsg#", ""};
@@ -3842,8 +3842,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	};
 
 	AtlasLoot_Data["Epochpvpmisc35"] = {
-		{ 29, 60910, "", "=q2=Emblem of Tenacity", "", "17 #wsg#", ""};
-		{ 15, 60820, "", "=q2=Insignia of the Alliance", "", "17 #wsg#", ""};
+		{ 29, 60910, "", "=q2=Emblem of Tenacity", "", "7 #wsg#", ""};
+		{ 15, 60820, "", "=q2=Insignia of the Alliance", "", "7 #wsg#", ""};
 		{ 1, 61136, "", "=q2=Combatant´s Band of Physical Potency", "", "17 #wsg#", ""};
 		{ 2, 61135, "", "=q2=Combatant´s Band of Physical Cruelty", "", "17 #wsg#", ""};
 		{ 3, 61134, "", "=q2=Combatant´s Band of Physical Accuracy", "", "17 #wsg#", ""};
@@ -3864,7 +3864,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 21, 61119, "", "=q2=Combatant´s Cloak of Magic Cruelty", "", "22 #wsg#", ""};
 		{ 22, 61118, "", "=q2=Combatant´s Cloak of Magic Accuracy", "", "22 #wsg#", ""};
 		{ 23, 61117, "", "=q2=Combatant´s Cloak of Survival", "", "22 #wsg#", ""};
-		{ 30, 61137, "", "=q2=Insignia of the Horde", "", " #wsg#", ""};
+		{ 30, 61137, "", "=q2=Insignia of the Horde", "", "7 #wsg#", ""};
 		Back = "Epochpvp35";
 	};
 
