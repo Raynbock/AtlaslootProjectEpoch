@@ -1873,14 +1873,14 @@ local MASTER = select(2, GetSpellInfo(28596));
 
 	AtlasLoot_Data["Lavaleather"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleEpoch["Lava Leather"], "=q1=#j11#"};
-		{ 2, 19149, "", "=q4=Lava Belt", ""};
+		{ 2, 60172, "", "=q4=Lava Helm", ""};
 		{ 3, 19139, "", "=q4=Fireguard Shoulders", ""};
-		{ 4, 60168, "", "=q4=Lava Set", ""};
-		{ 5, 60166, "", "=q4=Lava Set", ""};
-		{ 6, 60170, "", "=q4=Lava Set", ""};
-		{ 7, 60172, "", "=q4=Lava Set", ""};
-		{ 8, 60176, "", "=q4=Lava Set", ""};
-		{ 9, 60174, "", "=q4=Lava Set", ""};
+		{ 4, 60176, "", "=q4=Lava Chestguard", ""};
+		{ 5, 60168, "", "=q4=Lava Bracers", ""};
+		{ 6, 60170, "", "=q4=Lava Gauntlets", ""};
+		{ 7, 19149, "", "=q4=Lava Belt", ""};
+		{ 8, 60174, "", "=q4=Lava Leggings", ""};
+		{ 9, 60166, "", "=q4=Lava Boots", ""};
 		Next = "Bigvoodoo";
 		Prev = "Warbearwear";
 		Back = "CRAFTSET2";
@@ -1888,8 +1888,8 @@ local MASTER = select(2, GetSpellInfo(28596));
 
 	AtlasLoot_Data["Bigvoodoo"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleEpoch["Big Voodoo"], ""};
-		{ 2, 8200, "", "=q2=Big Voodoo Robe", ""};
-		{ 3, 8201, "", "=q2=Big Voodoo Mask", ""};
+		{ 2, 8201, "", "=q2=Big Voodoo Mask", ""};
+		{ 3, 8200, "", "=q2=Big Voodoo Robe", ""};
 		{ 4, 8202, "", "=q2=Big Voodoo Pants", ""};
 		{ 5, 8216, "", "=q2=Big Voodoo Cloak", ""};
 		Prev = "Lavaleather";
@@ -1931,11 +1931,11 @@ local MASTER = select(2, GetSpellInfo(28596));
 
 	AtlasLoot_Data["Basiliskscalearmor"] = {
 		{ 1, 0, "INV_Box_01", "=ds="..BabbleEpoch["Basilisk Scale Armor"], ""};
-		{ 2, 64942, "", "=q2=Basilisk Scale Helmet", "=ds=#s1#, #a3#"};
-		{ 3, 64938, "", "=q2=Basilisk Scale Chestpiece", "=ds=#s5#, #a3#"};
+		{ 2, 64943, "", "=q2=Basilisk Scale Helm", "=ds=#s11#, #a3#"};
+		{ 3, 64939, "", "=q2=Basilisk Scale Breastplate", "=ds=#s9#, #a3#"};
 		{ 4, 64941, "", "=q2=Basilisk Scale Bracers", "=ds=#s8#, #a3#"};
-		{ 5, 64939, "", "=q2=Basilisk Scale Gloves", "=ds=#s9#, #a3#"};
-		{ 6, 64943, "", "=q2=Basilisk Scale Leggings", "=ds=#s11#, #a3#"};
+		{ 5, 64938, "", "=q2=Basilisk Scale Gloves", "=ds=#s5#, #a3#"};
+		{ 6, 64942, "", "=q2=Basilisk Scale Leggings", "=ds=#s1#, #a3#"};
 		Prev = "LeatherworkingMailBlackDragonM";
 		Next = "Turtlescalearmor";
 		Back = "CRAFTSET2";
