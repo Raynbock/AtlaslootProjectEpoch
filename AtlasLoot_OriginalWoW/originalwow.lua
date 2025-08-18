@@ -2252,7 +2252,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 4, 7230, "", "=q3=Smite's Mighty Hammer", "=ds=#h2#, #w6#", "", "17.27%"};
 		{ 5, 60280, "", "=q2=Wind-Up Cannon", "=ds=#s14#", "", ""};
 		{ 7, 0, "INV_Box_01", "=q6="..BabbleEpoch["Scinti"], ""};
-		{ 8, 99999, "", "=q3=Emberlicked Greaves", "=ds=#s11#", "", ""};
+		{ 8, 60277, "", "=q3=Emberlicked Greaves", "=ds=#s11#", "", ""};
 		{ 9, 60278, "", "=q2=Tinfire Blades", "=ds=#w11#", "", ""};
 		{ 10, 60279, "", "=q2=Twinkling Cape", "=ds=#s4#", "", ""};
 		{ 11, 61913, "", "=q1=Eternal Ember", "=ds=#m2#", "", ""};
