@@ -2688,7 +2688,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleEpoch["Nyx"], ""};
 		{ 2, 6632, "", "=q3=Feyscale Cloak", "=ds=#s4#", "", "37.84%"};
 		{ 3, 5243, "", "=q3=Firebelcher", "=ds=#w12#", "", "39.65%"};
-		{ 4, 99999, "", "=q3=Emerald Amulet", "=ds=#s2#", "", ""};
+		{ 4, 62049, "", "=q3=Emerald Amulet", "=ds=#s2#", "", ""};
 		{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Serpentis"], ""};
 		{ 7, 5970, "", "=q3=Serpent Gloves", "=ds=#s9#, #a1#", "", "20.96%"};
 		{ 8, 10411, "", "=q3=Footpads of the Fang", "=ds=#s12#, #a2#", "", "19.07%"};
