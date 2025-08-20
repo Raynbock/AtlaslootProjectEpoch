@@ -2263,10 +2263,11 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 21, 0, "INV_Box_01", "=q6=#n6#", ""};
 		{ 22, 5193, "", "=q3=Cape of the Brotherhood", "=ds=#s4#", "", "21.25%"};
 		{ 23, 5202, "", "=q3=Corsair's Overshirt", "=ds=#s5#, #a1#", "", "22.86%"};
-		{ 24, 10399, "", "=q3=Blackened Defias Armor", "=ds=#s5#, #a2#", "", "14.77%"};
-		{ 25, 5191, "", "=q3=Cruel Barb", "=ds=#h1#, #w10#", "", "14.17%"};
-		{ 26, 2874, "", "=q1=An Unsent Letter", "=ds=#m2#"};
-		{ 27, 3637, "", "=q1=Head of VanCleef", "=ds=#m3#"};
+		{ 24, 7997, "", "=q3=Red Defias Mask", "=ds=#a2#", "", ""};
+		{ 25, 10399, "", "=q3=Blackened Defias Armor", "=ds=#s5#, #a2#", "", "14.77%"};
+		{ 26, 5191, "", "=q3=Cruel Barb", "=ds=#h1#, #w10#", "", "14.17%"};
+		{ 27, 2874, "", "=q1=An Unsent Letter", "=ds=#m2#"};
+		{ 28, 3637, "", "=q1=Head of VanCleef", "=ds=#m3#"};
 		Next = "TheDeadmines3";
 		Prev = "TheDeadmines1";
 	};
@@ -2283,11 +2284,12 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	AtlasLoot_Data["VWOWSets11"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#pre60s1#", "=ec1=#a2#. =q1=#z1#"};
-		{ 2, 10399, "", "=q3=Blackened Defias Armor", "=ds=#s5#, =q2=#n6#", "", "14.77%"};
-		{ 3, 10401, "", "=q2=Blackened Defias Gloves", "=ds=#s9#, =q2=#n9#", "", "1.76%"};
-		{ 4, 10403, "", "=q3=Blackened Defias Belt", "=ds=#s10#, =q2=#n7#", "", "23.26%"};
-		{ 5, 10400, "", "=q2=Blackened Defias Leggings", "=ds=#s11#, =q2=#n9#", "", "1.64%"};
-		{ 6, 10402, "", "=q2=Blackened Defias Boots", "=ds=#s12#, =q2=#n8#", "", "1.23%"};
+		{ 2, 7997, "", "=q3=Red Defias Mask", "=ds=#a2#", "", ""};
+		{ 3, 10399, "", "=q3=Blackened Defias Armor", "=ds=#s5#, =q2=#n6#", "", "14.77%"};
+		{ 4, 10401, "", "=q2=Blackened Defias Gloves", "=ds=#s9#, =q2=#n9#", "", "1.76%"};
+		{ 5, 10403, "", "=q3=Blackened Defias Belt", "=ds=#s10#, =q2=#n7#", "", "23.26%"};
+		{ 6, 10400, "", "=q2=Blackened Defias Leggings", "=ds=#s11#, =q2=#n9#", "", "1.64%"};
+		{ 7, 10402, "", "=q2=Blackened Defias Boots", "=ds=#s12#, =q2=#n8#", "", "1.23%"};
 		Prev = "TheDeadmines3";
 	};
 
@@ -2298,25 +2300,27 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	AtlasLoot_Data["TheStockade"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Targorr the Dread"], ""};
 		{ 2, 60475, "", "=q2=Bone of Unknown Origins", "=ds=#h4#", "", ""};
-		{ 3, 3630, "", "=q1=Head of Targorr", "=ds=#m3#", "", "100%"};
-		{ 5, 0, "INV_Box_01", "=q6="..BabbleBoss["Kam Deepfury"], ""};
-		{ 6, 2280, "", "=q3=Kam's Walking Stick", "=ds=#w9#", "", "0.62%"};
-		{ 7, 60479, "", "=q2=Spellbuckler", "=ds=#w8#", "", ""};
-		{ 8, 3640, "", "=q1=Head of Deepfury", "=ds=#m3#", "", "100%"};
-		{ 10, 0, "INV_Box_01", "=q6="..BabbleBoss["Hamhock"], ""};
-		{ 11, 60480, "", "=q2=Wand of Ogrehair", "", "", ""};
-		{ 13, 0, "INV_Box_01", "=q6="..BabbleBoss["Bazil Thredd"], ""};
-		{ 14, 2926, "", "=q1=Head of Bazil Thredd", "=ds=#m3#", "", "100%"};
+		{ 3, 60476, "", "=q2=Dreadpad", "=ds=#s3#", "", ""};
+		{ 4, 3630, "", "=q1=Head of Targorr", "=ds=#m3#", "", "100%"};
+		{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Kam Deepfury"], ""};
+		{ 7, 2280, "", "=q3=Kam's Walking Stick", "=ds=#w9#", "", "0.62%"};
+		{ 8, 60479, "", "=q2=Spellbuckler", "=ds=#w8#", "", ""};
+		{ 9, 3640, "", "=q1=Head of Deepfury", "=ds=#m3#", "", "100%"};
+		{ 11, 0, "INV_Box_01", "=q6="..BabbleBoss["Hamhock"], ""};
+		{ 12, 60477, "", "=q3=Hamhock´s Cleaver", "", "", ""};
+		{ 13, 60480, "", "=q2=Wand of Ogrehair", "", "", ""};
+		{ 27, 0, "INV_Box_01", "=q6="..BabbleBoss["Bazil Thredd"], ""};
+		{ 28, 2926, "", "=q1=Head of Bazil Thredd", "=ds=#m3#", "", "100%"};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Dextren Ward"], ""};
-		{ 17, 99999, "", "=q3=Warden Breastplate", "=ds=#s5#", "", ""};
+		{ 17, 60481, "", "=q3=Warden Breastplate", "=ds=#s5#", "", ""};
 		{ 18, 60478, "", "=q2=Smuggling Pouch", "=ds=#e1#", "", ""};
 		{ 19, 3628, "", "=q1=Hand of Dextren Ward", "=ds=#m3#", "", "100%"};
 		{ 21, 0, "INV_Box_01", "=q6="..BabbleBoss["Bruegal Ironknuckle"], ""};
 		{ 22, 3228, "", "=q3=Jimmied Handcuffs", "=ds=#s8#, #a3#", "", "54.73%"};
 		{ 23, 2942, "", "=q3=Iron Knuckles", "=ds=#h1#, #w13#", "", "18.18%"};
 		{ 24, 2941, "", "=q3=Prison Shank", "=ds=#h1#, #w4#", "", "16.05%"};
-		{ 27, 0, "INV_Box_01", "=q6=#n11#", ""};
-		{ 28, 2909, "", "=q1=Red Wool Bandana", "=ds=#m3#"};
+		{ 29, 0, "INV_Box_01", "=q6=#n11#", ""};
+		{ 30, 2909, "", "=q1=Red Wool Bandana", "=ds=#m3#"};
 	};
 
 		-------------------------
@@ -2667,19 +2671,20 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Skum"], ""};
 		{ 7, 6449, "", "=q3=Glowing Lizardscale Cloak", "=ds=#s4#", "", "38.24%"};
 		{ 8, 6448, "", "=q3=Tail Spike", "=ds=#h1#, #w4#", "", "39.24%"};
-		{ 10, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Pythas"], ""};
-		{ 11, 6473, "", "=q3=Armor of the Fang", "=ds=#s5#, #a2#", "", "52.06%"};
-		{ 12, 6472, "", "=q3=Stinging Viper", "=ds=#h1#, #w6#", "", "28.24%"};
+		{ 11, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Pythas"], ""};
+		{ 12, 6473, "", "=q3=Armor of the Fang", "=ds=#s5#, #a2#", "", "52.06%"};
+		{ 13, 6472, "", "=q3=Stinging Viper", "=ds=#h1#, #w6#", "", "28.24%"};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Verdan the Everliving"], ""};
 		{ 17, 6629, "", "=q3=Sporid Cape", "=ds=#s4#", "", "16.65%"};
 		{ 18, 6631, "", "=q3=Living Root", "=ds=#w9#", "", "34.47%"};
 		{ 19, 6630, "", "=q3=Seedcloud Buckler", "=ds=#w8#", "", "35.38%"};
 		{ 21, 0, "INV_Box_01", "=q6="..BabbleEpoch["Razor"], ""};
-		{ 22, 62051, "", "=q3=Raptor Spaulders", "", "", ""};
-		{ 23, 48114, "", "=q1=Deviate Hatchling", "", "", ""};
-		{ 25, 0, "INV_Box_01", "=q6="..BabbleBoss["Kresh"], ""};
-		{ 26, 13245, "", "=q3=Kresh's Back", "=ds=#w8#", "", "9.17%"};
-		{ 27, 6447, "", "=q3=Worn Turtle Shell Shield", "=ds=#w8#", "", "63.66%"};
+		{ 22, 62050, "", "=q2=Raptor Claws", "", "", ""};
+		{ 23, 62051, "", "=q2=Raptor Spaulders", "", "", ""};
+		{ 24, 48114, "", "=q1=Deviate Hatchling", "", "", ""};
+		{ 26, 0, "INV_Box_01", "=q6="..BabbleBoss["Kresh"], ""};
+		{ 27, 13245, "", "=q3=Kresh's Back", "=ds=#w8#", "", "9.17%"};
+		{ 28, 6447, "", "=q3=Worn Turtle Shell Shield", "=ds=#w8#", "", "63.66%"};
 		Next = "WailingCaverns2";
 		Prev = "WailingCavernsEnt";
 	};
@@ -3014,11 +3019,12 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	AtlasLoot_Data["VWOWSets1"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#pre60s1#", "=ec1=#a2#. =q1=#z1#"};
-		{ 2, 10399, "", "=q3=Blackened Defias Armor", "=ds=#s5#, =q2=#n6#", "", "14.77%"};
-		{ 3, 10401, "", "=q2=Blackened Defias Gloves", "=ds=#s9#, =q2=#n9#", "", "1.76%"};
-		{ 4, 10403, "", "=q3=Blackened Defias Belt", "=ds=#s10#, =q2=#n7#", "", "23.26%"};
-		{ 5, 10400, "", "=q2=Blackened Defias Leggings", "=ds=#s11#, =q2=#n9#", "", "1.64%"};
-		{ 6, 10402, "", "=q2=Blackened Defias Boots", "=ds=#s12#, =q2=#n8#", "", "1.23%"};
+		{ 2, 7997, "", "=q3=Red Defias Mask", "=ds=#a2#", "", ""};
+		{ 3, 10399, "", "=q3=Blackened Defias Armor", "=ds=#s5#, =q2=#n6#", "", "14.77%"};
+		{ 4, 10401, "", "=q2=Blackened Defias Gloves", "=ds=#s9#, =q2=#n9#", "", "1.76%"};
+		{ 5, 10403, "", "=q3=Blackened Defias Belt", "=ds=#s10#, =q2=#n7#", "", "23.26%"};
+		{ 6, 10400, "", "=q2=Blackened Defias Leggings", "=ds=#s11#, =q2=#n9#", "", "1.64%"};
+		{ 7, 10402, "", "=q2=Blackened Defias Boots", "=ds=#s12#, =q2=#n8#", "", "1.23%"};
 		Next = "VWOWSets2";
 		Back = "SETSCLASSIC";
 	};
