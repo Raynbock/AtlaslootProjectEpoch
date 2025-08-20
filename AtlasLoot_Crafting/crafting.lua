@@ -1809,13 +1809,13 @@ local MASTER = select(2, GetSpellInfo(28596));
 	AtlasLoot_Data["Darkironplate"] = {
 		{ 1, 0, "INV_Hammer_20", "=q6="..BabbleEpoch["Dark Iron Plate"], "=q1=#j11#"};
 		{ 2, 19148, "", "=q4=Dark Iron Helm", "=ds=#s1#, #a4#"};
-		{ 8, 11605, "", "=q2=Dark Iron Shoulders", "=ds=#s3#, #a4#"};
-		{ 7, 11604, "", "=q3=Dark Iron Plate", "=ds=#s5#, #a4#"};
-		{ 6, 17014, "", "=q4=Dark Iron Bracers", "=ds=#s8#, #a4#"};
-		{ 5, 19164, "", "=q4=Dark Iron Gauntlets", "=ds=#s9#, #a4#"};
-		{ 9, 60162, "", "=q4=Dark Iron Belt", "=ds=#s10#, #a4#"};
-		{ 3, 17013, "", "=q4=Dark Iron Leggings", "=ds=#s11#, #a4#"};
-		{ 4, 20039, "", "=q4=Dark Iron Boots", "=ds=#s12#, #a4#"};
+		{ 3, 11605, "", "=q2=Dark Iron Shoulders", "=ds=#s3#, #a4#"};
+		{ 4, 11604, "", "=q3=Dark Iron Plate", "=ds=#s5#, #a4#"};
+		{ 5, 17014, "", "=q4=Dark Iron Bracers", "=ds=#s8#, #a4#"};
+		{ 6, 19164, "", "=q4=Dark Iron Gauntlets", "=ds=#s9#, #a4#"};
+		{ 7, 60162, "", "=q4=Dark Iron Belt", "=ds=#s10#, #a4#"};
+		{ 8, 17013, "", "=q4=Dark Iron Leggings", "=ds=#s11#, #a4#"};
+		{ 9, 20039, "", "=q4=Dark Iron Boots", "=ds=#s12#, #a4#"};
 		Prev = "BlacksmithingPlateImperialPlate";
 		Back = "CRAFTSET1";
 	};
@@ -1914,6 +1914,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 2, 15049, "", "=q3=Blue Dragonscale Shoulders", "=ds=#s3#, #a3#"};
 		{ 3, 15048, "", "=q3=Blue Dragonscale Breastplate", "=ds=#s5#, #a3#"};
 		{ 4, 20295, "", "=q3=Blue Dragonscale Leggings", "=ds=#s11#, #a3#"};
+		{ 5, 62170, "", "=q4=Blue Dragonscale Boots", "=ds=#a3#"};
 		Prev = "LeatherworkingMailGreenDragonM";
 		Next = "LeatherworkingMailBlackDragonM";
 		Back = "CRAFTSET2";
@@ -1924,6 +1925,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 2, 15051, "", "=q3=Black Dragonscale Shoulders", "=ds=#s3#, #a3#"};
 		{ 3, 15050, "", "=q3=Black Dragonscale Breastplate", "=ds=#s5#, #a3#"};
 		{ 4, 15052, "", "=q3=Black Dragonscale Leggings", "=ds=#s11#, #a3#"};
+		{ 5, 16984, "", "=q4=Black Dragonscale Boots", "=ds=#a3#"};
 		Prev = "LeatherworkingMailBlueDragonM";
 		Next = "Basiliskscalearmor";
 		Back = "CRAFTSET2";
@@ -1931,11 +1933,11 @@ local MASTER = select(2, GetSpellInfo(28596));
 
 	AtlasLoot_Data["Basiliskscalearmor"] = {
 		{ 1, 0, "INV_Box_01", "=ds="..BabbleEpoch["Basilisk Scale Armor"], ""};
-		{ 2, 64943, "", "=q2=Basilisk Scale Helm", "=ds=#s11#, #a3#"};
-		{ 3, 64939, "", "=q2=Basilisk Scale Breastplate", "=ds=#s9#, #a3#"};
+		{ 6, 64943, "", "=q2=Basilisk Scale Leggings", "=ds=#s11#, #a3#"};
+		{ 5, 64939, "", "=q2=Basilisk Scale Gloves", "=ds=#s9#, #a3#"};
 		{ 4, 64941, "", "=q2=Basilisk Scale Bracers", "=ds=#s8#, #a3#"};
-		{ 5, 64938, "", "=q2=Basilisk Scale Gloves", "=ds=#s5#, #a3#"};
-		{ 6, 64942, "", "=q2=Basilisk Scale Leggings", "=ds=#s1#, #a3#"};
+		{ 3, 64938, "", "=q2=Basilisk Scale Breastplate", "=ds=#s5#, #a3#"};
+		{ 2, 64942, "", "=q2=Basilisk Scale Helm", "=ds=#s1#, #a3#"};
 		Prev = "LeatherworkingMailBlackDragonM";
 		Next = "Turtlescalearmor";
 		Back = "CRAFTSET2";
@@ -1943,11 +1945,11 @@ local MASTER = select(2, GetSpellInfo(28596));
 
 	AtlasLoot_Data["Turtlescalearmor"] = {
 		{ 1, 0, "INV_Box_01", "=ds="..BabbleEpoch["Turtle Scale Armor"], ""};
-		{ 2, 8185, "", "=q2=Turtle Scale Leggings", ""};
-		{ 3, 8187, "", "=q2=Turtle Scale Gloves", ""};
+		{ 6, 8185, "", "=q2=Turtle Scale Leggings", ""};
+		{ 5, 8187, "", "=q2=Turtle Scale Gloves", ""};
 		{ 4, 8198, "", "=q2=Turtle Scale Bracers", ""};
-		{ 5, 8189, "", "=q2=Turtle Scale Breastplate", ""};
-		{ 6, 8191, "", "=q2=Turtle Scale Helm", ""};
+		{ 3, 8189, "", "=q2=Turtle Scale Breastplate", ""};
+		{ 2, 8191, "", "=q2=Turtle Scale Helm", ""};
 		Prev = "Basiliskscalearmor";
 		Back = "CRAFTSET2";
 	};
@@ -1958,8 +1960,8 @@ local MASTER = select(2, GetSpellInfo(28596));
 
 	AtlasLoot_Data["Tailchanting1"] = {
 		{ 1, 0, "INV_Box_01", "=ds="..BabbleEpoch["Praise of the Moon"], ""};
-		{ 3, 62143, "", "=q3=Staff of the Moon", "=ds=#w9#"};
 		{ 2, 18486, "", "=q3=Mooncloth Robe", "=ds=#s5#, #a1#"};
+		{ 3, 62143, "", "=q3=Staff of the Moon", "=ds=#w9#"};
 		Back = "CRAFTSET4";
 	};
 
