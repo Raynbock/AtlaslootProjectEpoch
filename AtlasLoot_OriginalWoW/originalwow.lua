@@ -2309,8 +2309,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 11, 0, "INV_Box_01", "=q6="..BabbleBoss["Hamhock"], ""};
 		{ 12, 60477, "", "=q3=Hamhock´s Cleaver", "", "", ""};
 		{ 13, 60480, "", "=q2=Wand of Ogrehair", "", "", ""};
-		{ 27, 0, "INV_Box_01", "=q6="..BabbleBoss["Bazil Thredd"], ""};
-		{ 28, 2926, "", "=q1=Head of Bazil Thredd", "=ds=#m3#", "", "100%"};
+		{ 26, 0, "INV_Box_01", "=q6="..BabbleBoss["Bazil Thredd"], ""};
+		{ 27, 2926, "", "=q1=Head of Bazil Thredd", "=ds=#m3#", "", "100%"};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Dextren Ward"], ""};
 		{ 17, 60481, "", "=q3=Warden Breastplate", "=ds=#s5#", "", ""};
 		{ 18, 60478, "", "=q2=Smuggling Pouch", "=ds=#e1#", "", ""};
