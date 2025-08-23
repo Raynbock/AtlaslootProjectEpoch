@@ -1275,10 +1275,11 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 20, 0, "INV_Box_01", "=q6="..BabbleBoss["Agathelos the Raging"], ""};
 		{ 21, 6690, "", "=q3=Ferine Leggings", "=ds=#s11#, #a2#", "", "49.21%"};
 		{ 22, 6691, "", "=q3=Swinetusk Shank", "=ds=#h1#, #w4#", "", "24.85%"};
-		{ 24, 0, "INV_Box_01", "=q6="..BabbleBoss["Blind Hunter"], ""};
-		{ 25, 6697, "", "=q3=Batwing Mantle", "=ds=#s3#, #a1#", "", "27.65%"};
-		{ 26, 6695, "", "=q3=Stygian Bone Amulet", "=ds=#s2#", "", "22.24%"};
-		{ 27, 6696, "", "=q3=Nightstalker Bow", "=ds=#w2#", "", "25.12%"};
+		{ 23, 61970, "", "=q3=Raging Mask", "", "", ""};
+		{ 25, 0, "INV_Box_01", "=q6="..BabbleBoss["Blind Hunter"], ""};
+		{ 26, 6697, "", "=q3=Batwing Mantle", "=ds=#s3#, #a1#", "", "27.65%"};
+		{ 27, 6695, "", "=q3=Stygian Bone Amulet", "=ds=#s2#", "", "22.24%"};
+		{ 28, 6696, "", "=q3=Nightstalker Bow", "=ds=#w2#", "", "25.12%"};
 		Next = "RazorfenKraul2";
 	};
 	
@@ -1839,8 +1840,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 5, 6341, "", "=q3=Eerie Stable Lantern", "=ds=#s15#", "", "5.48%"};
 		{ 6, 932, "", "=q1=Fel Steed Saddlebags", "=ds=#m12# #e1#", "", "16.46%"};
 		{ 8, 0, "INV_Box_01", "=q6="..BabbleEpoch["Steward Graves"], ""};
-		{ 9, 99999, "", "=q3=Graves Rod", "=ds=#h1#, #w6#", "", ""};
-		{ 10, 99999, "", "=q3=Belt of Service", "", "", ""};
+		{ 9, 60470, "", "=q3=Graves Rod", "=ds=#h1#, #w6#", "", ""};
+		{ 10, 60469, "", "=q3=Belt of Service", "", "", ""};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Razorclaw the Butcher"], ""};
 		{ 17, 6226, "", "=q3=Bloody Apron", "=ds=#s5#, #a1#", "", "39.47%"};
 		{ 18, 6633, "", "=q3=Butcher's Slicer", "=ds=#h1#, #w10#", "", "39.53%"};
@@ -1863,9 +1864,10 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 7, 6641, "", "=q3=Haunting Blade", "=ds=#h2#, #w10#", "", "58.60%"};
 		{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Fenrus the Devourer"], ""};
 		{ 10, 6340, "", "=q3=Fenrus' Hide", "=ds=#s4#", "", "58.02%"};
+		{ 10, 60471, "", "=q3=Devourer", "", "", ""};
 		{ 11, 3230, "", "=q3=Black Wolf Bracers", "=ds=#s8#, #a2#", "", "14.76%"};
-		{ 13, 0, "INV_Box_01", "=q6="..BabbleBoss["Arugal's Voidwalker"], ""};
-		{ 14, 5943, "", "=q3=Rift Bracers", "=ds=#s8#, #a3#", "", "3%"};
+		{ 14, 0, "INV_Box_01", "=q6="..BabbleBoss["Arugal's Voidwalker"], ""};
+		{ 15, 5943, "", "=q3=Rift Bracers", "=ds=#s8#, #a3#", "", "3%"};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Wolf Master Nandos"], ""};
 		{ 17, 6314, "", "=q3=Wolfmaster Cape", "=ds=#s4#", "", "33.25%"};
 		{ 18, 3748, "", "=q3=Feline Mantle", "=ds=#s3#, #a1#", "", "48.55%"};
@@ -1873,6 +1875,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 21, 6324, "", "=q3=Robes of Arugal", "=ds=#s5#, #a1#", "", "30.50%"};
 		{ 22, 6392, "", "=q3=Belt of Arugal", "=ds=#s10#, #a1#", "", "30.51%"};
 		{ 23, 6220, "", "=q3=Meteor Shard", "=ds=#h1#, #w4#", "", "15.78%"};
+		{ 24, 60472, "", "=q3=Orb of Arugal", "", "", ""};
 		Next = "ShadowfangKeep3";
 		Prev = "ShadowfangKeep1";
 	};
