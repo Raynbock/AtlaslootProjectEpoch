@@ -1275,7 +1275,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 20, 0, "INV_Box_01", "=q6="..BabbleBoss["Agathelos the Raging"], ""};
 		{ 21, 6690, "", "=q3=Ferine Leggings", "=ds=#s11#, #a2#", "", "49.21%"};
 		{ 22, 6691, "", "=q3=Swinetusk Shank", "=ds=#h1#, #w4#", "", "24.85%"};
-		{ 23, 61970, "", "=q3=Raging Mask", "", "", ""};
+		{ 23, 61970, "", "=q2=Raging Mask", "", "", ""};
 		{ 25, 0, "INV_Box_01", "=q6="..BabbleBoss["Blind Hunter"], ""};
 		{ 26, 6697, "", "=q3=Batwing Mantle", "=ds=#s3#, #a1#", "", "27.65%"};
 		{ 27, 6695, "", "=q3=Stygian Bone Amulet", "=ds=#s2#", "", "22.24%"};
@@ -1864,7 +1864,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 7, 6641, "", "=q3=Haunting Blade", "=ds=#h2#, #w10#", "", "58.60%"};
 		{ 9, 0, "INV_Box_01", "=q6="..BabbleBoss["Fenrus the Devourer"], ""};
 		{ 10, 6340, "", "=q3=Fenrus' Hide", "=ds=#s4#", "", "58.02%"};
-		{ 10, 60471, "", "=q3=Devourer", "", "", ""};
+		{ 10, 60471, "", "=q3=Helm of the Devourer", "", "", ""};
 		{ 11, 3230, "", "=q3=Black Wolf Bracers", "=ds=#s8#, #a2#", "", "14.76%"};
 		{ 14, 0, "INV_Box_01", "=q6="..BabbleBoss["Arugal's Voidwalker"], ""};
 		{ 15, 5943, "", "=q3=Rift Bracers", "=ds=#s8#, #a3#", "", "3%"};
