@@ -118,6 +118,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "BRDTheVault" },
 		{ "", "BRDWarderStilgiss" },
 		{ "", "BRDVerek" },
+		{ "", "BRDDoomgrip" },
 		{ "", "BRDFineousDarkvire" },
 		{ "", "BRDLordIncendius" },
 		{ "", "BRDBaelGar" },

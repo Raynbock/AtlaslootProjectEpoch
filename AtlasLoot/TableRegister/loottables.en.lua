@@ -75,6 +75,7 @@ end
 	AtlasLoot_TableNames["BRDTheVault"] = { AL["The Vault"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["BRDWarderStilgiss"] = { BabbleBoss["Warder Stilgiss"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["BRDVerek"] = { BabbleBoss["Verek"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BRDDoomgrip"] = { BabbleEpoch["Doomgrip"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["BRDFineousDarkvire"] = { BabbleBoss["Fineous Darkvire"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["BRDLordIncendius"] = { BabbleBoss["Lord Incendius"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["BRDBaelGar"] = { BabbleBoss["Bael'Gar"], "AtlasLootOriginalWoW" };
@@ -470,6 +471,7 @@ end
 	AtlasLoot_TableNames["WorldEpics1"] = { AL["BoE World Epics"].." - "..AL["Level 30-39"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["WorldEpics2"] = { AL["BoE World Epics"].." - "..AL["Level 40-49"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["WorldEpics3"] = { AL["BoE World Epics"].." - "..AL["Level 50-60"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["WorldEpics4"] = { AL["BoE World Epics"].." - "..AL["Level 50-60"], "AtlasLootOriginalWoW" };
 
 --------------------
 --- World Bosses ---
@@ -540,12 +542,15 @@ end
 	AtlasLoot_TableNames["WildhammerClan"] = { BabbleEpoch["Aerie Peak"], "AtlasLootOriginalWoW" };
   -- Raventusk Tribe
 	AtlasLoot_TableNames["RaventuskTribe"] = { BabbleEpoch["Raventusk Tribe"], "AtlasLootOriginalWoW" };
+  -- Ravenholdt
+	AtlasLoot_TableNames["Ravenholdt"] = { BabbleEpoch["Ravenholdt"], "AtlasLootOriginalWoW" };
   -- Auberdine
 	AtlasLoot_TableNames["Auberdine"] = { BabbleEpoch["Auberdine"], "AtlasLootOriginalWoW" };
   -- Sepulcher
 	AtlasLoot_TableNames["Sepulcher"] = { BabbleEpoch["Sepulcher"], "AtlasLootOriginalWoW" };
   -- Valors Expedition
 	AtlasLoot_TableNames["Valorsexp"] = { BabbleFaction["Valor´s Expedition"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Valorsexp2"] = { BabbleFaction["Valor´s Expedition"], "AtlasLootOriginalWoW" };
 
 --------------
 --- Trades ---

@@ -690,7 +690,7 @@ AtlasLootBossButtons = {
         "BRDTheVault";
         "BRDWarderStilgiss";
         "BRDVerek";
-        "";
+        "BRDDoomgrip";
         "BRDFineousDarkvire";
         "";
         "BRDLordIncendius";
