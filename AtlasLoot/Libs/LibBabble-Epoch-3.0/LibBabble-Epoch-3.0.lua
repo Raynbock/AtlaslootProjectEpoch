@@ -93,6 +93,7 @@ lib:SetBaseTranslations {
 	["Lawbringer Armor"] = "Lawbringer Armor",
 	["Level 55"] = "Level 55",
 	["Level 60"] = "Level 60",
+	["Mecha-Chicken 3000"] = "Mecha-Chicken 3000",
 	["Millhouse Manastorm"] = "Millhouse Manastorm",
 	["Miner Davod"] = "Miner Davod",
 	["Misc. Vendor"] = "Misc. Vendor",
@@ -159,6 +160,7 @@ lib:SetBaseTranslations {
 	["Treeheart Raiment"] = "Treeheart Raiment",
 	["Truthful Armor"] = "Truthful Armor",
 	["Turtle Scale Armor"] = "Turtle Scale Armor",
+	Twitches = "Twitches",
 	Unknown = "Unknown",
 	["Uldic Plate"] = "Uldic Plate",
 	["Uldic Set"] = "Uldic Set",
@@ -174,6 +176,7 @@ lib:SetBaseTranslations {
 	["Weapon Sets"] = "Weapon Sets",
 	["World Bosses"] = "World Bosses",
 	["World PVP"] = "World PVP",
+	Zuul = "Zuul",
 }
 
 
