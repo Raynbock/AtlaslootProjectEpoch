@@ -701,13 +701,13 @@ AtlasLootBossButtons = {
         "";
         "BRDBSPlans";
         "BRDGuzzler";
+        "BRDGuzzler";
         "";
         "";
+        "BRDGuzzler";
+        "BRDGuzzler2";
         "";
-        "";
-        "";
-        "";
-        "";
+        "BRDGuzzler2";
         "";
         "BRDFlamelash";
         "BRDPanzor";
@@ -758,7 +758,7 @@ AtlasLootBossButtons = {
         "UBRSRunewatcher";
         "UBRSAnvilcrack";
         "UBRSRend";
-        "UBRSGyth";
+        "UBRSRend";
         "";
         "UBRSBeast";
         "UBRSValthalak";
