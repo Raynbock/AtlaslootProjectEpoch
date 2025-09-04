@@ -1890,7 +1890,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 2, 13383, "", "=q3=Woollies of the Prancing Minstrel", "=ds=#s11#, #a3#", "", "18.42%"};
 		{ 3, 13384, "", "=q3=Rainbow Girdle", "=ds=#s10#, #a4#", "", "19.21%"};
 		{ 4, 13379, "", "=q3=Piccolo of the Flaming Fire", "=ds=#s14#", "", "15.13%"};
-		{ 5, 60506, "", "=q3=Sash of Cold Stars", "", "", ""};
 		{ 16, 16682, "", "=q3=Magister's Boots", "=ds=#s12#, #a1# (D1, #c3#)", "", "10.86%"};
 		Next = "STRATTheUnforgiven";
 		Prev = "STRATFrasSiabi";
@@ -1902,6 +1901,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 3, 13405, "", "=q3=Wailing Nightbane Pauldrons", "=ds=#s3#, #a4#", "", "12.10%"};
 		{ 4, 13408, "", "=q3=Soul Breaker", "=ds=#h1#, #w1#", "", "19.33%"};
 		{ 5, 60500, "", "=q3=Kairoz`s Infused Breastplate", "", "", ""};
+		{ 6, 60506, "", "=q3=Sash of Cold Stars", "", "", ""};
 		{ 16, 16717, "", "=q3=Wildheart Gloves", "=ds=#s9#, #a2# (D1, #c1#)", "", "12.61%"};
 		Next = "STRATTimmytheCruel";
 		Prev = "STRATHearthsingerForresten";
