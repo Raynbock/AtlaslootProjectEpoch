@@ -191,6 +191,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "", "SCHOLOTheRavenian" },
 		{ "", "SCHOLOLordAlexeiBarov" },
 		{ "", "SCHOLOLadyIlluciaBarov" },
+		{ "", "SCHOLOBasement" },
 		{ "", "SCHOLODarkmasterGandling" },
 		{ "", "SCHOLOTrash" },
 		{ BabbleEpoch["Scholomance Sets"], "VWOWScholol1" },
