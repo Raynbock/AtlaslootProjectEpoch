@@ -365,6 +365,24 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		Back = "WORLDEVENTMENU";
 	};
 
+		----------------------
+		--- Mirage Raceway ---
+		----------------------
+
+	AtlasLoot_Data["MirageRaceways"] = {
+		{ 1, 9653, "", "=q2=Speedy Racer Goggles", "=ds=", "10 #emira#", ""};
+		{ 2, 63375, "", "=q2=Gnome Team Representation", "=ds=", "30 #emira#", ""};
+		{ 3, 63374, "", "=q2=Goblin Team Representation", "=ds=", "30 #emira#", ""};
+		{ 4, 63372, "", "=q1=Human Music Scroll", "=ds=", "15 #emira#", ""};
+		{ 5, 63373, "", "=q1=Orc Music Scroll", "=ds=", "15 #emira#", ""};
+		{ 6, 63377, "", "=q1=Remote Controlled Gnome Car", "=ds=", "50 #emira#", ""};
+		{ 7, 63376, "", "=q1=Remote Controlled Goblin Car", "=ds=", "50 #emira#", ""};
+		{ 8, 63371, "", "=q1=Race Starter Beacon", "=ds=", "3 #emira#", ""};
+		{ 9, 63370, "", "=q1=Raceway Doublet", "=ds=", "3 #emira#", ""};
+		{ 16, 63378, "", "=q2=Rocket Car Key", "=q7=Quest Crate", "", ""};
+		Back = "WORLDEVENTMENU";
+	};
+
 		------------------------------------------
 		--- Stranglethorn Fishing Extravaganza ---
 		------------------------------------------

@@ -9,10 +9,13 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 2, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
 		{ 19, "MOUNTMENU", "INV_Misc_QirajiCrystal_05", "=ds="..AL["Mounts"], ""};
 		{ 20, "PETMENU", "INV_Box_PetCarrier_01", "=ds="..AL["Vanity Pets"], ""};
+		{ 21, "TOYMENU", "Inv_misc_toy_10", "=ds="..BabbleEpoch["Toys"], ""};
 		{ 5, "Tabards1", "INV_Shirt_GuildTabard_01", "=ds="..AL["Tabards"], ""};
 		{ 1, "SETSCLASSIC", "INV_Sword_43", "=ds=Misc Dungeon Sets", ""};
 		{ 16, "T0SET", "INV_Chest_Chain_03", "=ds="..AL["Dungeon 1/2 Sets"], ""};
 		{ 4, "OldKeys", "inv_misc_key_14", "=ds=Keys", ""};
+		{ 6, "ShopCosmetics", "inv_rod_enchantedeternium", "=ds=Shop Cosmetics", ""};
+		{ 8, "EpochChallenges", "inv_misc_bone_skull_02", "=ds=Challenge Rewards", ""};
 		{ 17, "T1T2T3SET", "INV_Pants_Mail_03", "=ds="..BabbleEpoch["Tier Sets"], ""};
 	};
 
@@ -24,9 +27,10 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["MOUNTMENU"] = {
-		{ 1, "MountsAlliance1", "achievement_pvp_a_16", "=ds="..AL["Alliance Mounts"], ""};
-		{ 2, "MountsDrop1", "ability_mount_undeadhorse", "=ds="..BabbleEpoch["Mount Drops"], ""};
-		{ 16, "MountsHorde1", "achievement_pvp_h_16", "=ds="..AL["Horde Mounts"], ""};
+		{ 3, "MountsAlliance1", "achievement_pvp_a_16", "=ds="..AL["Alliance Mounts"], ""};
+		{ 1, "MountsDrop1", "ability_mount_undeadhorse", "=ds="..BabbleEpoch["Mount Drops"], ""};
+		{ 16, "MountsShop", "inv_misc_coin_01", "=ds="..BabbleEpoch["Shop Mounts"], ""};
+		{ 18, "MountsHorde1", "achievement_pvp_h_16", "=ds="..AL["Horde Mounts"], ""};
 		Back = "SETMENU";
 	};
 
@@ -34,6 +38,12 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 1, "PetsMerchant1", "Inv_valentinescandysack", "=ds="..AL["Merchant Sold"], ""};
 		{ 2, "PetsDrop1", "Inv_box_petcarrier_01", "=ds="..AL["Drop"].." / "..AL["Quest"].." / "..AL["Crafted"], ""};
 		{ 3, "PetsAchievent1", "inv_misc_pheonixpet_01", "=ds="..AL["World Events"].." / "..AL["Achievement"], ""};
+		{ 4, "PetsShop", "inv_misc_coin_01", "=ds="..BabbleEpoch["Shop Pets"], ""};
+		Back = "SETMENU";
+	};
+
+	AtlasLoot_Data["TOYMENU"] = {
+		{ 1, "ToysShop", "inv_misc_coin_01", "=ds="..BabbleEpoch["Shop"], ""};
 		Back = "SETMENU";
 	};
 

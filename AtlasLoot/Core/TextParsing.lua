@@ -1067,6 +1067,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#silver#", "|TInterface\\AddOns\\AtlasLoot\\Images\\silver:0|t");
     text = gsub(text, "#copper#", "|TInterface\\AddOns\\AtlasLoot\\Images\\bronze:0|t");
     text = gsub(text, "#epvpw#", "|TInterface\\Icons\\timelesscoin-bloody:0|t");
+    text = gsub(text, "#emira#", "|TInterface\\Icons\\Inv_misc_note_03:0|t");
     text = gsub(text, "#wsg#", "|TInterface\\Icons\\INV_Misc_Rune_07:0|t");
     text = gsub(text, "#ab#", "|TInterface\\Icons\\INV_Jewelry_Amulet_07:0|t");
     text = gsub(text, "#av#", "|TInterface\\Icons\\INV_Jewelry_Necklace_21:0|t");

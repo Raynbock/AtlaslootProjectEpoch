@@ -675,6 +675,8 @@ AtlasLootBossButtons = {
         "BRDArena";
         "BRDArena2";
         "BRDArena2";
+        "";
+        "BRDArena2";
         "BRDArena2";
         "BRDTheldren";
         "";
@@ -956,6 +958,7 @@ AtlasLootBossButtons = {
         "SCHOLOLordAlexeiBarov";
         "SCHOLOQuestItems";
         "SCHOLOLadyIlluciaBarov";
+        "SCHOLOBasement";
         "SCHOLODarkmasterGandling";
         "";
         "";

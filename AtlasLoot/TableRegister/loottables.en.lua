@@ -181,6 +181,7 @@ end
 	AtlasLoot_TableNames["SCHOLOVectus"] = { BabbleBoss["Vectus"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["SCHOLORasFrostwhisper"] = { BabbleBoss["Ras Frostwhisper"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["SCHOLOKormok"] = { BabbleBoss["Kormok"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["SCHOLOBasement"] = { BabbleEpoch["Classic Basement Loot"].." ("..BabbleZone["Scholomance"]..")", "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["SCHOLOInstructorMalicia"] = { BabbleBoss["Instructor Malicia"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["SCHOLODoctorTheolenKrastinov"] = { BabbleBoss["Doctor Theolen Krastinov"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["SCHOLOLorekeeperPolkelt"] = { BabbleBoss["Lorekeeper Polkelt"], "AtlasLootOriginalWoW" };
@@ -462,12 +463,20 @@ end
 	AtlasLoot_TableNames["MountsPvP1"] = { AL["PvP Mounts"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["MountsPvP2"] = { AL["PvP Mounts"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["MountsDrop1"] = { AL["Drop"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["MountsShop"] = { BabbleEpoch["Shop Mounts"], "AtlasLootOriginalWoW" };
   -- Vanity Pets
 	AtlasLoot_TableNames["PetsAchievent1"] = { AL["Vanity Pets"].." - "..AL["World Events"].." / "..AL["Achievement"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["PetsMerchant1"] = { AL["Vanity Pets"].." - "..AL["Merchant Sold"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["PetsShop"] = { AL["Vanity Pets"].." - "..BabbleEpoch["Shop Pets"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["PetsDrop1"] = { AL["Vanity Pets"].." - "..AL["Drop"].." / "..AL["Quest"].." / "..AL["Crafted"], "AtlasLootOriginalWoW" };
   -- Tabards
 	AtlasLoot_TableNames["Tabards1"] = { AL["Tabards"], "AtlasLootOriginalWoW" };
+  -- Cosmetics
+	AtlasLoot_TableNames["ShopCosmetics"] = { BabbleEpoch["Shop Cosmetics"], "AtlasLootOriginalWoW" };
+  -- Challenges
+	AtlasLoot_TableNames["EpochChallenges"] = { BabbleEpoch["Epoch Challenge Rewards"], "AtlasLootOriginalWoW" };
+  -- Toys
+	AtlasLoot_TableNames["ToysShop"] = { BabbleEpoch["Toys"].." - "..BabbleEpoch["Shop"], "AtlasLootOriginalWoW" };
   -- World Epics
 	AtlasLoot_TableNames["WorldEpics1"] = { AL["BoE World Epics"].." - "..AL["Level 30-39"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["WorldEpics2"] = { AL["BoE World Epics"].." - "..AL["Level 40-49"], "AtlasLootOriginalWoW" };
@@ -517,6 +526,7 @@ end
 	AtlasLoot_TableNames["ElementalInvasion"] = { AL["Elemental Invasion"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["FishingExtravaganza"] = { AL["Stranglethorn Fishing Extravaganza"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["GurubashiArena"] = { AL["Gurubashi Arena Booty Run"], "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["MirageRaceways"] = { BabbleEpoch["Mirage Raceway"], "AtlasLootWorldEvents" };
 
 ------------------------
 --- Classic Factions ---
@@ -703,6 +713,7 @@ end
 	AtlasLoot_TableNames["SETMENU"] = { AL["Collections"], "Menu" };
 	AtlasLoot_TableNames["MOUNTMENU"] = { AL["Mounts"], "Menu" };
 	AtlasLoot_TableNames["PETMENU"] = { AL["Vanity Pets"], "Menu" };
+	AtlasLoot_TableNames["TOYMENU"] = { BabbleEpoch["Toys"], "Menu" };
 	AtlasLoot_TableNames["PVPSET"] = { AL["PvP Armor Sets"]..": "..AL["Level 60"], "Menu" };
 	AtlasLoot_TableNames["PVPMENU"] = { AL["PvP Rewards"], "Menu" };
 	AtlasLoot_TableNames["PVPMENU2"] = { AL["PvP Rewards"], "Menu" };
