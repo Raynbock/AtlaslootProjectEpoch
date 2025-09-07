@@ -53,7 +53,7 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "BRDHoundmaster";
-        "LunarFestival1";
+        "";
         "";
         "BRDForgewright";
         "BRDPyromantLoregrain";
@@ -150,7 +150,7 @@ AtlasLootNewBossButtons = {
         "";
         "";
         "";
-        "LunarFestival1";
+        "";
         "LBRSQuestItems";
         "LBRSSpirestoneButcher";
         "LBRSOmokk";
@@ -235,7 +235,7 @@ AtlasLootNewBossButtons = {
         "Maraudon2";
         "Maraudon2";
         "Maraudon2";
-        "LunarFestival1";
+        "";
         };
 
     MaraudonEnt = {
@@ -419,7 +419,7 @@ AtlasLootNewBossButtons = {
         "STRATAtiesh";
         "STRATHearthsingerForresten";
         "STRATTheUnforgiven";
-        "LunarFestival1";
+        "";
         "STRATTimmytheCruel";
         "";
         "STRATMalorsStrongbox";
@@ -507,7 +507,7 @@ AtlasLootNewBossButtons = {
         "STEranikus";
         "";
         "STSpawnOfHakkar";
-        "LunarFestival1";
+        "";
         "";
         "STTrollMinibosses";
         "";
@@ -603,7 +603,7 @@ AtlasLootNewBossButtons = {
         "ZFSandfury";
         "ZFHydromancerVelratha";
         "ZFGahzrilla";
-        "LunarFestival1";
+        "";
         "ZFChiefUkorzSandscalp";
         "";
         "ZFZerillis";
@@ -675,7 +675,7 @@ AtlasLootBossButtons = {
         "BRDArena";
         "BRDArena2";
         "BRDArena2";
-        "";
+        "BRDArena2";
         "BRDArena2";
         "BRDArena2";
         "BRDTheldren";
@@ -685,7 +685,7 @@ AtlasLootBossButtons = {
         "";
         "";
         "BRDHoundmaster";
-        "LunarFestival1";
+        "";
         "";
         "BRDForgewright";
         "BRDPyromantLoregrain";
@@ -778,7 +778,7 @@ AtlasLootBossButtons = {
         "";
         "";
         "";
-        "LunarFestival1";
+        "";
         "LBRSQuestItems";
         "LBRSSpirestoneButcher";
         "LBRSOmokk";
@@ -864,10 +864,10 @@ AtlasLootBossButtons = {
         "";
         "";
         "";
-        "Maraudon3";
+        "Maraudon4";
         "Maraudon1";
         "Maraudon1";
-        "Maraudon3";
+        "Maraudon4";
         "Maraudon1";
         "Maraudon1";
         "Maraudon2";
@@ -875,7 +875,7 @@ AtlasLootBossButtons = {
         "Maraudon2";
         "Maraudon2";
         "Maraudon3";
-        "LunarFestival1";
+        "";
         };
 
     MaraudonEnt = {
@@ -1048,7 +1048,7 @@ AtlasLootBossButtons = {
         "STRATFrasSiabi";
         "STRATHearthsingerForresten";
         "STRATTheUnforgiven";
-        "LunarFestival1";
+        "";
         "STRATTimmytheCruel";
         "";
         "STRATMalorsStrongbox";
@@ -1136,7 +1136,7 @@ AtlasLootBossButtons = {
         "STEranikus";
         "";
         "STSpawnOfHakkar";
-        "LunarFestival1";
+        "";
         "";
         "STTrollMinibosses";
         "";
@@ -1242,7 +1242,7 @@ AtlasLootBossButtons = {
         "ZFSandfury";
         "ZFHydromancerVelratha";
         "ZFGahzrilla";
-        "LunarFestival1";
+        "";
         "ZFChiefUkorzSandscalp";
         "";
         "ZFZerillis";

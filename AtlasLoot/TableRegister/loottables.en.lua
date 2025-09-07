@@ -144,6 +144,7 @@ end
 	AtlasLoot_TableNames["Maraudon1"] = { BabbleZone["Maraudon"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Maraudon2"] = { BabbleZone["Maraudon"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Maraudon3"] = { BabbleZone["Maraudon"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Maraudon4"] = { BabbleZone["Maraudon"].." ("..AL["Quest Item"]..")", "AtlasLootOriginalWoW" };
   -- Molten Core
 	AtlasLoot_TableNames["MCLucifron"] = { BabbleBoss["Lucifron"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["MCMagmadar"] = { BabbleBoss["Magmadar"], "AtlasLootOriginalWoW" };
@@ -480,8 +481,8 @@ end
   -- World Epics
 	AtlasLoot_TableNames["WorldEpics1"] = { AL["BoE World Epics"].." - "..AL["Level 30-39"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["WorldEpics2"] = { AL["BoE World Epics"].." - "..AL["Level 40-49"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["WorldEpics3"] = { AL["BoE World Epics"].." - "..AL["Level 50-60"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["WorldEpics4"] = { AL["BoE World Epics"].." - "..AL["Level 50-60"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["WorldEpics3"] = { AL["BoE World Epics"].." - "..BabbleEpoch["Level 50-55"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["WorldEpics4"] = { AL["BoE World Epics"].." - "..BabbleEpoch["Level 56-60"], "AtlasLootOriginalWoW" };
 
 --------------------
 --- World Bosses ---
