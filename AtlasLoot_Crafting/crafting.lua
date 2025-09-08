@@ -170,6 +170,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 3, "s17635", "13510", "=q1=Flask of the Titans", "=ds="..BabbleBoss["General Drakkisath"].." "..AL["UBRS"]};
 		{ 4, "s17638", "13513", "=q1=Flask of Chromatic Resistance", "=ds="..BabbleBoss["Gyth"].." "..AL["UBRS"]};
 		{ 5, "s17634", "13506", "=q1=Flask of Petrification", "=ds="..AL["World Drop"]};
+	    { 6, "s84956", "60423", "=q1=Flask of Overwhelming Might", "=ds="..BabbleBoss["OverLord Wyrmthalak"].." "..AL["LBRS"]};
 		Next = "AlchemyTransmute1";
 		Prev = "AlchemyPotion2";
 		Back = "ALCHEMYMENU";
