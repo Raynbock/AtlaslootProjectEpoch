@@ -145,7 +145,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 	AtlasLoot_Data["AlchemyPotion2"] = {
 		{ 1, "s7256", "6048", "=q1=Shadow Protection Potion", "=ds="..AL["Achievement"], "Ashenvale South(A) - Tarren Mill(H)"};
 		{ 2, "s3173", "3385", "=q1=Lesser Mana Potion", "=ds="..AL["Trainer"]};
-		{ 3, "s86377", "61966", "=q1=Potion of Anti-Magic", "=ds="..AL["World Drop"]};
+		{ 3, "s86377", "61996", "=q1=Potion of Anti-Magic", "=ds="..AL["World Drop"]};
 		{ 4, "s86705", "62082", "=q1=Potion of Plagueward", "=ds="..AL["TBD"]};
 		{ 5, "s3174", "3386", "=q1=Potion of Curing", "=ds="..AL["World Drop"]};
 		{ 6, "s3447", "929", "=q1=Healing Potion", "=ds="..AL["Trainer"]};
