@@ -72,7 +72,7 @@ local MASTER = select(2, GetSpellInfo(28596));
 		{ 4, "s11477", "9224", "=q1=Elixir of Demonslaying", "=ds="..AL["Vendor"]..", "..BabbleZone["Blasted Lands"].."/"..BabbleZone["Swamp of Sorrows"]};
 		{ 5, "s26277", "21546", "=q1=Elixir of Greater Firepower", "=ds="..BabbleZone["Searing Gorge"]};
 		{ 6, "s11476", "9264", "=q1=Elixir of Shadow Power", "=ds="..AL["Vendor"]..", "..BabbleZone["Undercity"].."/"..BabbleZone["Stormwind City"]};
-		{ 7, "s86696", "62072,", "=q1=Elixir of Pure Arcane Power", "=ds=", "Dalaran Crater Containers"};
+		{ 7, "s86696", "62072", "=q1=Elixir of Pure Arcane Power", "=ds=", "Dalaran Crater Containers"};
 		{ 8, "s11472", "9206", "=q1=Elixir of Giants", "=ds="..AL["World Drop"]};
 		{ 9, "s11467", "9187", "=q1=Elixir of Greater Agility", "=ds="..AL["Trainer"]};
 		{ 10, "s11461", "9155", "=q1=Arcane Elixir", "=ds="..AL["Trainer"]};
