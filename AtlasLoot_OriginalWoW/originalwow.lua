@@ -3,6 +3,23 @@ local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 local BabbleEpoch = AtlasLoot_GetLocaleLibBabble("LibBabble-Epoch-3.0")
 local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
+-- Database entry fields: { Slot, Game ID, Icon, Name, Description, Price, Drop rate }
+--- Slot
+---- Defines where the item is displayed when viewing the given loot table. Slots 1-15 are on the left, slots 16-30 are on the right.
+--- Game ID
+---- This is the unique internal ID used by the game to refer to each item or spell. This can be found on new items by using addons like AnyIDTooltip.
+--- Icon
+---- If this isn't blank it will override the icon texture for the given item. Usually set to INV_Box_01 when defining category names instead of actual items.
+--- Name
+---- The name of the item. Only used when there isn't a localized version of the name stored.
+--- Description
+---- The description usually includes the type of the item and the slot it is equipped to.
+--- Price
+---- How much the item costs, usually for PvP or reputation items
+---- If there is a price it is shown below the item name in place of the description, but the descriptions are still used for filtering.
+--- Drop rate
+---- Percent chance for the item to drop
+
 
 -- Index
 --- Dungeons & Raids
@@ -3302,7 +3319,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 5, 60952, "", "=q2=Skirmisher´s Legwarmers", "=ds=#a1#", "16 #wsg#", ""};
 		{ 6, 60953, "", "=q2=Skirmisher´s Bootlets", "=ds=#a1#", "6 #wsg#", ""};
 		{ 7, 60954, "", "=q2=Skirmisher´s Braceletts", "=ds=#a1#", "6 #wsg#", ""};
-		{ 8, 60955, "", "=q2=Skirmisher´s Sash", "=ds=#a1#", "", "11 #wsg#", ""};
+		{ 8, 60955, "", "=q2=Skirmisher´s Sash", "=ds=#a1#", "11 #wsg#", ""};
 		{ 16, 60964, "", "=q2=Skirmisher´s Casque", "=ds=#a2#", "16 #wsg#", ""};
 		{ 17, 60965, "", "=q2=Skirmisher´s Rerebrace", "=ds=#a2#", "11 #wsg#", ""};
 		{ 18, 60966, "", "=q2=Skirmisher´s Cuirass", "=ds=#a2#", "16 #wsg#", ""};
@@ -3435,7 +3452,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 6, 61187, "", "=q2=Aspirant´s Slippers", "=ds=#a1#", "8 #wsg#", ""};
 		{ 7, 61188, "", "=q2=Aspirant´s Wristwraps", "=ds=#a1#", "8 #wsg#", ""};
 		{ 8, 61189, "", "=q2=Aspirant´s Waistband", "=ds=#a1#", "13 #wsg#", ""};
-		{ 12, 61230, "", "=q2=Aspirant´s Coif", "=ds=#a3#", "", "18 #wsg#", ""};
+		{ 12, 61230, "", "=q2=Aspirant´s Coif", "=ds=#a3#", "18 #wsg#", ""};
 		{ 13, 61231, "", "=q2=Aspirant´s Chaindrapes", "=ds=#a3#", "13 #wsg#", ""};
 		{ 14, 61232, "", "=q2=Aspirant´s Links", "=ds=#a3#", "18 #wsg#", ""};
 		{ 15, 61233, "", "=q2=Aspirant´s Demi-gaunts", "=ds=#a3#", "13 #wsg#", ""};
@@ -4100,7 +4117,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleEpoch["Rune Warder Set"], ""};
 		{ 2, 60587, "", "=q3=Rune Warder´s Crown", "=ds=", "", ""};
 		{ 3, 60588, "", "=q3=Rune Warder´s Mantle", "=ds="..BabbleEpoch["Dak´mal"].." ("..BabbleEpoch["Baradin Hold"]..")", "", ""};
-		{ 4, 60589, "", "=q3=Rune Warder´s Raiment", "=ds=", "=ds="..BabbleEpoch["Calypso"].." ("..BabbleEpoch["Baradin Hold"]..")", "", ""};
+		{ 4, 60589, "", "=q3=Rune Warder´s Raiment", "=ds=", "=ds="..BabbleEpoch["Calypso"].." ("..BabbleEpoch["Baradin Hold"]..")", ""};
 		{ 5, 60590, "", "=q3=Rune Warder´s Gloves", "=ds=", "", ""};
 		{ 6, 60591, "", "=q3=Rune Warder´s Loins", "=ds="..BabbleEpoch["Astilos the Hollow"].." ("..BabbleEpoch["Baradin Hold"]..")", "", ""};
 		{ 7, 60592, "", "=q3=Rune Warder´s Boots", "=ds=", "", ""};
@@ -4111,7 +4128,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleEpoch["Rune Warder Set"], ""};
 		{ 2, 60587, "", "=q3=Rune Warder´s Crown", "=ds=", "", ""};
 		{ 3, 60588, "", "=q3=Rune Warder´s Mantle", "=ds="..BabbleEpoch["Dak´mal"].." ("..BabbleEpoch["Baradin Hold"]..")", "", ""};
-		{ 4, 60589, "", "=q3=Rune Warder´s Raiment", "=ds=", "=ds="..BabbleEpoch["Calypso"].." ("..BabbleEpoch["Baradin Hold"]..")", "", ""};
+		{ 4, 60589, "", "=q3=Rune Warder´s Raiment", "=ds=", "=ds="..BabbleEpoch["Calypso"].." ("..BabbleEpoch["Baradin Hold"]..")", ""};
 		{ 5, 60590, "", "=q3=Rune Warder´s Gloves", "=ds=", "", ""};
 		{ 6, 60591, "", "=q3=Rune Warder´s Loins", "=ds="..BabbleEpoch["Astilos the Hollow"].." ("..BabbleEpoch["Baradin Hold"]..")", "", ""};
 		{ 7, 60592, "", "=q3=Rune Warder´s Boots", "=ds=", "", ""};
@@ -4301,7 +4318,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 9, 0, "INV_Box_01", "=q6="..BabbleEpoch["Animalistic Armor"], ""};
 		{ 10, 61379, "", "=q3=Animalistic Cowl", "=ds=", "20 #wsg#", ""};
 		{ 11, 61380, "", "=q3=Animalistic Spaulders", "=ds=", "15 #wsg#", ""};
-		{ 12, 61381, "", "=q3=Animalistic Vest", "=ds=", "", "20 #wsg#", ""};
+		{ 12, 61381, "", "=q3=Animalistic Vest", "=ds=", "20 #wsg#", ""};
 		{ 13, 61382, "", "=q3=Animalistic Gloves", "=ds=", "15 #wsg#", ""};
 		{ 14, 61383, "", "=q3=Animalistic Kilt", "=ds=", "20 #wsg#", ""};
 		{ 15, 61384, "", "=q3=Animalistic Boots", "=ds=", "10 #wsg#", ""};
