@@ -1535,8 +1535,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	};
 
 	AtlasLoot_Data["SCHOLOBloodStewardofKirtonos"] = {
-		{ 1, 60448, "", "=q3=Gargoyle´s Bane", "", "", ""};
-		{ 2, 60449, "", "=q3=Gargoyle´s Bangle", "", "", ""};
+		{ 1, 60448, "", "=q3=Gargoyle´s Bane", "=ds=#w3#", "", ""};
+		{ 2, 60449, "", "=q3=Gargoyle´s Bangle", "=ds=#s13#", "", ""};
 		{ 4, 13523, "", "=q1=Blood of Innocents", "=ds=#m3#", "", "100%"};
 		Next = "SCHOLOKirtonostheHerald";
 		Prev = "SCHOLOQuestItems";
@@ -1564,7 +1564,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 5, 18690, "", "=q3=Wraithplate Leggings", "=ds=#s11#, #a4#", "", "8.59%"};
 		{ 6, 14541, "", "=q3=Barovian Family Sword", "=ds=#h2#, #w10#", "", "8.27%"};
 		{ 7, 22394, "", "=q3=Staff of Metanoia", "=ds=#w9#", "", "8.67%"};
-		{ 8, 60456, "", "=q3=Noblewoman´s Scepter", "", "", ""};
+		{ 8, 60456, "", "=q3=Noblewoman´s Scepter", "=ds=#w12#", "", ""};
 		{ 10, 13725, "", "=q1=Krastinov's Bag of Horrors", "=ds=#m3#", "", "100%"};
 		{ 11, 13523, "", "=q1=Blood of Innocents", "=ds=#m3#", "", "17.8%"};
 		{ 16, 16701, "", "=q3=Dreadmist Mantle", "=ds=#s3#, #a1# (D1, #c8#)", "", "12.20%"};
@@ -1579,7 +1579,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 4, 14537, "", "=q3=Corpselight Greaves", "=ds=#s12#, #a4#", "", "10.22%"};
 		{ 5, 14531, "", "=q3=Frightskull Shaft", "=ds=#h2#, #w6#", "", "9.55%"};
 		{ 6, 14528, "", "=q3=Rattlecage Buckler", "=ds=#w8#", "", "9.16%"};
-		{ 7, 60303, "", "=q3=Skeletal Hand Puppet", "", "", ""};
+		{ 7, 60303, "", "=q3=Skeletal Hand Puppet", "=ds=#s14#", "", ""};
 		{ 9, 13873, "", "=q1=Viewing Room Key", "=ds=#e9#", "", "100%"};
 		{ 16, 16711, "", "=q3=Shadowcraft Boots", "=ds=#s12#, #a2# (D1, #c6#)", "", "14.32%"};
 		{ 18, 18782, "", "=q3=Top Half of Advanced Armorsmithing: Volume II", "=ds=#m3#", "", "5.71%"};
@@ -1598,20 +1598,20 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		Prev = "SCHOLORattlegore";
 	};
 
-	AtlasLoot_Data["SCHOLOVectus"] = {
-		{ 1, 14577, "", "=q3=Skullsmoke Pants", "=ds=#s11#, #a1#", "", "5.24%"};
-		{ 2, 18691, "", "=q3=Dark Advisor's Pendant", "=ds=#s2#", "", "6.16%"};
-		{ 3, 60460, "", "=q3=Vectu´s Vembraces", "", "", ""};
-		Next = "SCHOLORasFrostwhisper";
-		Prev = "SCHOLOMarduk";
-	};
-
 	AtlasLoot_Data["SCHOLOMarduk"] = {
 		{ 1, 18692, "", "=q3=Death Knight Sabatons", "=ds=#s12#, #a4#", "", "6.29%"};
 		{ 2, 14576, "", "=q3=Ebon Hilt of Marduk", "=ds=#h1#, #w10#", "", "6.55%"};
-		{ 3, 60455, "", "=q3=Marduk´s Bag o´ Bones", "", "", ""};
+		{ 3, 60455, "", "=q3=Marduk´s Bag o´ Bones", "=ds=#s14#", "", ""};
 		Next = "SCHOLOVectus";
 		Prev = "SCHOLODeathKnight";
+	};
+
+	AtlasLoot_Data["SCHOLOVectus"] = {
+		{ 1, 14577, "", "=q3=Skullsmoke Pants", "=ds=#s11#, #a1#", "", "5.24%"};
+		{ 2, 18691, "", "=q3=Dark Advisor's Pendant", "=ds=#s2#", "", "6.16%"};
+		{ 3, 60460, "", "=q3=Vectu´s Vembraces", "=ds=#s8#, #a3#", "", ""};
+		Next = "SCHOLORasFrostwhisper";
+		Prev = "SCHOLOMarduk";
 	};
 
 	AtlasLoot_Data["SCHOLORasFrostwhisper"] = {
@@ -1627,7 +1627,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 11, 13952, "", "=q3=Iceblade Hacker", "=ds=#h1#, #w1#", "", "9.74%"};
 		{ 12, 14487, "", "=q3=Bonechill Hammer", "=ds=#h1#, #w6#", "", "11.92%"};
 		{ 13, 18696, "", "=q3=Intricately Runed Shield", "=ds=#w8#", "", "13.04%"};
-		{ 14, 60438, "", "=q3=Amulet of the Cold Dark", "", "", ""};
+		{ 14, 60438, "", "=q3=Amulet of the Cold Dark", "=ds=#s2#", "", ""};
 		{ 16, 16689, "", "=q3=Magister's Mantle", "=ds=#s3#, #a1# (D1, #c3#)", "", "11.93%"};
 		{ 18, 13521, "", "=q2=Recipe: Flask of Supreme Power", "=ds=#p1# (300)", "", "2.92%"};
 		{ 20, 13626, "", "=q1=Human Head of Ras Frostwhisper", "=ds=#m3#", "", "100%"};
@@ -1635,7 +1635,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 22, 13984, "", "=q3=Darrowspike", "=q1=#m4#: =ds=#h1#, #w4#"};
 		{ 23, 13982, "", "=q3=Warblade of Caer Darrow", "=q1=#m4#: =ds=#h2#, #w10#"};
 		{ 24, 14002, "", "=q3=Darrowshire Strongguard", "=q1=#m4#: =ds=#w8#"};
-		{ 25, 60447, "", "=q3=Frost-Rimed Crystal Ball", "", "", ""};
+		{ 25, 60447, "", "=q3=Frost-Rimed Crystal Ball", "=ds=#s14#", "", ""};
 		{ 27, 0, "INV_Box_01", "=q6=#x12#", ""};
 		{ 28, 12736, "", "=q1=Frostwhisper's Embalming Fluid", "=ds=#m3#"};
 		Next = "SCHOLOKormok";
@@ -1657,17 +1657,17 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	AtlasLoot_Data["SCHOLOInstructorMalicia"] = {
 		{ 1, 16710, "", "=q3=Shadowcraft Bracers", "=ds=#s8#, #a2# (D1, #c6#)", "", "3.51%"};
-		{ 3, 60445, "", "=q3=Eva´s Left Leg", "", "", ""};
+		{ 3, 60445, "", "=q3=Eva´s Left Leg", "=ds=#h1#, #w6#", "", ""};
 		Next = "SCHOLODoctorTheolenKrastinov";
 		Prev = "SCHOLOKormok";
 	};
 
 	AtlasLoot_Data["SCHOLODoctorTheolenKrastinov"] = {
 		{ 1, 16684, "", "=q3=Magister's Gloves", "=ds=#s9#, #a1# (D1, #c3#)", "", "9.75%"};
-		{ 3, 60439, "", "=q3=Astro´s Sward", "", "", ""};
-		{ 4, 60467, "", "=q3=Wraith´s Edge", "", "", ""};
-		{ 5, 60451, "", "=q3=Illucia´s Poketwatch", "", "", ""};
-		{ 7, 14617, "", "=q1=Sawbones Shirt", "", "", "2%"};
+		{ 3, 60439, "", "=q3=Astro´s Sward", "=ds=#s4#", "", ""};
+		{ 4, 60467, "", "=q3=Wraith´s Edge", "=ds=#h2#, #w10#", "", ""};
+		{ 5, 60451, "", "=q3=Illucia´s Poketwatch", "=ds=#s14#", "", ""};
+		{ 7, 14617, "", "=q1=Sawbones Shirt", "=ds=#s6#", "", "2%"};
 		{ 16, 13523, "", "=q1=Blood of Innocents", "=ds=#m3#", "", "25.7%"};
 		Next = "SCHOLOLorekeeperPolkelt";
 		Prev = "SCHOLOInstructorMalicia";
@@ -1675,61 +1675,61 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	AtlasLoot_Data["SCHOLOLorekeeperPolkelt"] = {
 		{ 1, 16705, "", "=q3=Dreadmist Wraps", "=ds=#s9#, #a1# (D1, #c8#)", "", "14.54%"};
-		{ 3, 60452, "", "=q3=Kairoz`s Girdle", "", "", ""};
-		{ 3, 60459, "", "=q3=Sterile Shortpants", "", "", ""};
+		{ 3, 60452, "", "=q3=Kairoz's Girdle", "=ds=#s10#, #a3#", "", ""};
+		{ 3, 60459, "", "=q3=Sterile Shortpants", "=ds=#s11#, #a3#", "", ""};
 		Next = "SCHOLOTheRavenian";
 		Prev = "SCHOLODoctorTheolenKrastinov";
 	};
 
 	AtlasLoot_Data["SCHOLOTheRavenian"] = {
 		{ 1, 16716, "", "=q3=Wildheart Belt", "=ds=#s10#, #a2# (D1, #c1#)", "", "2.60%"};
-		{ 3, 60443, "", "=q3=Camilla´s Ruby Necklace", "", "", ""};
+		{ 3, 60443, "", "=q3=Camilla´s Ruby Necklace", "=ds=#s2#", "", ""};
 		Next = "SCHOLOLordAlexeiBarov";
 		Prev = "SCHOLOLorekeeperPolkelt";
 	};
 
 	AtlasLoot_Data["SCHOLOLordAlexeiBarov"] = {
 		{ 1, 16722, "", "=q3=Lightforge Bracers", "=ds=#s8#, #a4# (D1, #c4#)", "", "3.37%"};
-		{ 3, 60452, "", "=q3=Kairoz`s Girdle", "", "", ""};
-		{ 4, 60444, "", "=q3=Doomsledge", "", "", ""};
-		{ 5, 60302, "", "=q3=Farmhand´s Dung Fork", "", "", ""};
+		{ 3, 60452, "", "=q3=Kairoz's Girdle", "=ds=#s10#, #a3#", "", ""};
+		{ 4, 60444, "", "=q3=Doomsledge", "=ds=#h2#, #w6#", "", ""};
+		{ 5, 60302, "", "=q3=Farmhand´s Dung Fork", "=ds=#w7#, ", "", ""};
 		Next = "SCHOLOLadyIlluciaBarov";
 		Prev = "SCHOLOTheRavenian";
 	};
 
 	AtlasLoot_Data["SCHOLOLadyIlluciaBarov"] = {
-		{ 1, 60454, "", "=q3=Mam´toth´s Fist", "", "", ""};
-		{ 2, 60452, "", "=q3=Kairoz`s Girdle", "", "", ""};
-		{ 3, 60462, "", "=q3=Wight Amulet", "", "", ""};
+		{ 1, 60454, "", "=q3=Mam´toth´s Fist", "=ds=#w13#", "", ""};
+		{ 2, 60452, "", "=q3=Kairoz's Girdle", "=ds=#s10#, #a3#", "", ""};
+		{ 3, 60462, "", "=q3=Wight Amulet", "=ds=#s2#", "", ""};
 		Next = "SCHOLOBasement";
 		Prev = "SCHOLOLordAlexeiBarov";
 	};
 
 	AtlasLoot_Data["VWOWScholol1"] = {
 		{ 1, 0, "INV_Box_01", "=q6=#pre60s6#", "=ec1=#a1#. =q1=#z5#"};
-		{ 2, 14633, "", "=q3=Necropile Mantle", "=ds=#s3#", "", "1.12%"};
-		{ 3, 14626, "", "=q3=Necropile Robe", "=ds=#s5#", "", "1.27%"};
-		{ 4, 14629, "", "=q3=Necropile Cuffs", "=ds=#s8#", "", "1.03%"};
-		{ 5, 14632, "", "=q3=Necropile Leggings", "=ds=#s11#", "", "0.85%"};
-		{ 6, 14631, "", "=q3=Necropile Boots", "=ds=#s12#", "", "0.88%"};
+		{ 2, 14633, "", "=q3=Necropile Mantle", "=ds=#s3#, #a1#", "", "1.12%"};
+		{ 3, 14626, "", "=q3=Necropile Robe", "=ds=#s5#, #a1#", "", "1.27%"};
+		{ 4, 14629, "", "=q3=Necropile Cuffs", "=ds=#s8#, #a1#", "", "1.03%"};
+		{ 5, 14632, "", "=q3=Necropile Leggings", "=ds=#s11#, #a1#", "", "0.85%"};
+		{ 6, 14631, "", "=q3=Necropile Boots", "=ds=#s12#, #a1#", "", "0.88%"};
 		{ 8, 0, "INV_Box_01", "=q6=#pre60s7#", "=ec1=#a2#. =q1=#z5#"};
-		{ 9, 14637, "", "=q3=Cadaverous Armor", "=ds=#s5#", "", "1.51%"};
-		{ 10, 14640, "", "=q3=Cadaverous Gloves", "=ds=#s9#", "", "0.82%"};
-		{ 11, 14636, "", "=q3=Cadaverous Belt", "=ds=#s10#", "", "0.60%"};
-		{ 12, 14638, "", "=q3=Cadaverous Leggings", "=ds=#s11#", "", "1.09%"};
-		{ 13, 14641, "", "=q3=Cadaverous Walkers", "=ds=#s12#", "", "0.67%"};
+		{ 9, 14637, "", "=q3=Cadaverous Armor", "=ds=#s5#, #a2#", "", "1.51%"};
+		{ 10, 14640, "", "=q3=Cadaverous Gloves", "=ds=#s9#, #a2#", "", "0.82%"};
+		{ 11, 14636, "", "=q3=Cadaverous Belt", "=ds=#s10#, #a2#", "", "0.60%"};
+		{ 12, 14638, "", "=q3=Cadaverous Leggings", "=ds=#s11#, #a2#", "", "1.09%"};
+		{ 13, 14641, "", "=q3=Cadaverous Walkers", "=ds=#s12#, #a2#", "", "0.67%"};
 		{ 16, 0, "INV_Box_01", "=q6=#pre60s8#", "=ec1=#a3#. =q1=#z5#"};
-		{ 17, 14611, "", "=q3=Bloodmail Hauberk", "=ds=#s5#", "", "0.54%"};
-		{ 18, 14615, "", "=q3=Bloodmail Gauntlets", "=ds=#s9#", "", "0.09%"};
-		{ 19, 14614, "", "=q3=Bloodmail Belt", "=ds=#s10#", "", "0.60%"};
-		{ 20, 14612, "", "=q3=Bloodmail Legguards", "=ds=#s11#", "", "0.42%"};
-		{ 21, 14616, "", "=q3=Bloodmail Boots", "=ds=#s12#", "", "0.36%"};
+		{ 17, 14611, "", "=q3=Bloodmail Hauberk", "=ds=#s5#, #a3#", "", "0.54%"};
+		{ 18, 14615, "", "=q3=Bloodmail Gauntlets", "=ds=#s9#, #a3#", "", "0.09%"};
+		{ 19, 14614, "", "=q3=Bloodmail Belt", "=ds=#s10#, #a3#", "", "0.60%"};
+		{ 20, 14612, "", "=q3=Bloodmail Legguards", "=ds=#s11#, #a3#", "", "0.42%"};
+		{ 21, 14616, "", "=q3=Bloodmail Boots", "=ds=#s12#, #a3#", "", "0.36%"};
 		{ 23, 0, "INV_Box_01", "=q6=#pre60s9#", "=ec1=#a4#. =q1=#z5#"};
-		{ 24, 14624, "", "=q3=Deathbone Chestplate", "=ds=#s5#", "", "0.45%"};
-		{ 25, 14622, "", "=q3=Deathbone Gauntlets", "=ds=#s9#", "", "0.45%"};
-		{ 26, 14620, "", "=q3=Deathbone Girdle", "=ds=#s10#", "", "0.67%"};
-		{ 27, 14623, "", "=q3=Deathbone Legguards", "=ds=#s11#", "", "1.12%"};
-		{ 28, 14621, "", "=q3=Deathbone Sabatons", "=ds=#s12#", "", "0.57%"};
+		{ 24, 14624, "", "=q3=Deathbone Chestplate", "=ds=#s5#, #a4#", "", "0.45%"};
+		{ 25, 14622, "", "=q3=Deathbone Gauntlets", "=ds=#s9#, #a4#", "", "0.45%"};
+		{ 26, 14620, "", "=q3=Deathbone Girdle", "=ds=#s10#, #a4#", "", "0.67%"};
+		{ 27, 14623, "", "=q3=Deathbone Legguards", "=ds=#s11#, #a4#", "", "1.12%"};
+		{ 28, 14621, "", "=q3=Deathbone Sabatons", "=ds=#s12#, #a4#", "", "0.57%"};
 		Prev = "SCHOLOTrash";
 	};
 
@@ -1771,7 +1771,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 3, 14153, "", "=q4=Robe of the Void", "=ds=#s5#, #a1# =q1=#m1# =ds=#c8#"};
 		{ 4, 13944, "", "=q3=Tombstone Breastplate", "=ds=#s5#, #a2#", "", "8.96%"};
 		{ 5, 13398, "", "=q3=Boots of the Shrieker", "=ds=#s12#, #a2#", "", "10.75%"};
-		{ 6, 60457, "", "=q3=Soul of the Failed Student", "", "", ""};
+		{ 6, 60457, "", "=q3=Soul of the Failed Student", "=ds=#s14#", "", ""};
 		{ 7, 13950, "", "=q3=Detention Strap", "=ds=#s10#, #a3#", "", "0.24%"};
 		{ 8, 13951, "", "=q3=Vigorsteel Vambraces", "=ds=#s8#, #a4#", "", "10.38%"};
 		{ 9, 22433, "", "=q3=Don Mauricio's Band of Domination", "=ds=#s13#", "", "7.72%"};
@@ -1932,8 +1932,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 2, 13404, "", "=q3=Mask of the Unforgiven", "=ds=#s1#, #a2#", "", "14.96%"};
 		{ 3, 13405, "", "=q3=Wailing Nightbane Pauldrons", "=ds=#s3#, #a4#", "", "12.10%"};
 		{ 4, 13408, "", "=q3=Soul Breaker", "=ds=#h1#, #w1#", "", "19.33%"};
-		{ 5, 60500, "", "=q3=Kairoz`s Infused Breastplate", "", "", ""};
-		{ 6, 60506, "", "=q3=Sash of Cold Stars", "", "", ""};
+		{ 5, 60500, "", "=q3=Kairoz`s Infused Breastplate", "=ds=#s5#, #a3#", "", ""};
+		{ 6, 60506, "", "=q3=Sash of Cold Stars", "=ds=#s10#, #a2#", "", ""};
 		{ 16, 16717, "", "=q3=Wildheart Gloves", "=ds=#s9#, #a2# (D1, #c1#)", "", "12.61%"};
 		Next = "STRATTimmytheCruel";
 		Prev = "STRATHearthsingerForresten";
@@ -3566,24 +3566,24 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	};
 
 	AtlasLoot_Data["Cenarionraep1"] = {
-		{ 1, 61544, "", "=q4=Antlers of Cenarius", "", "", ""};
-		{ 2, 61545, "", "=q4=Pauldrons of Cenarius", "", "", ""};
-		{ 3, 61546, "", "=q4=Chestpiece of Cenarius", "", "", ""};
-		{ 4, 61547, "", "=q4=Britches of Cenarius", "", "", ""};
-		{ 5, 61548, "", "=q4=Gloves of Cenarius", "", "", ""};
-		{ 6, 61549, "", "=q4=Striders of Cenarius", "", "", ""};
-		{ 8, 61550, "", "=q4=Stag-Helm of Cenarius", "", "", ""};
-		{ 9, 61551, "", "=q4=Mantle of Cenarius", "", "", ""};
-		{ 10, 61552, "", "=q4=Breastplate of Cenarius", "", "", ""};
-		{ 11, 61553, "", "=q4=Greaves of Cenarius", "", "", ""};
-		{ 12, 61554, "", "=q4=Gauntlets of Cenarius", "", "", ""};
-		{ 13, 61555, "", "=q4=Boots of Cenarius", "", "", ""};
-		{ 16, 61556, "", "=q4=Crown of Cenarius", "", "", ""};
-		{ 17, 61557, "", "=q4=Shoulderguards of Cenarius", "", "", ""};
-		{ 18, 61558, "", "=q4=Chestguard of Cenarius", "", "", ""};
-		{ 19, 61559, "", "=q4=Legguards of Cenarius", "", "", ""};
-		{ 20, 61560, "", "=q4=Handguards of Cenarius", "", "", ""};
-		{ 21, 61561, "", "=q4=Treads of Cenarius", "", "", ""};
+		{ 1, 61544, "", "=q4=Antlers of Cenarius", "=ds=#s1#, #a2#", "", ""};
+		{ 2, 61545, "", "=q4=Pauldrons of Cenarius", "=ds=#s3#, #a2#", "", ""};
+		{ 3, 61546, "", "=q4=Chestpiece of Cenarius", "=ds=#s5#, #a2#", "", ""};
+		{ 4, 61547, "", "=q4=Britches of Cenarius", "=ds=#s11#, #a2#", "", ""};
+		{ 5, 61548, "", "=q4=Gloves of Cenarius", "=ds=#s9#, #a2#", "", ""};
+		{ 6, 61549, "", "=q4=Striders of Cenarius", "=ds=#s12#, #a2#", "", ""};
+		{ 8, 61550, "", "=q4=Stag-Helm of Cenarius", "=ds=#s1#, #a2#", "", ""};
+		{ 9, 61551, "", "=q4=Mantle of Cenarius", "=ds=#s3#, #a2#", "", ""};
+		{ 10, 61552, "", "=q4=Breastplate of Cenarius", "=ds=#s5#, #a2#", "", ""};
+		{ 11, 61553, "", "=q4=Greaves of Cenarius", "=ds=#s11#, #a2#", "", ""};
+		{ 12, 61554, "", "=q4=Gauntlets of Cenarius", "=ds=#s9#, #a2#", "", ""};
+		{ 13, 61555, "", "=q4=Boots of Cenarius", "=ds=#s12#, #a2#", "", ""};
+		{ 16, 61556, "", "=q4=Crown of Cenarius", "=ds=#s1#, #a2#", "", ""};
+		{ 17, 61557, "", "=q4=Shoulderguards of Cenarius", "=ds=#s3#, #a2#", "", ""};
+		{ 18, 61558, "", "=q4=Chestguard of Cenarius", "=ds=#s5#, #a2#", "", ""};
+		{ 19, 61559, "", "=q4=Legguards of Cenarius", "=ds=#s11#, #a2#", "", ""};
+		{ 20, 61560, "", "=q4=Handguards of Cenarius", "=ds=#s9#, #a2#", "", ""};
+		{ 21, 61561, "", "=q4=Treads of Cenarius", "=ds=#s12#, #a2#", "", ""};
 		Back = "T1T2T3SET";
 	};
 
@@ -4104,8 +4104,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	};
 
 	AtlasLoot_Data["Epochpvps1"] = {
-		{ 1, 61497, "", "=q3=Battlemaster´s Emblem", "", "", ""};
-		{ 2, 61496, "", "=q3=Insignia of the Horde", "", "", ""};
+		{ 1, 61497, "", "=q3=Battlemaster´s Emblem", "#s14#", "", ""};
+		{ 2, 61496, "", "=q3=Insignia of the Horde", "#s14#", "", ""};
 		Back = "EPOCHPVPSETMENU";
 	};
 
@@ -4139,14 +4139,14 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	AtlasLoot_Data["Epochset4"] = {
 		{ 1, 0, "Spell_Nature_Regeneration", "=q6="..BabbleEpoch["Treeheart Raiment"], "=ec1=#j7#"};
-		{ 2, 60299, "", "=q4=Treeheart Cowl", "=ds=", "", ""};
-		{ 3, 60298, "", "=q3=Treeheart Spaulders", "=ds=", "", ""};
-		{ 4, 60300, "", "=q4=Treeheart Vest", "=ds=", "", ""};
-		{ 5, 60294, "", "=q3=Treeheart Bracers", "=ds=", "", ""};
-		{ 6, 60296, "", "=q4=Treeheart Gloves", "=ds=", "", ""};
-		{ 7, 60301, "", "=q3=Treeheart Belt", "=ds=", "", ""};
-		{ 8, 60297, "", "=q3=Treeheart Kilt", "=ds=", "", ""};
-		{ 9, 60295, "", "=q4=Treeheart Boots", "=ds=", "", ""};
+		{ 2, 60299, "", "=q4=Treeheart Cowl", "=ds=#a2#, #s1#", "", ""};
+		{ 3, 60298, "", "=q3=Treeheart Spaulders", "=ds=#a2#, #s3#", "", ""};
+		{ 4, 60300, "", "=q4=Treeheart Vest", "=ds=#a2#, #s5#", "", ""};
+		{ 5, 60295, "", "=q3=Treeheart Bracers", "=ds=#a2#, #s8#", "", ""};
+		{ 6, 60296, "", "=q4=Treeheart Gloves", "=ds=#a2#, #s9#", "", ""};
+		{ 7, 60294, "", "=q3=Treeheart Belt", "=ds=#a2#, #s10#", "", ""};
+		{ 8, 60301, "", "=q3=Treeheart Kilt", "=ds=#a2#, #s11#", "", ""};
+		{ 9, 60297, "", "=q4=Treeheart Boots", "=ds=#a2#, #s12#", "", ""};
 		{ 16, 0, "Spell_Nature_Regeneration", "=q6=#t05s1#", "=ec1=#j7#"};
 		{ 17, 22109, "", "=q4=Feralheart Cowl", "=ds=#a2#, #s1#"};
 		{ 18, 22112, "", "=q3=Feralheart Spaulders", "=ds=#a2#, #s3#"};
@@ -4157,14 +4157,14 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 23, 22111, "", "=q3=Feralheart Kilt", "=ds=#a2#, #s11#"};
 		{ 24, 22107, "", "=q4=Feralheart Boots", "=ds=#a2#, #s12#"};
 		{ 11, 0, "Spell_Nature_Regeneration", "=q6="..BabbleEpoch["Featherheart Raiment"], "=ec1=#j7#"};
-		{ 12, 60290, "", "=q4=Featherheart Cowl", "=ds=", "", ""};
-		{ 13, 60289, "", "=q3=Featherheart Spaulders", "=ds=", "", ""};
-		{ 14, 60291, "", "=q4=Featherheart Vest", "=ds=", "", ""};
-		{ 15, 60285, "", "=q3=Featherheart Bracers", "=ds=", "", ""};
-		{ 27, 60287, "", "=q4=Featherheart Gloves", "=ds=", "", ""};
-		{ 28, 60292, "", "=q3=Featherheart Belt", "=ds=", "", ""};
-		{ 29, 60288, "", "=q3=Featherheart Kilt", "=ds=", "", ""};
-		{ 30, 60286, "", "=q4=Featherheart Boots", "=ds=", "", ""};
+		{ 12, 60290, "", "=q4=Featherheart Cowl", "=ds=#a2#, #s1#", "", ""};
+		{ 13, 60289, "", "=q3=Featherheart Spaulders", "=ds=#a2#, #s3#", "", ""};
+		{ 14, 60291, "", "=q4=Featherheart Vest", "=ds=#a2#, #s5#", "", ""};
+		{ 15, 60286, "", "=q3=Featherheart Bracers", "=ds=#a2#, #s8#", "", ""};
+		{ 27, 60287, "", "=q4=Featherheart Gloves", "=ds=#a2#, #s9#", "", ""};
+		{ 28, 60285, "", "=q3=Featherheart Belt", "=ds=#a2#, #s10#", "", ""};
+		{ 29, 60292, "", "=q3=Featherheart Kilt", "=ds=#a2#, #s11#", "", ""};
+		{ 30, 60288, "", "=q4=Featherheart Boots", "=ds=#a2#, #s12#", "", ""};
 		Prev = "T0Druid";
 		Back = "T0SET";
 	};
