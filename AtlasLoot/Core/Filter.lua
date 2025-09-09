@@ -111,7 +111,7 @@ function AtlasLoot_HideNoUsableItems()
 	local pFrame = AtlasLootItemsFrame.refreshOri[4] 	
 	local tablebase = AtlasLoot_Data[dataID]
 	if not tablebase or dataID == "WishList" or dataID == "SearchResult" or dataSource == "AtlasLootCrafting" then return end
-	table.sort(tablebase, function(a, b) return a[1] < b[1]	end) -- Re-sort the loot table since it's assumed that the items were defined in slot order
+	table.sort(tablebase, function(a, b) return a[1] < b[1]	end) -- Sort the loot table to ensure ascending slot order
 	local itemCount = 0
 	local countAll = 1
 	local count = 0
