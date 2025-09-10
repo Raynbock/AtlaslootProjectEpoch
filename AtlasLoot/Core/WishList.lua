@@ -188,7 +188,7 @@ function AtlasLoot_ShowWishListDropDown(xitemID, xitemTexture, xitemName, xlootP
 							);
 							AtlasLoot_WishListDrop:AddLine(
 								"text", AL["Options"],
-								"func", function() InterfaceOptionsFrame_OpenToCategory(AL["AtlasLoot"]); AtlasLoot_WishListDrop:Close(1) end,
+								"func", function() InterfaceOptionsFrame_OpenToCategory(WishlistOptionsFrame); AtlasLoot_WishListDrop:Close(1) end,
 								"notCheckable", true
 							);
 							AtlasLoot_WishListDrop:AddLine(
@@ -1348,7 +1348,7 @@ function AtlasLoot_CreateWishlistOptions()
 	if AtlasLootWishList["Options"][playerName]["AllowShareWishlistInCombat"] ~= true and AtlasLootWishList["Options"][playerName]["AllowShareWishlistInCombat"] ~= false then AtlasLootWishList["Options"][playerName]["AllowShareWishlistInCombat"] = true end
 	if AtlasLootWishList["Options"][playerName]["UseDefaultWishlist"] ~= true and AtlasLootWishList["Options"][playerName]["UseDefaultWishlist"] ~= false then AtlasLootWishList["Options"][playerName]["UseDefaultWishlist"] = false end
 
-	local WishlistOptionsFrame = CreateFrame("FRAME", nil)
+	local WishlistOptionsFrame = CreateFrame("FRAME", "WishlistOptionsFrame")
 		WishlistOptionsFrame.name = AL["Wishlist"]
 		WishlistOptionsFrame.parent = AL["AtlasLoot"]
 

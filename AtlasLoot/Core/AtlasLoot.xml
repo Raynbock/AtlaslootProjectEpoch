@@ -714,9 +714,20 @@
                         local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 						getglobal(this:GetName().."Text"):SetText(AL["Filter"]);
 					</OnLoad>
-					<OnClick>
-						AtlasLoot_FilterEnableButton();
-					</OnClick>
+                    <OnEnter>
+                        local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+                        GameTooltip:ClearLines();
+                        GameTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 5);
+                        GameTooltip:AddLine("|cffff0000"..AL["Filter Items"]);
+                        GameTooltip:AddLine(AL["Hides any items on this page"]);
+                        GameTooltip:AddLine(AL["which are excluded by your"]);
+                        GameTooltip:AddLine(AL["filter options."]);
+                        GameTooltip:AddLine("|cff4488FF"..AL["Right click"]..": ".."|cffFFD100"..AL["Open filter options."]);
+                        GameTooltip:Show();
+			        </OnEnter>
+                    <OnLeave>
+                        GameTooltip:Hide();
+					</OnLeave>
 				</Scripts>
 			</CheckButton>
             <Button name="$parent_PREV" inherits="AtlasLootPrevButtonTemplate">
