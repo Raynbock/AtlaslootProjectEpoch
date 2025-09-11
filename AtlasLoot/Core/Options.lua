@@ -32,6 +32,7 @@ local ORANGE = "|cffFF8400";
 
 --Invoke libraries
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+local BabbleEpoch = AtlasLoot_GetLocaleLibBabble("LibBabble-Epoch-3.0")
 
 function AtlasLoot_OptionsPanelOnLoad(panel)
     panel.name=AL["AtlasLoot"];
@@ -192,16 +193,17 @@ function AtlasLoot_DisplayHelp()
             WHITE..AL["If you Left Click any item on the wishlist, you can jump to the loot page the item comes from.  Also, on a loot page any item already in your wishlist is marked with a yellow star."].."\n\n"..
             ORANGE..AL["HELP!! I have broken the mod somehow!"].."\n"..
             WHITE..AL["Use the reset buttons available in the options menu, or type '/al reset' in your chat window."].."\n\n"..
-            GREY..BabbleEpoch["For further help, visit our channel in the Epoch Addons discord: "]
+            GREY..BabbleEpoch["For further help, visit our channel in the Project Epoch discord: "]
             );
 			Text:SetWidth(framewidht-80)
 			Text:SetJustifyH("LEFT")
 			Text:SetJustifyV("TOP")
-        local discordURL = GREEN.."https://discord.gg/JRRGwvQZz8"
+        local discordURL = WHITE.."https://discord.gg/qRf4ksMpSn"
         local discordBox = CreateFrame("EditBox", "AtlasLootHelpFrame_DiscordLink", scc, "InputBoxTemplate")
             discordBox:SetPoint("TOPLEFT", Text, "BOTTOMLEFT", 0, 0)
             discordBox:SetText(discordURL)
             discordBox:SetSize(framewidht-80, 30)
+            discordBox:SetShadowColor(.44, .53, .85, 1)
             discordBox:SetAutoFocus(false)
             discordBox:SetScript("OnEditFocusGained", function(self) self:HighlightText() end)
             discordBox:SetScript("OnEditFocusGained", function(self) self:HighlightText() end)
