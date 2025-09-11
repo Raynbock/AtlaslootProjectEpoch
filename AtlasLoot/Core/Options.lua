@@ -198,7 +198,7 @@ function AtlasLoot_DisplayHelp()
 			Text:SetWidth(framewidht-80)
 			Text:SetJustifyH("LEFT")
 			Text:SetJustifyV("TOP")
-        local discordURL = WHITE.."https://discord.gg/qRf4ksMpSn"
+        local discordURL = GREEN.."https://discord.gg/qRf4ksMpSn"
         local discordBox = CreateFrame("EditBox", "AtlasLootHelpFrame_DiscordLink", scc, "InputBoxTemplate")
             discordBox:SetPoint("TOPLEFT", Text, "BOTTOMLEFT", 0, 0)
             discordBox:SetText(discordURL)
