@@ -192,7 +192,7 @@ function AtlasLoot_DisplayHelp()
             WHITE..AL["If you Left Click any item on the wishlist, you can jump to the loot page the item comes from.  Also, on a loot page any item already in your wishlist is marked with a yellow star."].."\n\n"..
             ORANGE..AL["HELP!! I have broken the mod somehow!"].."\n"..
             WHITE..AL["Use the reset buttons available in the options menu, or type '/al reset' in your chat window."].."\n\n"..
-            GREY..AL["For further help, visit our channel in the Epoch Addons discord: "]
+            GREY..BabbleEpoch["For further help, visit our channel in the Epoch Addons discord: "]
             );
 			Text:SetWidth(framewidht-80)
 			Text:SetJustifyH("LEFT")
