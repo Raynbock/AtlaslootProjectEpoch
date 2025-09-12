@@ -193,6 +193,11 @@ lib:SetBaseTranslations {
 	["World Bosses"] = "World Bosses",
 	["World PVP"] = "World PVP",
 	Zuul = "Zuul",
+	["For further help, visit our channel in the Project Epoch discord: "] = "For further help, visit our channel in the Project Epoch discord: ",
+	["Filter Items"] = "Filter Items",
+	["Hides any items on this page\nwhich are excluded by your\nfilter options."] = "Hides any items on this page\nwhich are excluded by your\nfilter options.",
+	["Right click"] = "Right click",
+	["Open filter options."] = "Open filter options.",
 }
 
 

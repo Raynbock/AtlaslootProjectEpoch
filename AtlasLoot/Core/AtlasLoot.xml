@@ -714,9 +714,18 @@
                         local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 						getglobal(this:GetName().."Text"):SetText(AL["Filter"]);
 					</OnLoad>
-					<OnClick>
-						AtlasLoot_FilterEnableButton();
-					</OnClick>
+                    <OnEnter>
+						local BabbleEpoch = AtlasLoot_GetLocaleLibBabble("LibBabble-Epoch-3.0")
+                        GameTooltip:ClearLines();
+                        GameTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 5);
+                        GameTooltip:AddLine("|cffff0000"..BabbleEpoch["Filter Items"]);
+                        GameTooltip:AddLine(BabbleEpoch["Hides any items on this page\nwhich are excluded by your\nfilter options."]);
+                        GameTooltip:AddLine("|cff4488FF"..BabbleEpoch["Right click"]..": ".."|cffFFD100"..BabbleEpoch["Open filter options."]);
+                        GameTooltip:Show();
+			        </OnEnter>
+                    <OnLeave>
+                        GameTooltip:Hide();
+					</OnLeave>
 				</Scripts>
 			</CheckButton>
             <Button name="$parent_PREV" inherits="AtlasLootPrevButtonTemplate">

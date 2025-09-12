@@ -386,6 +386,8 @@ function AtlasLoot_OnVariablesLoaded()
 	AtlasLoot.db.profile.Bigraid = false
 	AtlasLoot.db.profile.BigraidHeroic = false
 	AtlasLoot.db.profile.HeroicMode = false
+
+	AtlasLoot_SetupFilterButton()
 end
 
 function AtlasLoot_Reset(data)
