@@ -19,6 +19,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 9, "MiscFactions2", "Ability_Mount_PinkTiger", "=ds="..BabbleFaction["Wintersaber Trainers"], "=q5="..BabbleFaction["Alliance"].." - "..BabbleZone["Winterspring"]};
 		{ 16, "Valorsexp", "achievement_zone_silithus_01", "=ds="..BabbleEpoch["Valor´s Expedition"], "=q5="..BabbleZone["Silithus"]};
 		{ 11, "Ravenholdt", "spell_nature_ravenform", "=ds="..BabbleEpoch["Ravenholdt"], "=q5="..BabbleZone["Hillsbrad Foothills"]}; 
+		{ 26, "Smokywood", "inv_misc_note_05", "=ds="..BabbleEpoch["Smokywood Pastures"], "=q5="..BabbleZone["The Barrens"]}; 
 	};
 
     --Please don't delete EmptyTable, it is needed as it is certain to load

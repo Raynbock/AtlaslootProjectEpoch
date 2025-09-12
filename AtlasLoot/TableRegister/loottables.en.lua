@@ -56,7 +56,10 @@ end
 	AtlasLoot_TableNames["Blastedlandsod2"] = { BabbleEpoch["Felstone Fortress"], "AtlasLootOriginalWoW" };
   -- Baradin Hold
 	AtlasLoot_TableNames["BaradinHold"] = { BabbleEpoch["Baradin Hold"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BaradinHold1"] = { BabbleEpoch["Baradin Hold"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["BaradinHold2"] = { BabbleEpoch["Baradin Hold"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BaradinHold3"] = { BabbleEpoch["Baradin Hold"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BaradinHold4"] = { BabbleEpoch["Baradin Hold"].." ("..AL["Rare"]..")", "AtlasLootOriginalWoW" };
   -- Blackfathom Deeps
 	AtlasLoot_TableNames["BlackfathomDeeps1"] = { BabbleZone["Blackfathom Deeps"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["BlackfathomDeeps2"] = { BabbleZone["Blackfathom Deeps"], "AtlasLootOriginalWoW" };
@@ -556,6 +559,8 @@ end
 	AtlasLoot_TableNames["RaventuskTribe"] = { BabbleEpoch["Raventusk Tribe"], "AtlasLootOriginalWoW" };
   -- Ravenholdt
 	AtlasLoot_TableNames["Ravenholdt"] = { BabbleEpoch["Ravenholdt"], "AtlasLootOriginalWoW" };
+  -- Smokywood
+	AtlasLoot_TableNames["Smokywood"] = { BabbleEpoch["Smokywood Pastures"], "AtlasLootOriginalWoW" };
   -- Auberdine
 	AtlasLoot_TableNames["Auberdine"] = { BabbleEpoch["Auberdine"], "AtlasLootOriginalWoW" };
   -- Sepulcher
