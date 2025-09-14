@@ -566,8 +566,8 @@ end
   -- Sepulcher
 	AtlasLoot_TableNames["Sepulcher"] = { BabbleEpoch["Sepulcher"], "AtlasLootOriginalWoW" };
   -- Valors Expedition
-	AtlasLoot_TableNames["Valorsexp"] = { BabbleFaction["Valor´s Expedition"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["Valorsexp2"] = { BabbleFaction["Valor´s Expedition"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Valorsexp"] = { BabbleEpoch["Valor´s Expedition"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Valorsexp2"] = { BabbleEpoch["Valor´s Expedition"], "AtlasLootOriginalWoW" };
 
 --------------
 --- Trades ---
