@@ -477,6 +477,10 @@ end
 	AtlasLoot_TableNames["Tabards1"] = { AL["Tabards"], "AtlasLootOriginalWoW" };
   -- Cosmetics
 	AtlasLoot_TableNames["ShopCosmetics"] = { BabbleEpoch["Shop Cosmetics"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["ShopCosmetics1"] = { BabbleEpoch["Shop Cosmetics"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["ShopCosmetics2"] = { BabbleEpoch["Shop Cosmetics"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["ShopCosmetics3"] = { BabbleEpoch["Shop Cosmetics"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["ShopCosmetics4"] = { BabbleEpoch["Shop Cosmetics"], "AtlasLootOriginalWoW" };
   -- Challenges
 	AtlasLoot_TableNames["EpochChallenges"] = { BabbleEpoch["Epoch Challenge Rewards"], "AtlasLootOriginalWoW" };
   -- Toys
