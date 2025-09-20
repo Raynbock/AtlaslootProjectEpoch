@@ -1639,7 +1639,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	AtlasLoot_Data["SCHOLOBloodStewardofKirtonos"] = {
 		{ 1, 60448, "", "=q3=Gargoyle´s Bane", "=ds=#w3#", "", ""};
 		{ 2, 60449, "", "=q3=Gargoyle´s Bangle", "=ds=#s13#", "", ""};
-		{ 4, 13523, "", "=q1=Blood of Innocents", "=ds=#m3#", "", "100%"};
+		{ 3, 60453, "", "=q2=Kufi", "=ds=#s1#", "", ""};
+		{ 5, 13523, "", "=q1=Blood of Innocents", "=ds=#m3#", "", "100%"};
 		Next = "SCHOLOKirtonostheHerald";
 		Prev = "SCHOLOQuestItems";
 	};
@@ -1684,9 +1685,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 6, 14528, "", "=q3=Rattlecage Buckler", "=ds=#w8#", "", "9.16%"};
 		{ 7, 60303, "", "=q3=Skeletal Hand Puppet", "=ds=#s14#", "", ""};
 		{ 8, 60441, "", "=q3=Bonewyrm Armor", "=ds=#s14#", "=ds=#s5#, #a3#", "", ""};
-
 		{ 10, 13873, "", "=q1=Viewing Room Key", "=ds=#e9#", "", "100%"};
-
 		{ 16, 16711, "", "=q3=Shadowcraft Boots", "=ds=#s12#, #a2# (D1, #c6#)", "", "14.32%"};
 		{ 18, 18782, "", "=q3=Top Half of Advanced Armorsmithing: Volume II", "=ds=#m3#", "", "5.71%"};
 		{ 19, 12726, "", "=q3=Plans: Enchanted Thorium Leggings", "=q1=#m4#: =ds=#p2# (300)"};
@@ -1735,7 +1734,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 13, 18696, "", "=q3=Intricately Runed Shield", "=ds=#w8#", "", "13.04%"};
 		{ 14, 60438, "", "=q3=Amulet of the Cold Dark", "=ds=#s2#", "", ""};
 		{ 15, 60447, "", "=q3=Frost-Rimed Crystal Ball", "=ds=#s14#", "", ""};
-
 		{ 16, 16689, "", "=q3=Magister's Mantle", "=ds=#s3#, #a1# (D1, #c3#)", "", "11.93%"};
 		{ 18, 13521, "", "=q2=Recipe: Flask of Supreme Power", "=ds=#p1# (300)", "", "2.92%"};
 		{ 20, 13626, "", "=q1=Human Head of Ras Frostwhisper", "=ds=#m3#", "", "100%"};
@@ -1743,7 +1741,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 22, 13984, "", "=q3=Darrowspike", "=q1=#m4#: =ds=#h1#, #w4#"};
 		{ 23, 13982, "", "=q3=Warblade of Caer Darrow", "=q1=#m4#: =ds=#h2#, #w10#"};
 		{ 24, 14002, "", "=q3=Darrowshire Strongguard", "=q1=#m4#: =ds=#w8#"};
-
 		{ 29, 0, "INV_Box_01", "=q6=#x12#", ""};
 		{ 30, 12736, "", "=q1=Frostwhisper's Embalming Fluid", "=ds=#m3#"};
 		Next = "SCHOLOKormok";
@@ -1773,11 +1770,12 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	AtlasLoot_Data["SCHOLODoctorTheolenKrastinov"] = {
 		{ 1, 16684, "", "=q3=Magister's Gloves", "=ds=#s9#, #a1# (D1, #c3#)", "", "9.75%"};
-		{ 3, 60439, "", "=q3=Astro´s Sward", "=ds=#s4#", "", ""};
-		{ 4, 60467, "", "=q3=Wraith´s Edge", "=ds=#h2#, #w10#", "", ""};
-		{ 5, 60451, "", "=q3=Illucia´s Poketwatch", "=ds=#s14#", "", ""};
+		{ 3, 60440, "", "=q3=Blight Resistant Coreopsis", "=ds=#s14#", "", ""};
+		{ 4, 60439, "", "=q3=Astro´s Sward", "=ds=#s4#", "", ""};
+		{ 5, 60467, "", "=q3=Wraith´s Edge", "=ds=#h2#, #w10#", "", ""};
+		{ 6, 60451, "", "=q3=Illucia´s Poketwatch", "=ds=#s14#", "", ""};
 		{ 7, 14617, "", "=q1=Sawbones Shirt", "=ds=#s6#", "", "2%"};
-		{ 16, 13523, "", "=q1=Blood of Innocents", "=ds=#m3#", "", "25.7%"};
+		{ 9, 13523, "", "=q1=Blood of Innocents", "=ds=#m3#", "", "25.7%"};
 		Next = "SCHOLOLorekeeperPolkelt";
 		Prev = "SCHOLOInstructorMalicia";
 	};
@@ -1795,6 +1793,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 1, 16716, "", "=q3=Wildheart Belt", "=ds=#s10#, #a2# (D1, #c1#)", "", "2.60%"};
 		{ 3, 60467, "", "=q3=Wraith´s Edge", "=ds=#h2#, #w10#", "", ""};
 		{ 4, 60443, "", "=q3=Camilla´s Ruby Necklace", "=ds=#s2#", "", ""};
+		{ 5, 60444, "", "=q3=Doomsledge", "=ds=#h2#, #w6#", "", ""};
 		Next = "SCHOLOLordAlexeiBarov";
 		Prev = "SCHOLOLorekeeperPolkelt";
 	};
@@ -1804,6 +1803,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 3, 60452, "", "=q3=Kairoz's Girdle", "=ds=#s10#, #a3#", "", ""};
 		{ 4, 60444, "", "=q3=Doomsledge", "=ds=#h2#, #w6#", "", ""};
 		{ 5, 60302, "", "=q3=Farmhand´s Dung Fork", "=ds=#w7#", "", ""};
+		{ 6, 60451, "", "=q3=Illucia's Pocketwatch", "=ds=#s14#", "", ""};
 		Next = "SCHOLOLadyIlluciaBarov";
 		Prev = "SCHOLOTheRavenian";
 	};
@@ -1892,6 +1892,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 10, 13964, "", "=q3=Witchblade", "=ds=#h1#, #w4#", "", "9.82%"};
 		{ 11, 13953, "", "=q3=Silent Fang", "=ds=#h3#, #w10#", "", "9.68%"};
 		{ 12, 13938, "", "=q3=Bonecreeper Stylus", "=ds=#w12#", "", "8.80% "};
+		{ 13, 60450, "", "=q3=Headmaster's Mantle", "=ds=#s4#", "", ""};
 		{ 16, 16698, "", "=q3=Dreadmist Mask", "=ds=#s1#, #a1# (D1, #c8#)", "", "8.78%"};
 		{ 17, 16686, "", "=q3=Magister's Crown", "=ds=#s1#, #a1# (D1, #c3#)", "", "8.60%"};
 		{ 18, 16693, "", "=q3=Devout Crown", "=ds=#s1#, #a1# (D1, #c5#)", "", "7.89%"};
