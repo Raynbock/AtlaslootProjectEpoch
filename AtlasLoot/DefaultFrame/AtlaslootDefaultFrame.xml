@@ -325,9 +325,25 @@
 						this:SetAutoFocus(false);
 						this:SetTextInsets(0, 8, 0, 0);
 					</OnLoad>
+					<OnTextChanged>
+						AtlasLoot:RefreshSearchSuggestions(this);
+					</OnTextChanged>
+					<OnMouseDown>
+						AtlasLoot:ShowSearchSuggestions(this);
+					</OnMouseDown>
+					<OnEditFocusGained>
+						AtlasLoot:ShowSearchSuggestions(this);
+					</OnEditFocusGained>
+					<OnEditFocusLost>
+						AtlasLoot:HideSearchSuggestions(this);
+					</OnEditFocusLost>
+					<OnTabPressed>
+						AtlasLoot:AutoComplete(this);
+					</OnTabPressed>
 					<OnEnterPressed>
 						AtlasLoot:Search(this:GetText());
 						this:ClearFocus();
+						AtlasLoot:HideSearchSuggestions(this);
 					</OnEnterPressed>
 				</Scripts>
 				<FontString name="AtlasLootDefaultFrameSearchString" inherits="GameFontNormal"></FontString>
@@ -352,6 +368,7 @@
 					<OnClick>
 						AtlasLoot:Search(AtlasLootDefaultFrameSearchBox:GetText());
 						AtlasLootDefaultFrameSearchBox:ClearFocus();
+						AtlasLoot:HideSearchSuggestions(AtlasLootDefaultFrameSearchBox);
 					</OnClick>
 				</Scripts>
 			</Button>
