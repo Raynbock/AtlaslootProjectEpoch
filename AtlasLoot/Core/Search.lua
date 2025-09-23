@@ -7,19 +7,176 @@ local BLUE = "|cff0070dd";
 local ORANGE = "|cffFF8400";
 
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+local BabbleEpoch = AtlasLoot_GetLocaleLibBabble("LibBabble-Epoch-3.0")
 local modules = { "AtlasLoot_BurningCrusade", "AtlasLoot_Crafting", "AtlasLoot_OriginalWoW", "AtlasLoot_WorldEvents", "AtlasLoot_WrathoftheLichKing" };
 local currentPage = 1;
 local SearchResult = nil;
+local AllNames = nil; -- List of all item/spell names
+local AllDescriptors = nil; -- List of all unique descriptors
+local SearchSuggestions = {}; -- Current suggestions
+local MAXSUGGESTIONS = 10; -- How many suggestions to show in the popup
 
 function AtlasLoot:ShowSearchResult()
 	AtlasLoot_ShowItemsFrame("SearchResult", "SearchResultPage"..currentPage, (AL["Search Result: %s"]):format(AtlasLootCharDB.LastSearchedText or ""), pFrame);
 end
 
-function AtlasLoot:Search(Text)
-	if not Text then return end
-	Text = strtrim(Text);
-	if Text == "" then return end
-	
+-- Get the item/spell name from a database entry
+function AtlasLoot:GetNameFromDefinition(def)
+	if not def or not def[2] then return nil end;
+    local itemName = nil;
+    if type(def[2]) == "number" and def[2] > 0 then
+        itemName = GetItemInfo(def[2]);
+        if not itemName then itemName = gsub(def[4], "=q%d=", "") end
+    elseif (def[2] ~= nil) and (def[2] ~= "") and (string.sub(def[2], 1, 1) == "s") then
+    	itemName = GetSpellInfo(string.sub(def[2], 2));
+        if not itemName then
+            if (string.sub(def[4], 1, 2) == "=d") then  
+                itemName = gsub(def[4], "=ds=", "");
+            else
+                itemName = gsub(def[4], "=q%d=", ""); 
+            end
+        end
+    end
+    return itemName;
+end
+
+-- Build a cache of all item names and unique descriptors for use in autocomplete suggestions
+function AtlasLoot:CacheNamesAndDescriptors()
+	AtlasLoot:LoadRelevantModules();
+	local NameSet = {};
+	local DescriptorSet = {};
+    for dataID, data in pairs(AtlasLoot_Data) do
+        for _, v in ipairs(data) do
+        	local itemName = AtlasLoot:GetNameFromDefinition(v);
+        	if itemName then 
+            	-- Add unique item names for auto-complete suggestions
+        		NameSet[itemName] = true
+
+	        	-- Add unique item descriptors for auto-complete suggestions
+	        	if v[5] then
+	    			local itemDescriptors = {strsplit("[,/]", v[5])}; -- Split descriptors on comma or slash
+	    			for _, descriptor in ipairs(itemDescriptors) do
+	    				descriptor = gsub(descriptor, "=.-=", ""); -- Remove color codes
+	    				for code in string.gfind(descriptor, "#.-#") do
+	    					-- Parse all other codes and add them as their own descriptors
+	    					code = AtlasLoot_FixText(code);
+				        	code = gsub(code, "|TInterface.-|t", ""); -- Strip texture codes
+	    					DescriptorSet[code] = true;
+	    				end
+	    				-- Remove the parsed codes
+	    				descriptor = gsub(descriptor, "#.-#", "");
+	    				-- Remove everything remaining but letters, numbers, and spaces
+	    				descriptor = gsub(descriptor, "[^%w%s]", "");
+	        			DescriptorSet[strtrim(descriptor)] = true;
+	        		end
+	        	end
+	        end
+        end
+	end
+	AllNames = {}
+	for name in pairs(NameSet) do
+		table.insert(AllNames, name);
+	end
+	AllDescriptors = {}
+	for descriptor in pairs(DescriptorSet) do
+		table.insert(AllDescriptors, descriptor);
+	end
+end
+
+-- Look for new suggestions after text changes
+function AtlasLoot:RefreshSearchSuggestions(searchBox)
+	-- Load all item names and descriptors
+	if not AllNames or #AllNames == 0 then AtlasLoot:CacheNamesAndDescriptors() end
+
+    SearchSuggestions = {};
+	local searchText = searchBox:GetText();
+	if not searchText or strtrim(searchText) == "" then
+		AtlasLoot:HideSearchSuggestions(searchBox);
+		return;
+	end
+
+    local checkNames = self.db.profile.MatchItemNames;
+    local checkDescriptions = self.db.profile.MatchDescriptors;
+    local searchTerms = {strsplit(",", string.lower(searchText))};
+    if #searchTerms == 0 then return end
+    -- We could check the cursor position here to see which term the user is currently editing.
+    -- For now we'll just assume the user is editing the last term entered.
+    local lastSearchTerm = strtrim(searchTerms[#searchTerms]);
+	if not lastSearchTerm or strtrim(lastSearchTerm) == "" then
+		AtlasLoot:HideSearchSuggestions(searchBox);
+		return;
+	end
+    if checkNames then
+    	for _, name in ipairs(AllNames) do
+    		if string.sub(string.lower(name), 1, #lastSearchTerm) == lastSearchTerm then
+    			if #name ~= #lastSearchTerm then -- Skip if the full suggestion is already typed
+    				table.insert(SearchSuggestions, name);
+    			end
+    		end
+    	end
+    end
+    if checkDescriptions then
+    	for _, descriptor in ipairs(AllDescriptors) do
+    		if string.sub(string.lower(descriptor), 1, #lastSearchTerm) == lastSearchTerm then
+    			if #descriptor ~= #lastSearchTerm then -- Skip if the full suggestion is already typed
+    				table.insert(SearchSuggestions, descriptor);
+    			end
+    		end
+    	end
+    end
+    table.sort(SearchSuggestions, function(a, b) return #a < #b end )-- Sort search suggestions by length
+    AtlasLoot:ShowSearchSuggestions(searchBox);
+end
+
+-- Show the suggestion pop-up
+function AtlasLoot:ShowSearchSuggestions(searchBox)
+	local dewdrop = AceLibrary("Dewdrop-2.0");
+	if #SearchSuggestions > 0 then
+		local setSuggestions = function()
+			for i = math.min(#SearchSuggestions, MAXSUGGESTIONS), 1, -1 do
+				dewdrop:AddLine(
+					"text", SearchSuggestions[i],
+					"notCheckable", true,
+					"func", function()
+						SearchSuggestions[1] = SearchSuggestions[i];
+						AtlasLoot:AutoComplete(searchBox);
+					end
+				);
+			end
+		end
+		dewdrop:Open(searchBox,
+			'point', function(parent)
+				return "BOTTOMLEFT", "TOPLEFT";
+			end,
+			"children", setSuggestions
+		);
+	elseif dewdrop:IsOpen(searchBox) then
+		dewdrop:Close(1);
+	end
+end
+
+-- Hide the suggestion pop-up
+function AtlasLoot:HideSearchSuggestions(searchBox)
+	local dewdrop = AceLibrary("Dewdrop-2.0");
+	if dewdrop:IsOpen(searchBox) then
+		dewdrop:Close(1);
+	end
+end
+
+-- Fill the search box with the top suggestion
+function AtlasLoot:AutoComplete(searchBox)
+	if SearchSuggestions[1] then
+	    local searchTerms = {strsplit(",", searchBox:GetText())};
+	    -- We could check the cursor position here to see which term the user is currently editing.
+	    -- For now we'll just assume the user is editing the last term entered.
+	    searchTerms[#searchTerms] = SearchSuggestions[1];
+		searchBox:SetText(table.concat(searchTerms, ", "));
+		AtlasLoot:RefreshSearchSuggestions(searchBox);
+	end
+end
+
+-- Loads any selected modules that haven't already been loaded
+function AtlasLoot:LoadRelevantModules()
 	-- Decide if we need load all modules or just specified ones
 	local allDisabled = not self.db.profile.SearchOn.All;
 	if allDisabled then
@@ -43,54 +200,61 @@ function AtlasLoot:Search(Text)
 			end
 		end
 	end
+end
+
+function AtlasLoot:Search(Text)
+	if not Text then return end
+	Text = strtrim(Text);
+	if Text == "" then return end
+
+	AtlasLoot:LoadRelevantModules();
 	
     AtlasLootCharDB["SearchResult"] = {};
 	AtlasLootCharDB.LastSearchedText = Text;
     
-	local text = string.lower(Text);
+    -- Allow multiple comma-separated search strings. Only items which match all search terms will be shown.
+	local searchTerms = {strsplit(",", string.lower(Text))};
+	for i, term in ipairs(searchTerms) do
+		searchTerms[i] = strtrim(term);
+	end
+
     --[[if not self.db.profile.SearchOn.All then
         local module = AtlasLoot_GetLODModule(dataSource);
         if not module or self.db.profile.SearchOn[module] ~= true then return end
     end]]
     local partial = self.db.profile.PartialMatching;
+    local checkNames = self.db.profile.MatchItemNames;
+    local checkDescriptions = self.db.profile.MatchDescriptors;
     for dataID, data in pairs(AtlasLoot_Data) do
         for _, v in ipairs(data) do
-            if type(v[2]) == "number" and v[2] > 0 then
-                local itemName = GetItemInfo(v[2]);
-                if not itemName then itemName = gsub(v[4], "=q%d=", "") end
-                local found;
-                if partial then
-                    found = string.find(string.lower(itemName), text);
-                else
-                    found = string.lower(itemName) == text;
-                end
-                if found then
-                    local _, _, quality = string.find(v[4], "=q(%d)=");
-                    if quality then itemName = "=q"..quality.."="..itemName end
-                    if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
-                    table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });
-                end
-            elseif (v[2] ~= nil) and (v[2] ~= "") and (string.sub(v[2], 1, 1) == "s") then 
-                local spellName = GetSpellInfo(string.sub(v[2], 2));
-                if not spellName then
-                    if (string.sub(v[4], 1, 2) == "=d") then  
-                        spellName = gsub(v[4], "=ds=", "");
-                    else
-                        spellName = gsub(v[4], "=q%d=", ""); 
-                    end
-                end
-                local found;
-                if partial then
-                    found = string.find(string.lower(spellName), text);
-                else
-                    found = string.lower(spellName) == text;
-                end
-                if found then
-                    spellName = string.sub(v[4], 1, 4)..spellName;
-                    if AtlasLoot_TableNames[dataID][1] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
-                    table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], spellName, lootpage, "", "", dataID.."|".."\"\"" });
-                end
-            end
+        	local itemName = AtlasLoot:GetNameFromDefinition(v);
+        	if itemName then
+	        	local found = true;
+	        	for _, searchString in ipairs(searchTerms) do
+	        		local match = false
+				    if partial then
+				    	if checkNames then
+				        	match = match or string.find(string.lower(itemName), searchString);
+				        end
+				        if checkDescriptions and v[5] then
+				        	description = gsub(v[5], "=.-=", ""); -- Strip color codes
+				        	description = AtlasLoot_FixText(description); -- Apply other codes
+				        	description = gsub(description, "|TInterface.-|t", ""); -- Strip texture codes
+				        	match = match or string.find(string.lower(description), searchString);
+				        end
+				    else
+				        match = match or string.lower(itemName) == searchString;
+				    end
+				    found = found and match;
+	        	end
+
+			    if found then
+			        local _, _, quality = string.find(v[4], "=q(%d)=");
+			        if quality then itemName = "=q"..quality.."="..itemName end
+			        if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
+			        table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });
+			    end
+			end
         end
     end
 	
@@ -154,6 +318,22 @@ function AtlasLoot:ShowSearchOptions(button)
 				"tooltipTitle", AL["Partial matching"],
 				"tooltipText", AL["If checked, AtlasLoot search item names for a partial match."],
 				"func", function() self.db.profile.PartialMatching = not self.db.profile.PartialMatching end
+			);
+			dewdrop:AddLine(
+				"text", BabbleEpoch["Search Item Names"],
+				"checked", self.db.profile.MatchItemNames or not self.db.profile.PartialMatching,
+				"tooltipTitle", BabbleEpoch["Search Item Names"],
+				"tooltipText", BabbleEpoch["If checked, search through all item names."],
+				"func", function() self.db.profile.MatchItemNames = not self.db.profile.MatchItemNames end,
+				"disabled", not self.db.profile.MatchDescriptors or not self.db.profile.PartialMatching
+			);
+			dewdrop:AddLine(
+				"text", BabbleEpoch["Search AtlasLoot Descriptors"],
+				"checked", self.db.profile.MatchDescriptors and self.db.profile.PartialMatching,
+				"tooltipTitle", BabbleEpoch["Search AtlasLoot Descriptors"],
+				"tooltipText", BabbleEpoch["If checked, search AtlatLoot's description of each item (armor type, equip slot, zone, etc.)."],
+				"func", function() self.db.profile.MatchDescriptors = not self.db.profile.MatchDescriptors end,
+				"disabled", not self.db.profile.MatchItemNames or not self.db.profile.PartialMatching
 			);
 		end;
 		dewdrop:Open(button,
