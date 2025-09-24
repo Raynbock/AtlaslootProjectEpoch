@@ -57,7 +57,7 @@ function AtlasLoot:CacheNamesAndDescriptors()
 	    			local itemDescriptors = {strsplit("[,/]", v[5])}; -- Split descriptors on comma or slash
 	    			for _, descriptor in ipairs(itemDescriptors) do
 	    				descriptor = gsub(descriptor, "=.-=", ""); -- Remove color codes
-	    				for code in string.gfind(descriptor, "#.-#") do
+	    				for code in gmatch(descriptor, "#.-#") do
 	    					-- Parse all other codes and add them as their own descriptors
 	    					code = AtlasLoot_FixText(code);
 				        	code = gsub(code, "|TInterface.-|t", ""); -- Strip texture codes
