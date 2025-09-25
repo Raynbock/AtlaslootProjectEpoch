@@ -1778,8 +1778,9 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 4, 60439, "", "=q3=Astro´s Sward", "=ds=#s4#", "", ""};
 		{ 5, 60467, "", "=q3=Wraith´s Edge", "=ds=#h2#, #w10#", "", ""};
 		{ 6, 60451, "", "=q3=Illucia´s Poketwatch", "=ds=#s14#", "", ""};
-		{ 7, 14617, "", "=q1=Sawbones Shirt", "=ds=#s6#", "", "2%"};
-		{ 9, 13523, "", "=q1=Blood of Innocents", "=ds=#m3#", "", "25.7%"};
+		{ 7, 60451, "", "=q3=Ghoul Skin Leggings", "=ds=#s11#, #a2", "", ""};
+		{ 9, 14617, "", "=q1=Sawbones Shirt", "=ds=#s6#", "", "2%"};
+		{ 11, 13523, "", "=q1=Blood of Innocents", "=ds=#m3#", "", "25.7%"};
 		Next = "SCHOLOLorekeeperPolkelt";
 		Prev = "SCHOLOInstructorMalicia";
 	};
@@ -1798,6 +1799,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 3, 60467, "", "=q3=Wraith´s Edge", "=ds=#h2#, #w10#", "", ""};
 		{ 4, 60443, "", "=q3=Camilla´s Ruby Necklace", "=ds=#s2#", "", ""};
 		{ 5, 60444, "", "=q3=Doomsledge", "=ds=#h2#, #w6#", "", ""};
+		{ 6, 60454, "", "=q3=Mam´toth´s Fist", "=ds=#h3#, #w13#", "", ""};
+		{ 7, 60452, "", "=q3=Kairoz's Girdle", "=ds=#s10#, #a3#", "", ""};
 		Next = "SCHOLOLordAlexeiBarov";
 		Prev = "SCHOLOLorekeeperPolkelt";
 	};
@@ -1808,6 +1811,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 4, 60444, "", "=q3=Doomsledge", "=ds=#h2#, #w6#", "", ""};
 		{ 5, 60302, "", "=q3=Farmhand´s Dung Fork", "=ds=#w7#", "", ""};
 		{ 6, 60451, "", "=q3=Illucia's Pocketwatch", "=ds=#s14#", "", ""};
+		{ 7, 60467, "", "=q3=Wraith´s Edge", "=ds=#h2#, #w10#", "", ""};
+		{ 8, 60462, "", "=q3=Wight Amulet", "=ds=#s2#", "", ""};
 		Next = "SCHOLOLadyIlluciaBarov";
 		Prev = "SCHOLOTheRavenian";
 	};
@@ -1819,6 +1824,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 4, 60451, "", "=q3=Illucia's Pocketwatch", "=ds=#s14#", "", ""};
 		{ 5, 60444, "", "=q3=Doomsledge", "=ds=#h2#, #w6#", "", ""};
 		{ 6, 60467, "", "=q3=Wraith´s Edge", "=ds=#h2#, #w10#", "", ""};
+		{ 7, 60302, "", "=q3=Farmhand´s Dung Fork", "=ds=#w7#", "", ""};
 		Next = "SCHOLOBasement";
 		Prev = "SCHOLOLordAlexeiBarov";
 	};
