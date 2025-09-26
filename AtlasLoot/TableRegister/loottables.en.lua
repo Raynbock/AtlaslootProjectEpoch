@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 loottables.en.lua
 This file assigns a title to every loot table.  The primary use of this table
 is in the search function, as when iterating through the loot tables there is no
@@ -55,11 +55,16 @@ end
 	AtlasLoot_TableNames["Blastedlandsod"] = { BabbleEpoch["Felstone Fortress"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Blastedlandsod2"] = { BabbleEpoch["Felstone Fortress"], "AtlasLootOriginalWoW" };
   -- Baradin Hold
-	AtlasLoot_TableNames["BaradinHold"] = { BabbleEpoch["Baradin Hold"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["BaradinHold1"] = { BabbleEpoch["Baradin Hold"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["BaradinHold2"] = { BabbleEpoch["Baradin Hold"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["BaradinHold3"] = { BabbleEpoch["Baradin Hold"], "AtlasLootOriginalWoW" };
-	AtlasLoot_TableNames["BaradinHold4"] = { BabbleEpoch["Baradin Hold"].." ("..AL["Rare"]..")", "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BHMorrumus"] = { BabbleEpoch["Morrumus"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BHDakmal"] = { BabbleEpoch["Dak´mal"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BHMillhouseManastorm"] = { BabbleEpoch["Millhouse Manastorm"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BHIsalien"] = { BabbleBoss["Isalien"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BHGlagut"] = { BabbleEpoch["Glagut"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BHAstilosTheHollow"] = { BabbleEpoch["Astilos the Hollow"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BHNazrasash"] = { BabbleEpoch["Nazrasash"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BHCalypso"] = { BabbleEpoch["Calypso"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BHPirateLordBlackstone"] = { BabbleEpoch["Pirate Lord Blackstone"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BHRares"] = { BabbleEpoch["Baradin Hold"].." ("..AL["Rare"]..")", "AtlasLootOriginalWoW" };
   -- Blackfathom Deeps
 	AtlasLoot_TableNames["BlackfathomDeeps1"] = { BabbleZone["Blackfathom Deeps"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["BlackfathomDeeps2"] = { BabbleZone["Blackfathom Deeps"], "AtlasLootOriginalWoW" };
