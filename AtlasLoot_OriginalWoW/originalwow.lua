@@ -1155,6 +1155,13 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 10, 60527, "", "=q3=Booty Belt", "=ds=#s10#, #a2#", "", ""};
 		{ 11, 60581, "", "=q3=Portable Surgeon's Kit", "=ds=#s15#", "", ""};
 		{ 13, 60584, "", "=q2=Quartermaster Bonds Key", "", "", ""};
+		{ 16, 0, "INV_Misc_Bag_09", "=q6=Hidden Quest", "=q5=Book =q2=(behind boss)"};
+		{ 17, 62028, "", "=q3=Chaos, Touch of Secrets", "=ds=#h3#, #w4#", "", ""};
+		{ 18, 62029, "", "=q3=Prudence, Heirloom of Heroes", "=ds=#h3#, #w6#", "", ""};
+		{ 19, 62030, "", "=q3=Char, Omen of Ash", "=ds=#h1#, #w1#", "", ""};
+		{ 20, 62031, "", "=q3=Clarity, Voice of Valor", "=ds=#h1#, #w10#", "", ""};
+		{ 21, 62032, "", "=q3=Redemption, Hammer of Truth", "=ds=#h2#, #w10#", "", ""};
+		{ 23, 62012, "", "=q1=Pirate's Parley", "=ds=Potion =q2=(required for book)", "", ""};
 		Next = "BHRares";
 		Prev = "BHCalypso";
 	};
