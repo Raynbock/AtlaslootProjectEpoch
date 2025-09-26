@@ -1035,104 +1035,131 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		--------------------
 		--- Baradin Hold ---
 		--------------------
-
-	AtlasLoot_Data["BaradinHold"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleEpoch["Morrumus"], ""};
-		{ 2, 60535, "", "=q3=Cursed Talisman of Wellbeing", "=ds=#s2#", "", ""};
-		{ 3, 60536, "", "=q3=Talisman of Wellbeing", "=ds=#s2#", "", ""};
-		{ 4, 60615, "", "=q3=Voidhound Cloak", "=ds=#s4#", "", ""};
-		{ 5, 60533, "", "=q3=Cinch of Magical Repel", "=ds=#s10#, #a2#", "", ""};
-		{ 6, 60532, "", "=q4=Cherryleaf Sash", "=ds=#s10#, #a1#", "", ""};
-		{ 7, 60600, "", "=q3=Shadowheart", "=ds=#s14#", "", ""};
-		{ 8, 60518, "", "=q3=Baradin Medic's Polestaff", "=ds=#w7#", "", ""};
-		{ 9, 60602, "", "=q3=Shimmering Silver Loop", "=ds=#s13#", "", ""};
-		{ 16, 0, "INV_Box_01", "=q6="..BabbleEpoch["Dak´mal"], ""};
-		{ 17, 60555, "", "=q3=Imp Belt", "=ds=#s13#", "", ""};
-		{ 18, 60546, "", "=q3=Felguard Gauntlets", "=ds=#s9#, #a3#", "", ""};
-		{ 19, 60588, "", "=q3=Rune Warder´s Mantle", "=ds=#s3#, #a1#", "", ""};
-		{ 20, 60577, "", "=q3=Orb of Dak´mal", "=ds=#s15#", "", ""};
-		{ 21, 60556, "", "=q3=Impenetrable Shoulderpads", "=ds=#s3#, #a1#", "", ""};
-		{ 22, 60524, "", "=q3=Blade of Fel Curses", "=ds=#h1#, #w10#", "", ""};
-		{ 24, 18415, "", "=q3=Pattern: Felcloth Gloves", "", "", ""};
-		Next = "BaradinHold1";
+	AtlasLoot_Data["BHMorrumus"] = {
+		{ 1, 60535, "", "=q3=Cursed Talisman of Wellbeing", "=ds=#s2#", "", ""};
+		{ 2, 60536, "", "=q3=Talisman of Wellbeing", "=ds=#s2#", "", ""};
+		{ 3, 60615, "", "=q3=Voidhound Cloak", "=ds=#s4#", "", ""};
+		{ 4, 60533, "", "=q3=Cinch of Magical Repel", "=ds=#s10#, #a2#", "", ""};
+		{ 5, 60532, "", "=q4=Cherryleaf Sash", "=ds=#s10#, #a1#", "", ""};
+		{ 6, 60600, "", "=q3=Shadowheart", "=ds=#s14#", "", ""};
+		{ 7, 60518, "", "=q3=Baradin Medic's Polestaff", "=ds=#w7#", "", ""};
+		{ 8, 60602, "", "=q3=Shimmering Silver Loop", "=ds=#s13#", "", ""};
+		Next = "BHDakmal";
 	};
 
-	AtlasLoot_Data["BaradinHold1"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleEpoch["Millhouse Manastorm"], ""};
-		{ 2, 60570, "", "=q3=Manastorm Wand", "=ds=#w12#", "", ""};
-		{ 3, 60572, "", "=q3=Millhouse´s Bathrobe", "=ds=#s5#, #a1#", "", ""};
-		{ 4, 60520, "", "=q3=Belt of Conjuring", "=ds=#s10#, #a2#", "", ""};
-		{ 5, 60582, "", "=q3=Prestidigitation", "=ds=#h3#, #w4#", "", ""};
-		{ 6, 60526, "", "=q3=Bonzo´s Brass Buttons", "=ds=#s11#, #a4#", "", ""};
-		{ 7, 60571, "", "=q3=Masterwork Salt Shaker", "=ds=#s14#", "", ""};
-		{ 8, 60543, "", "=q3=Emergency Escape Plan", "=ds=#s14#", "", ""};
-		{ 9, 60548, "", "=q3=Frozen Bite", "=ds=#h3#, #w4#", "", ""};
-		{ 16, 0, "INV_Box_01", "=q6="..BabbleEpoch["Glagut"], ""};
-		{ 17, 60552, "", "=q3=Glagut´s Rolling Pin", "=ds=#h3#, #w6#", "", ""};
-		{ 18, 60571, "", "=q3=Masterwork Salt Shaker", "=ds=#s14#", "", ""};
-		{ 19, 60561, "", "=q3=Kitchen Coveralls", "=ds=#s5#, #a2#", "", ""};
-		{ 20, 60574, "", "=q3=Mixologist´s Band", "=ds=#s13#", "", ""};
-		{ 21, 60563, "", "=q3=Kitchen Pot", "=ds=#s1#, #a4#", "", ""};
-		{ 22, 60597, "", "=q3=Sapphire Saltwater Trout", "=ds=#h1#, #w6#", "", ""};
-		{ 23, 60562, "", "=q3=Kitchen Discipline", "=ds=#h2#, #w6#", "", ""};
-		{ 24, 60525, "", "=q3=Bloody Cleaver", "=ds=#h1#, #w1#", "", ""};
-		Next = "BaradinHold2";
-		Prev = "BaradinHold";
+	AtlasLoot_Data["BHDakmal"] = {
+		{ 1, 60555, "", "=q3=Imp Belt", "=ds=#s13#", "", ""};
+		{ 2, 60546, "", "=q3=Felguard Gauntlets", "=ds=#s9#, #a3#", "", ""};
+		{ 3, 60577, "", "=q3=Orb of Dak´mal", "=ds=#s15#", "", ""};
+		{ 4, 60556, "", "=q3=Impenetrable Shoulderpads", "=ds=#s3#, #a1#", "", ""};
+		{ 5, 60524, "", "=q3=Blade of Fel Curses", "=ds=#h1#, #w10#", "", ""};
+		{ 7, 60588, "", "=q3=Rune Warder´s Mantle", "=ds=#s3#, #a1#", "", ""};
+		{ 16, 18415, "", "=q3=Pattern: Felcloth Gloves", "", "", ""};
+		Next = "BHMillhouseManastorm";
+		Prev = "BHMorrumus";
 	};
 
-	AtlasLoot_Data["BaradinHold2"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleEpoch["Astilos the Hollow"], ""};
-		{ 2, 60623, "", "=q3=Will o' the Wisps", "=ds=#s14#", "", ""};
-		{ 3, 60521, "", "=q3=Black Mold Shoulderpads", "=ds=#s3#, #a2#", "", ""};
-		{ 4, 60534, "", "=q3=Coif of Hollowed Memories", "=ds=#s1#, #a3#", "", ""};
-		{ 5, 60599, "", "=q3=Shadowfrost Scepter", "=ds=#w9#", "", ""};
-		{ 6, 60553, "", "=q3=Haunted Bone Armor", "=ds=#s5#, #a4#", "", ""};
-		{ 7, 60586, "", "=q3=Rising Moon", "=ds=#h3#, #w6#", "", ""};
-		{ 8, 60569, "", "=q3=Lordaeron Signet", "=ds=#s13#", "", ""};
-		{ 10, 60590, "", "=q3=Rune Warder´s Loins", "=ds=#s11#, #a1#", "", ""};
-		{ 16, 0, "INV_Box_01", "=q6="..BabbleEpoch["Nazrasash"], ""};
-		{ 17, 60576, "", "=q3=Nazrasash´s Shoulderguards", "=ds=#s3#, #a3#", "", ""};
-		{ 18, 60516, "", "=q3=Anti-Arcane Sabatons", "=ds=#s12#, #a4#", "", ""};
-		{ 19, 60610, "", "=q3=Sunderer´s Mastery", "=ds=#s14#", "", ""};
-		{ 20, 60612, "", "=q3=Tome of Naz´jatar", "=ds=#s15#", "", ""};
-		{ 21, 60554, "", "=q3=Idol of Highborne Rejection", "=ds=#s16#", "", ""};
-		{ 22, 60598, "", "=q3=Seashell Cuffs", "=ds=#s8#, #a1#", "", ""};
-		{ 23, 60575, "", "=q3=Naga Scale Leggings", "=ds=#s11#, #a1#", "", ""};
-		{ 24, 60603, "", "=q3=Signet of Moonlit Water", "=ds=#s13#", "", ""};
-		{ 25, 60578, "", "=q3=Pendant of Marianus", "=ds=#s2#", "", ""};
-		{ 27, 60591, "", "=q3=Rune Warden Boots", "=ds=#s12#, #a1#", "", ""};
-		Next = "BaradinHold3";
-		Prev = "BaradinHold1";
+	AtlasLoot_Data["BHMillhouseManastorm"] = {
+		{ 1, 60570, "", "=q3=Manastorm Wand", "=ds=#w12#", "", ""};
+		{ 2, 60572, "", "=q3=Millhouse´s Bathrobe", "=ds=#s5#, #a1#", "", ""};
+		{ 3, 60520, "", "=q3=Belt of Conjuring", "=ds=#s10#, #a2#", "", ""};
+		{ 4, 60582, "", "=q3=Prestidigitation", "=ds=#h3#, #w4#", "", ""};
+		{ 5, 60526, "", "=q3=Bonzo´s Brass Buttons", "=ds=#s11#, #a4#", "", ""};
+		{ 6, 60571, "", "=q3=Masterwork Salt Shaker", "=ds=#s14#", "", ""};
+		{ 7, 60543, "", "=q3=Emergency Escape Plan", "=ds=#s14#", "", ""};
+		{ 8, 60548, "", "=q3=Frozen Bite", "=ds=#h3#, #w4#", "", ""};
+		Next = "BHIsalien";
+		Prev = "BHDakmal";
 	};
 
-	AtlasLoot_Data["BaradinHold3"] = {
-		{ 1, 0, "INV_Box_01", "=q6="..BabbleEpoch["Calypso"], ""};
-		{ 2, 60538, "", "=q4=Daemongaoler", "=ds=#h3#, #w6#", "", ""};
-		{ 4, 60589, "", "=q3=Rune Warder´s Raiment", "=ds=#s5#, #a1#", "", ""};
-		{ 5, 60611, "", "=q3=Talons of Calypso", "=ds=#h3#, #w13#", "", ""};
-		{ 6, 60614, "", "=q3=Tough Tail Feathers", "=ds=#s15#", "", ""};
-		{ 7, 60547, "", "=q3=Flame Retardant Blankey", "=ds=#s4#", "", ""};
-		{ 8, 60531, "", "=q3=Chain of Talons", "=ds=#s2#", "", ""};
-		{ 9, 60304, "", "=q3=Siren's Song", "=ds=#h3#, #w10#", "", ""};
-		{ 10, 60568, "", "=q3=Loop of Companionship", "=ds=#s13#", "", ""};
-		{ 12, 60544, "", "=q3=Feathered Cap", "=ds=#s1#, #a2# =q2=#m16#", "", ""};
-		{ 16, 0, "INV_Box_01", "=q6="..BabbleEpoch["Pirate Lord Blackstone"], ""};
-		{ 17, 60519, "", "=q4=Baradin's Warden", "=ds=#w8#", "", ""};
-		{ 19, 60293, "", "=q3=Stolen Bauble", "=ds=#s14#", "", ""};
-		{ 20, 60537, "", "=q3=Cutlass o´ the South Seas", "=ds=#h1#, #w10#", "", ""};
-		{ 21, 60601, "", "=q3=Shawl o' Seaswallowin'", "=ds=#s4#", "", ""};
-		{ 22, 60522, "", "=q3=Blackstone's Authority", "=ds=#s1#, #a2#", "", ""};
-		{ 23, 60579, "", "=q3=Pilfered Panoply of Light", "=ds=#s5#, #a4#", "", ""};
-		{ 24, 60565, "", "=q3=Landlubber's Pantaloons", "=ds=#s11#, #a1#", "", ""};
-		{ 25, 60603, "", "=q3=Signet of Moonlit Water", "=ds=#s13#, #a1#", "", ""};
-		{ 26, 60527, "", "=q3=Booty Belt", "=ds=#s10#, #a2#", "", ""};
-		{ 27, 60581, "", "=q3=Portable Surgeon's Kit", "=ds=#s15#", "", ""};
-		{ 29, 60584, "", "=q2=Quartermaster Bonds Key", "", "", ""};
-		Next = "BaradinHold4";
-		Prev = "BaradinHold2";
+	AtlasLoot_Data["BHIsalien"] = {
+		{ 1, 0, "INV_Misc_Bag_09", "=q6=#j5#", "=q5=#n20#"};
+		{ 2, 22304, "", "=q3=Ironweave Gloves", "=ds=#s9#, #a1#", "", "16.24%"};
+		{ 3, 22472, "", "=q3=Boots of Ferocity", "=ds=#s12#, #a2#", "", "12.55%"};
+		{ 4, 22401, "", "=q3=Libram of Hope", "=ds=#s16#, #w16#", "", "14.76%"};
+		{ 5, 22345, "", "=q3=Totem of Rebirth", "=ds=#s16#, #w15#", "", "2.95%"};
+		{ 6, 22315, "", "=q3=Hammer of Revitalization", "=ds=#h3#, #w6#", "", "13.65%"};
+		{ 7, 22314, "", "=q3=Huntsman's Harpoon", "=ds=#w7#", "", "15.50%"};
+		{ 9, 21984, "", "=q1=Left Piece of Lord Valthalak's Amulet", "=ds=#m3#"};
+		{ 10, 22046, "", "=q1=Right Piece of Lord Valthalak's Amulet", "=ds=#m3#"};
+		Next = "BHGlagut";
+		Prev = "BHMillhouseManastorm";
 	};
 
-	AtlasLoot_Data["BaradinHold4"] = {
+	AtlasLoot_Data["BHGlagut"] = {
+		{ 1, 60552, "", "=q3=Glagut´s Rolling Pin", "=ds=#h3#, #w6#", "", ""};
+		{ 2, 60571, "", "=q3=Masterwork Salt Shaker", "=ds=#s14#", "", ""};
+		{ 3, 60561, "", "=q3=Kitchen Coveralls", "=ds=#s5#, #a2#", "", ""};
+		{ 4, 60574, "", "=q3=Mixologist´s Band", "=ds=#s13#", "", ""};
+		{ 5, 60563, "", "=q3=Kitchen Pot", "=ds=#s1#, #a4#", "", ""};
+		{ 6, 60597, "", "=q3=Sapphire Saltwater Trout", "=ds=#h1#, #w6#", "", ""};
+		{ 7, 60562, "", "=q3=Kitchen Discipline", "=ds=#h2#, #w6#", "", ""};
+		{ 8, 60525, "", "=q3=Bloody Cleaver", "=ds=#h1#, #w1#", "", ""};
+		{ 9, 60604, "", "=q3=South Sea Cookbook", "=ds=#s15#", "", ""};
+		Next = "BHAstilosTheHollow";
+		Prev = "BHIsalien";
+	};
+
+	AtlasLoot_Data["BHAstilosTheHollow"] = {
+		{ 1, 16682, "", "=q3=Magister's Boots", "=ds=#s12#, #a1# (D1, #c3#)", "", "10.86%"};
+		{ 3, 60623, "", "=q3=Will o' the Wisps", "=ds=#s14#", "", ""};
+		{ 4, 60521, "", "=q3=Black Mold Shoulderpads", "=ds=#s3#, #a2#", "", ""};
+		{ 5, 60534, "", "=q3=Coif of Hollowed Memories", "=ds=#s1#, #a3#", "", ""};
+		{ 6, 60599, "", "=q3=Shadowfrost Scepter", "=ds=#w9#", "", ""};
+		{ 7, 60553, "", "=q3=Haunted Bone Armor", "=ds=#s5#, #a4#", "", ""};
+		{ 8, 60586, "", "=q3=Rising Moon", "=ds=#h3#, #w6#", "", ""};
+		{ 9, 60569, "", "=q3=Lordaeron Signet", "=ds=#s13#", "", ""};
+		{ 11, 60590, "", "=q3=Rune Warder´s Loins", "=ds=#s11#, #a1#", "", ""};
+		Next = "BHNazrasash";
+		Prev = "BHGlagut";
+	};
+
+	AtlasLoot_Data["BHNazrasash"] = {
+		{ 1, 60576, "", "=q3=Nazrasash´s Shoulderguards", "=ds=#s3#, #a3#", "", ""};
+		{ 2, 60516, "", "=q3=Anti-Arcane Sabatons", "=ds=#s12#, #a4#", "", ""};
+		{ 3, 60610, "", "=q3=Sunderer´s Mastery", "=ds=#s14#", "", ""};
+		{ 4, 60612, "", "=q3=Tome of Naz´jatar", "=ds=#s15#", "", ""};
+		{ 5, 60554, "", "=q3=Idol of Highborne Rejection", "=ds=#s16#", "", ""};
+		{ 6, 60598, "", "=q3=Seashell Cuffs", "=ds=#s8#, #a1#", "", ""};
+		{ 7, 60575, "", "=q3=Naga Scale Leggings", "=ds=#s11#, #a1#", "", ""};
+		{ 8, 60603, "", "=q3=Signet of Moonlit Water", "=ds=#s13#", "", ""};
+		{ 9, 60578, "", "=q3=Pendant of Marianus", "=ds=#s2#", "", ""};
+		{ 11, 60591, "", "=q3=Rune Warden Boots", "=ds=#s12#, #a1#", "", ""};
+		Next = "BHCalypso";
+		Prev = "BHAstilosTheHollow";
+	};
+
+	AtlasLoot_Data["BHCalypso"] = {
+		{ 1, 60538, "", "=q4=Daemongaoler", "=ds=#h3#, #w6#", "", ""};
+		{ 3, 60611, "", "=q3=Talons of Calypso", "=ds=#h3#, #w13#", "", ""};
+		{ 4, 60614, "", "=q3=Tough Tail Feathers", "=ds=#s15#", "", ""};
+		{ 5, 60547, "", "=q3=Flame Retardant Blankey", "=ds=#s4#", "", ""};
+		{ 6, 60531, "", "=q3=Chain of Talons", "=ds=#s2#", "", ""};
+		{ 7, 60304, "", "=q3=Siren's Song", "=ds=#h3#, #w10#", "", ""};
+		{ 8, 60568, "", "=q3=Loop of Companionship", "=ds=#s13#", "", ""};
+		{ 9, 60544, "", "=q3=Feathered Cap", "=ds=#s1#, #a2# =q2=#m16#", "", ""};
+		{ 11, 60589, "", "=q3=Rune Warder´s Raiment", "=ds=#s5#, #a1#", "", ""};
+		Next = "BHPirateLordBlackstone";
+		Prev = "BHNazrasash";
+	};
+
+	AtlasLoot_Data["BHPirateLordBlackstone"] = {
+		{ 1, 60519, "", "=q4=Baradin's Warden", "=ds=#w8#", "", ""};
+		{ 3, 60293, "", "=q3=Stolen Bauble", "=ds=#s14#", "", ""};
+		{ 4, 60537, "", "=q3=Cutlass o´ the South Seas", "=ds=#h1#, #w10#", "", ""};
+		{ 5, 60601, "", "=q3=Shawl o' Seaswallowin'", "=ds=#s4#", "", ""};
+		{ 6, 60522, "", "=q3=Blackstone's Authority", "=ds=#s1#, #a2#", "", ""};
+		{ 7, 60579, "", "=q3=Pilfered Panoply of Light", "=ds=#s5#, #a4#", "", ""};
+		{ 8, 60565, "", "=q3=Landlubber's Pantaloons", "=ds=#s11#, #a1#", "", ""};
+		{ 9, 60603, "", "=q3=Signet of Moonlit Water", "=ds=#s13#, #a1#", "", ""};
+		{ 10, 60527, "", "=q3=Booty Belt", "=ds=#s10#, #a2#", "", ""};
+		{ 11, 60581, "", "=q3=Portable Surgeon's Kit", "=ds=#s15#", "", ""};
+		{ 13, 60584, "", "=q2=Quartermaster Bonds Key", "", "", ""};
+		Next = "BHRares";
+		Prev = "BHCalypso";
+	};
+
+	AtlasLoot_Data["BHRares"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleEpoch["Mickey G"], ""};
 		{ 2, 65705, "", "=q3=Micky's Gnukles", "=ds=#h1#, #w13#", "", ""};
 		{ 3, 65700, "", "=q3=Charm Necklace", "=ds=#s2#", "", ""};
@@ -1144,17 +1171,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 11, 65706, "", "=q3=Mish'lun Chef's Hat", "=ds=#s1#, #a1#", "", ""};
 		{ 12, 65703, "", "=q3=Kitchen Kilt", "=ds=#s11#, #a2#", "", ""};
 		{ 13, 65701, "", "=q3=Gnawed Gnoll", "=ds=#h1#, #w6#", "", ""};
-		{ 16, 0, "INV_Misc_Bag_09", "=q6=#j5#", "=q5=#n20#"};
-		{ 17, 22304, "", "=q3=Ironweave Gloves", "=ds=#s9#, #a1#", "", "16.24%"};
-		{ 18, 22472, "", "=q3=Boots of Ferocity", "=ds=#s12#, #a2#", "", "12.55%"};
-		{ 19, 22401, "", "=q3=Libram of Hope", "=ds=#s16#, #w16#", "", "14.76%"};
-		{ 20, 22345, "", "=q3=Totem of Rebirth", "=ds=#s16#, #w15#", "", "2.95%"};
-		{ 21, 22315, "", "=q3=Hammer of Revitalization", "=ds=#h3#, #w6#", "", "13.65%"};
-		{ 22, 22314, "", "=q3=Huntsman's Harpoon", "=ds=#w7#", "", "15.50%"};
-		{ 23, 21984, "", "=q1=Left Piece of Lord Valthalak's Amulet", "=ds=#m3#"};
-		{ 24, 22046, "", "=q1=Right Piece of Lord Valthalak's Amulet", "=ds=#m3#"};
 		Next = "Epochset";
-		Prev = "BaradinHold3";
+		Prev = "BHPirateLordBlackstone";
 	};
 
 		------------------------
@@ -1768,6 +1786,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 1, 16710, "", "=q3=Shadowcraft Bracers", "=ds=#s8#, #a2# (D1, #c6#)", "", "3.51%"};
 		{ 3, 60445, "", "=q3=Eva´s Left Leg", "=ds=#h1#, #w6#", "", ""};
 		{ 4, 60461, "", "=q3=Well-worn Athame", "=ds=#h3#, #w4#", "", ""};
+		{ 5, 60443, "", "=q3=Camilla´s Ruby Necklace", "=ds=#s2#", "", ""};
 		Next = "SCHOLODoctorTheolenKrastinov";
 		Prev = "SCHOLOKormok";
 	};
@@ -1778,9 +1797,10 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 4, 60439, "", "=q3=Astro´s Sward", "=ds=#s4#", "", ""};
 		{ 5, 60467, "", "=q3=Wraith´s Edge", "=ds=#h2#, #w10#", "", ""};
 		{ 6, 60451, "", "=q3=Illucia´s Poketwatch", "=ds=#s14#", "", ""};
-		{ 7, 60451, "", "=q3=Ghoul Skin Leggings", "=ds=#s11#, #a2", "", ""};
-		{ 9, 14617, "", "=q1=Sawbones Shirt", "=ds=#s6#", "", "2%"};
-		{ 11, 13523, "", "=q1=Blood of Innocents", "=ds=#m3#", "", "25.7%"};
+		{ 7, 99999, "", "=q3=Ghoul Skin Leggings", "=ds=#s11#, #a2#", "", ""};
+		{ 8, 60444, "", "=q3=Doomsledge", "=ds=#h2#, #w6#", "", ""};
+		{ 10, 14617, "", "=q1=Sawbones Shirt", "=ds=#s6#", "", "2%"};
+		{ 12, 13523, "", "=q1=Blood of Innocents", "=ds=#m3#", "", "25.7%"};
 		Next = "SCHOLOLorekeeperPolkelt";
 		Prev = "SCHOLOInstructorMalicia";
 	};
@@ -4259,7 +4279,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 5, 60590, "", "=q3=Rune Warder´s Gloves", "=ds="..BabbleEpoch["Astilos the Hollow"].." ("..BabbleEpoch["Baradin Hold"]..")", "", ""};
 		{ 6, 60591, "", "=q3=Rune Warder´s Loins", "=ds="..BabbleEpoch["Astilos the Hollow"].." ("..BabbleEpoch["Baradin Hold"]..")", "", ""};
 		{ 7, 60592, "", "=q3=Rune Warder´s Boots", "=ds=", "", ""};
-		Prev = "BaradinHold4";
+		Prev = "BHRares";
 	};
 
 	AtlasLoot_Data["Epochset0"] = {
