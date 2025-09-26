@@ -17,7 +17,7 @@ AtlasLoot_DewDropDown = {
 	[1] = {
 		[AL["Classic Instances"]] = {
 			[1] = {
-				{ BabbleEpoch["Baradin Hold"], "BaradinHold", "Table" },
+				{ BabbleEpoch["Baradin Hold"], "BaradinHold", "Submenu" },
 			},
 			[2] = {
 				{ BabbleZone["Blackfathom Deeps"], "BlackfathomDeeps1", "Table" },
@@ -107,6 +107,19 @@ AtlasLoot_DewDropDown = {
 --This table defines all the subtables needed for the full menu
 --Each sub table entry contains the text entry and the loot table that goes wih it
 AtlasLoot_DewDropDown_SubTables = {
+	["BaradinHold"] = {
+		{ "", "BHMorrumus" },
+		{ "", "BHDakmal" },
+		{ "", "BHMillhouseManastorm" },
+		{ "", "BHIsalien" },
+		{ "", "BHGlagut" },
+		{ "", "BHAstilosTheHollow" },
+		{ "", "BHNazrasash" },
+		{ "", "BHCalypso" },
+		{ "", "BHPirateLordBlackstone" },
+		{ "", "BHRares" },
+		{"", "Epochset" },
+	},
 	["BlackrockDepths"] = {
 		{ "", "BRDLordRoccor" },
 		{ "", "BRDHighInterrogatorGerstahn" },
