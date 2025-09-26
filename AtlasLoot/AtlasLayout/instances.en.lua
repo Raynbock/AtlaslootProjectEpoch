@@ -626,19 +626,16 @@ AtlasLootBossButtons = {
   -----------------------
 
     BaradinHold = {
-        "";
-        "BaradinHold";
-        "BaradinHold";
-        "BaradinHold1";
-        "BaradinHold1";
-        "BaradinHold2";
-        "BaradinHold2";
-        "BaradinHold3";
-        "BaradinHold3";
-        "BaradinHold4";
-        "BaradinHold4";
-        "BaradinHold4";
-        "";
+        "BRDMorrumus";
+        "BHDakmal";
+        "BHMillhouseManastorm";
+        "BHIsalien";
+        "BHGlagut";
+        "BHAstilosTheHollow";
+        "BHNazrasash";
+        "BHCalypso";
+        "BHPirateLordBlackstone";
+        "BHRares";
         "Epochset";
         };
 
