@@ -498,7 +498,7 @@ function AtlasLoot_CategorizeWishList(wlTable)
 
 	for _, v in pairs(wlTable) do
 		if v[8] and v[8] ~= "" then
-			local dataID = strsplit("|", v[8]);
+			local dataID, dataSource = strsplit("|", v[8]);
 			-- Build subheading table
 			if not subheadings[dataID] then
 				-- Heroic handling
@@ -534,7 +534,12 @@ function AtlasLoot_CategorizeWishList(wlTable)
 				if not subheadings[dataID] then subheadings[dataID] = AL["Unknown"] end
 			end
 			-- Build category tables
-			if not categories[subheadings[dataID]] then categories[subheadings[dataID]] = {} end
+			if not categories[subheadings[dataID]] then 
+				categories[subheadings[dataID]] = {} 
+				-- Should clicking on a header take us to the page for an item under that header, or do nothing?
+				-- categories[subheadings[dataID]].sourcePage = dataID.."|"..dataSource;
+				categories[subheadings[dataID]].sourcePage = nil;
+			end
 			table.insert(categories[subheadings[dataID]], v);
 		end
 	end
@@ -546,7 +551,7 @@ function AtlasLoot_CategorizeWishList(wlTable)
 		-- If a subheading is on the last row of a column, push it to next column
 		if (#result + 1) % 15 == 0 then table.insert(result, { 0, 0, "", "", "" }) end
 		-- Subheading
-		table.insert(result, { 0, 0, "INV_Box_01", "=q6="..k, "" });
+		table.insert(result, { 0, 0, "INV_Box_01", "=q6="..k, "", "", "", v.sourcePage});
 		-- Sort first then add items
 		table.sort(v, AtlasLoot_WishListSortCheck); -- not works?
 		for i = 1, #v do table.insert(result, v[i]) end

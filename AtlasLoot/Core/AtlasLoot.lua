@@ -786,7 +786,10 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
                 end
                 if (dataID == "SearchResult" or dataID == "WishList") and dataSource[dataID][i][8] then
                     itemButton.sourcePage = dataSource[dataID][i][8];
+                else
+                	itemButton.sourcePage = nil;
                 end
+            	print(i..": "..(dataSource[dataID][i][8] or ""));
 				itemButton.i = 1;
 				itemButton:Show();
                 

@@ -252,7 +252,7 @@ function AtlasLoot:Search(Text)
 			        local _, _, quality = string.find(v[4], "=q(%d)=");
 			        if quality then itemName = "=q"..quality.."="..itemName end
 			        if AtlasLoot_TableNames[dataID] then lootpage = AtlasLoot_TableNames[dataID][1]; else lootpage = "Argh!"; end
-			        table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|".."\"\"" });
+			        table.insert(AtlasLootCharDB["SearchResult"], { 0, v[2], v[3], itemName, lootpage, "", "", dataID.."|"..(AtlasLoot_TableNames[dataID] and AtlasLoot_TableNames[dataID][2] or "\"\"") });
 			    end
 			end
         end
