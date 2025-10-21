@@ -106,7 +106,7 @@ function AtlasLootDefaultFrame_OnShow()
         AtlasFrame:Hide();
     end
     --Remove the selection of a loot table in Atlas
-    AtlasLootItemsFrame.activeBoss = nil;
+    AtlasLootItemsFrame.activeLootPage = nil;
     --Set the item table to the loot table
     AtlasLoot_SetItemInfoFrame(pFrame);
     --Show the last displayed loot table
