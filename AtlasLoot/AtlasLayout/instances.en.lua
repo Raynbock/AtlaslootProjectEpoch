@@ -626,7 +626,9 @@ AtlasLootBossButtons = {
   -----------------------
 
     BaradinHold = {
-        "BRDMorrumus";
+         "";
+        "BHMorrumus";
+        "BHHelnurath";
         "BHDakmal";
         "BHMillhouseManastorm";
         "BHIsalien";
@@ -636,9 +638,11 @@ AtlasLootBossButtons = {
         "BHCalypso";
         "BHPirateLordBlackstone";
         "BHRares";
+        "BHRares";
+        "BHRares";
+        "";
         "Epochset";
         };
-
     BlackfathomDeeps = {
         "";
         "BlackfathomDeeps1";

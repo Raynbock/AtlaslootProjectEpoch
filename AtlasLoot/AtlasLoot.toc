@@ -2,7 +2,7 @@
 ## Title: AtlasLoot
 ## Notes: Epoch AtlasLoot
 ## Author: Hegarol, Raynbock/Felius(Epoch)
-## Version: v1.00.5
+## Version: v1.00.6
 ## X-Credits: Daviesh, Lag, Cellelach, Asurn, Pernicus and many others
 ## X-License: GPL v2
 ## X-Website: https://github.com/Raynbock/AtlaslootProjectEpoch

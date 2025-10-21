@@ -92,8 +92,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["CRAFTSET1"] = {
 		{ 1, "", "INV_Chest_Plate05", "=q6="..GetSpellInfo(2018), "=q5="..BabbleInventory["Plate"] };
-		{ 2, "Darkironplate", "inv_helmet_22", "=ds="..BabbleEpoch["Dark Iron Plate"], "" };
-		{ 3, "BlacksmithingPlateImperialPlate", "INV_Belt_01", "=ds="..AL["Imperial Plate"], "" };
+		{ 3, "Darkironplate", "achievement_boss_emperordagranthaurissan", "=ds="..BabbleEpoch["Dark Iron Plate"], "=q5="..AL["Fire Resistance Gear"] };
+		{ 4, "BlacksmithingPlateImperialPlate", "ability_paladin_shieldofthetemplar", "=ds="..AL["Imperial Plate"], "" };
 		{ 16, "", "INV_Chest_Chain_04", "=q6="..GetSpellInfo(2018), "=q5="..BabbleInventory["Mail"] };
 		Next = "CRAFTSET2";
 		Back = "CRAFTINGMENU";
@@ -101,19 +101,20 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 
 	AtlasLoot_Data["CRAFTSET2"] = {
 		{ 1, "", "inv_chest_leather_07", "=q6="..GetSpellInfo(2108), "=q5="..BabbleInventory["Leather"] };
-		{ 3, "LeatherworkingLeatherVolcanicArmor", "INV_Pants_06", "=ds="..AL["Volcanic Armor"], "=q5="..AL["Fire Resistance Gear"] };
-		{ 4, "LeatherworkingLeatherIronfeatherArmor", "INV_Chest_Leather_06", "=ds="..AL["Ironfeather Armor"], "" };
-		{ 5, "LeatherworkingLeatherStormshroudArmor", "INV_Chest_Leather_08", "=ds="..AL["Stormshroud Armor"], "" };
-		{ 6, "LeatherworkingLeatherDevilsaurArmor", "INV_Pants_Wolf", "=ds="..AL["Devilsaur Armor"], "" };
-		{ 7, "Warbearwear", "INV_Pants_Wolf", "=ds="..BabbleEpoch["Warbear Wear"], "" };
-		{ 8, "Lavaleather", "INV_Pants_Wolf", "=ds="..BabbleEpoch["Lava Leather"], "" };
-		{ 9, "Bigvoodoo", "INV_Pants_Wolf", "=ds="..BabbleEpoch["Big Voodoo"], "" };
+		{ 3, "LeatherworkingLeatherVolcanicArmor", "Spell_fire_volcano", "=ds="..AL["Volcanic Armor"], "=q5="..AL["Fire Resistance Gear"] };
+		{ 4, "LeatherworkingLeatherIronfeatherArmor", "Inv_feather_05", "=ds="..AL["Ironfeather Armor"], "" };
+		{ 5, "LeatherworkingLeatherStormshroudArmor", "spell_nature_stormreach", "=ds="..AL["Stormshroud Armor"], "" };
+		{ 6, "LeatherworkingLeatherDevilsaurArmor", "ability_hunter_pet_devilsaur", "=ds="..AL["Devilsaur Armor"], "" };
+		{ 7, "Warbearwear", "ability_mount_polarbear_black", "=ds="..BabbleEpoch["Warbear Wear"], "" };
+		{ 8, "Lavaleather", "spell_shaman_lavaburst", "=ds="..BabbleEpoch["Lava Leather"], "" };
+		{ 9, "Bigvoodoo", "spell_shaman_hex", "=ds="..BabbleEpoch["Big Voodoo"], "" };
 		{ 16, "", "INV_Chest_Chain_04", "=q6="..GetSpellInfo(2108), "=q5="..BabbleInventory["Mail"] };
-		{ 18, "LeatherworkingMailGreenDragonM", "INV_Pants_05", "=ds="..AL["Green Dragon Mail"], "=q5="..AL["Nature Resistance Gear"] };
-		{ 19, "LeatherworkingMailBlueDragonM", "INV_Chest_Chain_04", "=ds="..AL["Blue Dragon Mail"], "=q5="..AL["Arcane Resistance Gear"] };
-		{ 20, "LeatherworkingMailBlackDragonM", "INV_Pants_03", "=ds="..AL["Black Dragon Mail"], "=q5="..AL["Fire Resistance Gear"] };
-		{ 21, "Basiliskscalearmor", "INV_Pants_03", "=ds="..BabbleEpoch["Basilisk Scale Armor"], "" };
-		{ 22, "Turtlescalearmor", "INV_Pants_Wolf", "=ds="..BabbleEpoch["Turtle Scale Armor"], "" };
+		{ 18, "Basiliskscalearmor", "inv_misc_monsterscales_14", "=ds="..BabbleEpoch["Basilisk Scale Armor"], "" };
+		{ 19, "Turtlescalearmor", "ability_hunter_pet_turtle", "=ds="..BabbleEpoch["Turtle Scale Armor"], "" };
+		{ 20, "LeatherworkingMailGreenDragonM", "inv_misc_head_dragon_green", "=ds="..AL["Green Dragon Mail"], "=q5="..AL["Nature Resistance Gear"] };
+		{ 21, "LeatherworkingMailBlueDragonM", "inv_misc_head_dragon_blue", "=ds="..AL["Blue Dragon Mail"], "=q5="..AL["Arcane Resistance Gear"] };
+		{ 22, "LeatherworkingMailBlackDragonM", "inv_misc_head_dragon_black", "=ds="..AL["Black Dragon Mail"], "=q5="..AL["Fire Resistance Gear"] };
+		{ 23, "LeatherworkingMailRedDragonM", "inv_misc_head_dragon_red", "=ds="..BabbleEpoch["Red Dragonscale"], "=q5="..AL["Fire Resistance Gear"] };
 		Prev = "CRAFTSET1";
 		Next = "CRAFTSET4";
 		Back = "CRAFTINGMENU";
@@ -124,7 +125,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	};
 
 	AtlasLoot_Data["CRAFTSET4"] = {
-		{ 1, "Tailchanting1", "inv_chest_cloth_04", "=ds="..BabbleEpoch["Praise of the Moon"], "=q5=#p4#, #p8#"};
+		{ 1, "Tailchanting1", "spell_nature_moonglow", "=ds="..BabbleEpoch["Praise of the Moon"], "=q5=#p4#, #p8#"};
 		Prev = "CRAFTSET2";
 		Back = "CRAFTINGMENU";
 	};

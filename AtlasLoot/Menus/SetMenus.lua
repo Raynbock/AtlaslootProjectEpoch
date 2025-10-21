@@ -17,6 +17,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		{ 6, "ShopCosmetics", "inv_rod_enchantedeternium", "=ds=Shop Cosmetics", ""};
 		{ 8, "EpochChallenges", "inv_misc_bone_skull_02", "=ds=Challenge Rewards", ""};
 		{ 17, "T1T2T3SET", "INV_Pants_Mail_03", "=ds="..BabbleEpoch["Tier Sets"], ""};
+		{ 23, "Abandoned1", "inv_misc_questionmark", "=ds="..BabbleEpoch["Probably Abandoned Epoch Loot"], ""};
 	};
 
 	AtlasLoot_Data["WORLDEPICS"] = {

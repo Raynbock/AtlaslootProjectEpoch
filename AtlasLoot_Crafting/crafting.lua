@@ -1914,11 +1914,35 @@ AtlasLoot_Data["Bigvoodoo"] = {
 --- Leatherworking Mail Sets ---
 --------------------------------
 
+AtlasLoot_Data["Basiliskscalearmor"] = {
+	{ 1, 0, "INV_Box_01", "=ds="..BabbleEpoch["Basilisk Scale Armor"], ""};
+	{ 6, 64943, "", "=q2=Basilisk Scale Leggings", "=ds=#s11#, #a3#"};
+	{ 5, 64939, "", "=q2=Basilisk Scale Gloves", "=ds=#s9#, #a3#"};
+	{ 4, 64941, "", "=q2=Basilisk Scale Bracers", "=ds=#s8#, #a3#"};
+	{ 3, 64938, "", "=q2=Basilisk Scale Breastplate", "=ds=#s5#, #a3#"};
+	{ 2, 64942, "", "=q2=Basilisk Scale Helm", "=ds=#s1#, #a3#"};
+	Next = "Turtlescalearmor";
+	Back = "CRAFTSET2";
+};
+
+AtlasLoot_Data["Turtlescalearmor"] = {
+	{ 1, 0, "INV_Box_01", "=ds="..BabbleEpoch["Turtle Scale Armor"], ""};
+	{ 6, 8185, "", "=q2=Turtle Scale Leggings", ""};
+	{ 5, 8187, "", "=q2=Turtle Scale Gloves", ""};
+	{ 4, 8198, "", "=q2=Turtle Scale Bracers", ""};
+	{ 3, 8189, "", "=q2=Turtle Scale Breastplate", ""};
+	{ 2, 8191, "", "=q2=Turtle Scale Helm", ""};
+	Prev = "Basiliskscalearmor";
+	Next = "LeatherworkingMailGreenDragonM";
+	Back = "CRAFTSET2";
+};
+
 AtlasLoot_Data["LeatherworkingMailGreenDragonM"] = {
 	{ 1, 0, "INV_Box_01", "=q6=#craftlwm1#", "=q1=#j13#"};
 	{ 2, 15045, "", "=q3=Green Dragonscale Breastplate", "=ds=#s5#, #a3#"};
 	{ 3, 20296, "", "=q3=Green Dragonscale Gauntlets", "=ds=#s9#, #a3#"};
 	{ 4, 15046, "", "=q3=Green Dragonscale Leggings", "=ds=#s11#, #a3#"};
+	Prev = "Turtlescalearmor";
 	Next = "LeatherworkingMailBlueDragonM";
 	Back = "CRAFTSET2";
 };
@@ -1941,30 +1965,17 @@ AtlasLoot_Data["LeatherworkingMailBlackDragonM"] = {
 	{ 4, 15052, "", "=q3=Black Dragonscale Leggings", "=ds=#s11#, #a3#"};
 	{ 5, 16984, "", "=q4=Black Dragonscale Boots", "=ds=#a3#"};
 	Prev = "LeatherworkingMailBlueDragonM";
-	Next = "Basiliskscalearmor";
+	Next = "LeatherworkingMailRedDragonM";
 	Back = "CRAFTSET2";
 };
 
-AtlasLoot_Data["Basiliskscalearmor"] = {
-	{ 1, 0, "INV_Box_01", "=ds="..BabbleEpoch["Basilisk Scale Armor"], ""};
-	{ 6, 64943, "", "=q2=Basilisk Scale Leggings", "=ds=#s11#, #a3#"};
-	{ 5, 64939, "", "=q2=Basilisk Scale Gloves", "=ds=#s9#, #a3#"};
-	{ 4, 64941, "", "=q2=Basilisk Scale Bracers", "=ds=#s8#, #a3#"};
-	{ 3, 64938, "", "=q2=Basilisk Scale Breastplate", "=ds=#s5#, #a3#"};
-	{ 2, 64942, "", "=q2=Basilisk Scale Helm", "=ds=#s1#, #a3#"};
+AtlasLoot_Data["LeatherworkingMailRedDragonM"] = {
+	{ 1, 0, "INV_Box_01", "=q6=#craftlwm2#", "=q1=#j11#"};
+	{ 2, 61822, "", "=q3=Red Dragonscale Shoulders", "=ds=#s3#, #a3#"};
+	{ 3, 15047, "", "=q3=Red Dragonscale Breastplate", "=ds=#s5#, #a3#"};
+	{ 4, 61824, "", "=q3=Red Dragonscale Leggings", "=ds=#s11#, #a3#"};
+	{ 5, 61826, "", "=q4=Red Dragonscale Boots", "=ds=#a3#"};
 	Prev = "LeatherworkingMailBlackDragonM";
-	Next = "Turtlescalearmor";
-	Back = "CRAFTSET2";
-};
-
-AtlasLoot_Data["Turtlescalearmor"] = {
-	{ 1, 0, "INV_Box_01", "=ds="..BabbleEpoch["Turtle Scale Armor"], ""};
-	{ 6, 8185, "", "=q2=Turtle Scale Leggings", ""};
-	{ 5, 8187, "", "=q2=Turtle Scale Gloves", ""};
-	{ 4, 8198, "", "=q2=Turtle Scale Bracers", ""};
-	{ 3, 8189, "", "=q2=Turtle Scale Breastplate", ""};
-	{ 2, 8191, "", "=q2=Turtle Scale Helm", ""};
-	Prev = "Basiliskscalearmor";
 	Back = "CRAFTSET2";
 };
 

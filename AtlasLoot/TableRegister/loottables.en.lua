@@ -56,6 +56,7 @@ end
 	AtlasLoot_TableNames["Blastedlandsod2"] = { BabbleEpoch["Felstone Fortress"], "AtlasLootOriginalWoW" };
   -- Baradin Hold
 	AtlasLoot_TableNames["BHMorrumus"] = { BabbleEpoch["Morrumus"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["BHHelnurath"] = { "Helnurath", "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["BHDakmal"] = { BabbleEpoch["Dak´mal"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["BHMillhouseManastorm"] = { BabbleEpoch["Millhouse Manastorm"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["BHIsalien"] = { BabbleBoss["Isalien"], "AtlasLootOriginalWoW" };
@@ -430,6 +431,7 @@ end
   -- Crafted Sets - Leatherworking - Mail
 	AtlasLoot_TableNames["LeatherworkingMailGreenDragonM"] = { AL["Green Dragon Mail"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["LeatherworkingMailBlueDragonM"] = { AL["Blue Dragon Mail"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["LeatherworkingMailRedDragonM"] = { BabbleEpoch["Red Dragonscale"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["LeatherworkingMailBlackDragonM"] = { AL["Black Dragon Mail"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Basiliskscalearmor"] = { BabbleEpoch["Basilisk Scale Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Turtlescalearmor"] = { BabbleEpoch["Turtle Scale Armor"], "AtlasLootCrafting" };
@@ -458,6 +460,16 @@ end
   -- Rares
 	AtlasLoot_TableNames["Easternrares"] = { BabbleEpoch["Eastern Kingdom Rares"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["Kalimdorrares"] = { BabbleEpoch["Kalimdor Rares"], "AtlasLootWorldEvents" };
+  -- Abandoned Epoch Loot
+	AtlasLoot_TableNames["Abandoned1"] = { BabbleEpoch["Probably Abandoned Epoch Loot"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Abandoned2"] = { BabbleEpoch["Probably Abandoned Epoch Loot"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Abandoned3"] = { BabbleEpoch["Probably Abandoned Epoch Loot"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Abandoned4"] = { BabbleEpoch["Probably Abandoned Epoch Loot"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Abandoned5"] = { BabbleEpoch["Probably Abandoned Epoch Loot"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Abandoned6"] = { BabbleEpoch["Probably Abandoned Epoch Loot"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Abandoned7"] = { BabbleEpoch["Probably Abandoned Epoch Loot"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Abandoned8"] = { BabbleEpoch["Probably Abandoned Epoch Loot"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Abandoned9"] = { BabbleEpoch["Probably Abandoned Epoch Loot"], "AtlasLootOriginalWoW" };
 
 ------------------------
 --- Misc Collections ---
@@ -505,6 +517,7 @@ end
 	AtlasLoot_TableNames["Gonzor"] = { BabbleEpoch["Gonzor"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Kinggnok"] = { BabbleEpoch["King Gnok"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Silithidlurker"] = { BabbleEpoch["Silithid Lurker"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["WinterspringBoss"] = { BabbleEpoch["Winterspring Summon Boss"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Volchan"] = { BabbleEpoch["Volchan"], "AtlasLootOriginalWoW" };
 
 --------------

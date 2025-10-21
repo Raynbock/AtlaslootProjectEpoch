@@ -109,6 +109,7 @@ AtlasLoot_DewDropDown = {
 AtlasLoot_DewDropDown_SubTables = {
 	["BaradinHold"] = {
 		{ "", "BHMorrumus" },
+		{ "", "BHHelnurath" },
 		{ "", "BHDakmal" },
 		{ "", "BHMillhouseManastorm" },
 		{ "", "BHIsalien" },
