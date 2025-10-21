@@ -240,6 +240,8 @@ function AtlasLoot_OnVariablesLoaded()
     Atlas_Refresh = AtlasLoot_Refresh;
 	Hooked_Atlas_OnShow = Atlas_OnShow;
 	Atlas_OnShow = AtlasLoot_Atlas_OnShow;
+	-- Replace search wrapper function
+	Atlas_Search = AtlasLoot_Atlas_Search;
 	--Instead of hooking, replace the scrollbar driver function
     Hooked_AtlasScrollBar_Update = AtlasScrollBar_Update;
 	AtlasScrollBar_Update = AtlasLoot_AtlasScrollBar_Update;
@@ -786,6 +788,8 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
                 end
                 if (dataID == "SearchResult" or dataID == "WishList") and dataSource[dataID][i][8] then
                     itemButton.sourcePage = dataSource[dataID][i][8];
+                else
+                	itemButton.sourcePage = nil;
                 end
 				itemButton.i = 1;
 				itemButton:Show();
@@ -1086,7 +1090,7 @@ Called when the close button on the item frame is clicked
 ]]
 function AtlasLootItemsFrame_OnCloseButton()
 	--Set no loot table as currently selected
-	AtlasLootItemsFrame.activeBoss = nil;
+	AtlasLootItemsFrame.activeLootPage = nil;
 	--Fix the boss buttons so the correct icons are displayed
     if AtlasFrame and AtlasFrame:IsVisible() then
         if ATLAS_CUR_LINES then
