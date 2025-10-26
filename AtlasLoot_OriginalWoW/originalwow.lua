@@ -1393,7 +1393,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 7, 60304, "", "=q3=Siren's Song", "=ds=#h3#, #w10#", "", ""};
 		{ 8, 60568, "", "=q3=Loop of Companionship", "=ds=#s13#", "", ""};
 		{ 9, 60544, "", "=q3=Feathered Cap", "=ds=#s1#, #a2# =q2=#m16#", "", ""};
-		{ 11, 60589, "", "=q3=Rune Warder´s Raiment", "=ds=#s5#, #a1#", "", ""};
+		{ 10, 60560, "", "=q3=Iridescent Pin Feather", "=ds=#s14#", "", ""};
+		{ 12, 60589, "", "=q3=Rune Warder´s Raiment", "=ds=#s5#, #a1#", "", ""};
 		Next = "BHPirateLordBlackstone";
 		Prev = "BHNazrasash";
 	};

@@ -38,6 +38,7 @@ local ELEMENTAL = GetSpellInfo(10658);
 local TRIBAL = GetSpellInfo(10660);
 local MINING = GetSpellInfo(2575);
 local HERBALISM = GetSpellInfo(2366);
+local SKINNING = GetSpellInfo(8613);
 local TAILORING = GetSpellInfo(3908);
 
 -- Table of loot titles
@@ -604,6 +605,8 @@ end
 	AtlasLoot_TableNames["AlchemyFlask1"] = { ALCHEMY..": "..AL["Flasks"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["AlchemyMisc1"] = { ALCHEMY..": "..AL["Miscellaneous"], "AtlasLootCrafting" };
   -- BlackSmithing
+	AtlasLoot_TableNames["SmithingJewelry"] = { BLACKSMITHING..": "..BabbleEpoch["Jewelry"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["SmithingShield"] = { BLACKSMITHING..": "..BabbleEpoch["Shields"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["SmithingArmorOld1"] = { BLACKSMITHING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["SmithingArmorOld2"] = { BLACKSMITHING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["SmithingArmorOld3"] = { BLACKSMITHING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
@@ -630,9 +633,11 @@ end
 	AtlasLoot_TableNames["Enchanting2HWeapon1"] = { ENCHANTING..": "..AL["Enchant 2H Weapon"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["EnchantingWeapon1"] = { ENCHANTING..": "..AL["Enchant Weapon"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["EnchantingMisc1"] = { ENCHANTING..": "..AL["Miscellaneous"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["EnchantingMisc2"] = { ENCHANTING..": "..AL["Miscellaneous"], "AtlasLootCrafting" };
   -- Engineering
 	AtlasLoot_TableNames["EngineeringAmmo1"] = { ENGINEERING..": "..AL["Ammunition"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["EngineeringArmor1"] = { ENGINEERING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["EngineeringArmor2"] = { ENGINEERING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["EngineeringExplosives1"] = { ENGINEERING..": "..AL["Explosives"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["EngineeringItemEnhancements1"] = { ENGINEERING..": "..AL["Item Enhancements"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["EngineeringMisc1"] = { ENGINEERING..": "..AL["Miscellaneous"], "AtlasLootCrafting" };
@@ -647,6 +652,7 @@ end
 	AtlasLoot_TableNames["LeatherLeatherArmorOld3"] = { LEATHERWORKING..": "..AL["Leather Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["LeatherLeatherArmorOld4"] = { LEATHERWORKING..": "..AL["Leather Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["LeatherLeatherArmorOld5"] = { LEATHERWORKING..": "..AL["Leather Armor"], "AtlasLootCrafting" };
+	AtlasLoot_TableNames["LeatherLeatherArmorOld6"] = { LEATHERWORKING..": "..AL["Leather Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["LeatherMailArmorOld1"] = { LEATHERWORKING..": "..AL["Mail Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["LeatherMailArmorOld2"] = { LEATHERWORKING..": "..AL["Mail Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["LeatherCloaks1"] = { LEATHERWORKING..": "..AL["Cloaks"], "AtlasLootCrafting" };
@@ -663,6 +669,10 @@ end
   -- Herbalism
 	AtlasLoot_TableNames["Herbalism1"] = { HERBALISM, "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Herbalism2"] = { HERBALISM, "AtlasLootCrafting" };
+  -- Skinning
+	AtlasLoot_TableNames["Skinning1"] = { SKINNING, "AtlasLootCrafting" };
+  -- Fishing
+	AtlasLoot_TableNames["Fishing1"] = { FISHING, "AtlasLootCrafting" };
   -- Tailoring
 	AtlasLoot_TableNames["TailoringArmorOld1"] = { TAILORING..": "..AL["Cloth Armor"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["TailoringArmorOld2"] = { TAILORING..": "..AL["Cloth Armor"], "AtlasLootCrafting" };
