@@ -85,6 +85,12 @@ AtlasLoot_DewDropDown = {
 			[23] = {
 				{ BabbleZone["Zul'Farrak"], "ZulFarrak", "Submenu" },
 			},
+			[24] = {
+				{ BabbleEpoch["Raids:"], "Onyxia_1", "Table" },
+			},
+			[25] = {
+				{ BabbleZone["Onyxia's Lair"], "Onyxia_1", "Table" },
+			},
 		},
 	},
 	[2] = {

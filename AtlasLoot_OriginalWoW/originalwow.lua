@@ -88,6 +88,32 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		--- Abandoned Loot ---
 		----------------------
 
+	AtlasLoot_Data["Onyxia_1"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleEpoch["Ortorg the Ardent"], ""};
+		{ 16, 0, "INV_Box_01", "=q6="..BabbleEpoch["Atressian"], ""};
+		Next = "Onyxia_2";
+	};
+
+	AtlasLoot_Data["Onyxia_2"] = {
+		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Onyxia"], ""};
+		{ 2, 61808, "", "=q4=Effigy of the Dragon Worshippers", "=ds=#w12#", "", ""};
+		{ 4, 61774, "", "=q4=Helm of the Glorious Champion", "=ds=#c4#,=ds=#c6#,=ds=#c8#", "", ""};
+		{ 17, 12698, "", "=q3=Plans: Dawnbringer Shoulders", "=ds=#p2# (290)", "" };
+		{ 21, 18423, "", "=q4=Head of Onyxia", "=ds=#m3#", "" };
+		{ 22, 18705, "", "=q4=Mature Black Dragon Sinew", "=ds=#m3#", "" };
+		{ 24, 17966, "", "=q2=Onyxia Hide Backpack", "=ds=#e1#", "" };
+		{ 26, 17969, "", "=q2=Red Sack of Gems", "", "" };
+		{ 27, 17964, "", "=q2=Gray Sack of Gems", "", "" };
+		{ 28, 17962, "", "=q2=Blue Sack of Gems", "", "" };
+		{ 29, 17963, "", "=q2=Green Sack of Gems", "", "" };
+		{ 30, 17965, "", "=q2=Yellow Sack of Gems", "", "" };
+		Prev = "Onyxia_1";
+	};
+
+		----------------------
+		--- Abandoned Loot ---
+		----------------------
+
 	AtlasLoot_Data["Abandoned1"] = {
 		{ 1, 61646, "", "=q4=Amberseal Keeper", "", "", ""};
 		{ 2, 61647, "", "=q4=Blacklight Bracer", "", "", ""};
@@ -143,7 +169,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 17, 61768, "", "=q4=Twilight Occultist's Pike", "", "", ""};
 		{ 18, 61769, "", "=q4=Vestments of the Holy Flame", "", "", ""};
 		{ 19, 61773, "", "=q4=Wurmtooth Halberd", "", "", ""};
-		{ 20, 61774, "", "=q4=Helm of the Glorious Champion", "", "", ""};
 		{ 21, 61775, "", "=q4=Pauldrons of the Glorious Champion", "", "", ""};
 		{ 22, 61776, "", "=q4=Chestguard of the Glorious Champion", "", "", ""};
 		{ 23, 61777, "", "=q4=Leggings of the Glorious Champion", "", "", ""};
@@ -179,7 +204,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 17, 61805, "", "=q4=Draconic Focusing Leystone", "", "", ""};
 		{ 18, 61806, "", "=q4=Dragon Slayer's Sword", "", "", ""};
 		{ 19, 61807, "", "=q4=Dragon's Blood Cape", "", "", ""};
-		{ 20, 61808, "", "=q4=Effigy of the Dragon Worshippers", "", "", ""};
 		{ 21, 61809, "", "=q4=Faceted Beryl Palm Stone", "", "", ""};
 		{ 22, 61810, "", "=q4=Fury of the Black Flight", "", "", ""};
 		{ 23, 61811, "", "=q4=Heatproof Escutcheon", "", "", ""};
@@ -1428,13 +1452,14 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 2, 65705, "", "=q3=Micky's Gnukles", "=ds=#h1#, #w13#", "", ""};
 		{ 3, 65700, "", "=q3=Charm Necklace", "=ds=#s2#", "", ""};
 		{ 4, 65698, "", "=q3=Boots of Lamentation", "=ds=#s12#, #a3#", "", ""};
-		{ 6, 0, "INV_Box_01", "=q6="..BabbleEpoch["First Mate Malin"], ""};
-		{ 7, 65709, "", "=q3=The Keelguard", "=ds=#w8#", "", ""};
-		{ 8, 65707, "", "=q3=Sea Shanty Shinkickers", "=ds=#s12#, #a4#", "", ""};
-		{ 10, 0, "INV_Box_01", "=q6="..BabbleEpoch["Head Chef Ramsay"], ""};
-		{ 11, 65706, "", "=q3=Mish'lun Chef's Hat", "=ds=#s1#, #a1#", "", ""};
-		{ 12, 65703, "", "=q3=Kitchen Kilt", "=ds=#s11#, #a2#", "", ""};
-		{ 13, 65701, "", "=q3=Gnawed Gnoll", "=ds=#h1#, #w6#", "", ""};
+		{ 6, 0, "INV_Box_01", "=q6="..BabbleEpoch["Head Chef Ramsay"], ""};
+		{ 7, 65706, "", "=q3=Mish'lun Chef's Hat", "=ds=#s1#, #a1#", "", ""};
+		{ 8, 65703, "", "=q3=Kitchen Kilt", "=ds=#s11#, #a2#", "", ""};
+		{ 9, 65701, "", "=q3=Gnawed Gnoll", "=ds=#h1#, #w6#", "", ""};
+		{ 16, 0, "INV_Box_01", "=q6="..BabbleEpoch["First Mate Malin"], ""};
+		{ 17, 65709, "", "=q3=The Keelguard", "=ds=#w8#", "", ""};
+		{ 18, 65707, "", "=q3=Sea Shanty Shinkickers", "=ds=#s12#, #a4#", "", ""};
+		{ 19, 65702, "", "=q3=Gold Loop Ring", "=ds=#s13#", "", ""};
 		Next = "Epochset";
 		Prev = "BHPirateLordBlackstone";
 	};

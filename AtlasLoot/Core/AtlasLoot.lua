@@ -36,8 +36,8 @@ local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
 
 --Establish version number and compatible version of Atlas
 local EPOCH_VERSION_MAJOR = "1";
-local EPOCH_VERSION_MINOR = "10";
-local EPOCH_VERSION_BOSSES = "0";
+local EPOCH_VERSION_MINOR = "11";
+local EPOCH_VERSION_BOSSES = "1";
 
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "11";
