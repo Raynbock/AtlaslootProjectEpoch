@@ -91,6 +91,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	AtlasLoot_Data["Onyxia_1"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleEpoch["Ortorg the Ardent"], ""};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleEpoch["Atressian"], ""};
+		{ 17, 61837, "", "=q4=Vis'kag the Bloodletter", "=ds=#h1# #w10#", "" };
 		Next = "Onyxia_2";
 	};
 
@@ -234,7 +235,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 12, 61830, "", "=q4=Sapphiron Drape", "", "", ""};
 		{ 13, 61835, "", "=q4=Shroud of the Cloaked Mists", "", "", ""};
 		{ 14, 61836, "", "=q4=Totem of Draconic Might", "", "", ""};
-		{ 15, 61837, "", "=q4=Vis'kag. the Bloodletter", "", "", ""};
 		{ 16, 61838, "", "=q4=Woven Shadowthread Chemise", "", "", ""};
 		{ 17, 61839, "", "=q1=Black Dragonscale Protector", "", "", ""};
 		{ 18, 61840, "", "=q1=Blue Dragonscale Protector", "", "", ""};
