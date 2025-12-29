@@ -90,18 +90,30 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	AtlasLoot_Data["Onyxia_1"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleEpoch["Ortorg the Ardent"], ""};
+		{ 2, 61800, "", "=q4=Chain Slippers of the Caldera", "=ds=#s12#, #a3#", "", ""};
+		{ 3, 61799, "", "=q4=Boots of Vitriol", "=ds=#s12#, #a2#", "", ""};
+		{ 4, 61811, "", "=q4=Heatproof Escutcheon", "=ds=#w8#", "", ""};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleEpoch["Atressian"], ""};
-		{ 17, 61837, "", "=q4=Vis'kag the Bloodletter", "=ds=#h1# #w10#", "" };
+		{ 17, 61833, "", "=q4=Scorched Earthfury Belt", "=ds=#s10#, #a3#", "", ""};
+		{ 18, 61831, "", "=q4=Scorched Arcanist Belt", "=ds=#s10#, #a1#", "", ""};
+		{ 19, 61803, "", "=q4=Cuffs of Spite", "=ds=#s8#, #a1#", "", ""};
+		{ 20, 61793, "", "=q4=Ancient Cornerstone Grimoire", "=ds=#s15#", "", ""};
+		{ 21, 61837, "", "=q4=Vis'kag the Bloodletter", "=ds=#h1# #w10#", "" };
 		Next = "Onyxia_2";
 	};
 
 	AtlasLoot_Data["Onyxia_2"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Onyxia"], ""};
-		{ 2, 61808, "", "=q4=Effigy of the Dragon Worshippers", "=ds=#w12#", "", ""};
-		{ 4, 61774, "", "=q4=Helm of the Glorious Champion", "=ds=#c4#,=ds=#c6#,=ds=#c8#", "", ""};
-		{ 17, 12698, "", "=q3=Plans: Dawnbringer Shoulders", "=ds=#p2# (290)", "" };
-		{ 21, 18423, "", "=q4=Head of Onyxia", "=ds=#m3#", "" };
-		{ 22, 18705, "", "=q4=Mature Black Dragon Sinew", "=ds=#m3#", "" };
+		{ 2, 61807, "", "=q4=Dragon's Blood Cape", "=ds=#s4#", "", ""};
+		{ 3, 61808, "", "=q4=Effigy of the Dragon Worshippers", "=ds=#w12#", "", ""};
+		{ 5, 61774, "", "=q4=Helm of the Glorious Champion", "=ds=#c4#,=ds=#c6#,=ds=#c8#", "", ""};
+		{ 6, 61780, "", "=q4=Helm of the Glorious Defender", "=ds=#c9#,=ds=#c2#,=ds=#c1#", "", ""};
+		{ 9, 61825, "", "=q3=Pattern: Red Dragonscale Leggings", "=ds=#p7# (300)", "", ""};
+		{ 10, 61824, "", "=q3=Red Dragonscale Leggings", "=ds=#s11#, #a3#", "", ""};
+		{ 12, 12698, "", "=q3=Plans: Dawnbringer Shoulders", "=ds=#p2# (290)", "" };
+		{ 13, 12625, "", "=q3=Dawnbringer Shoulders", "=ds=#s3#, #a4#", "" };
+		{ 17, 18423, "", "=q4=Head of Onyxia", "=ds=#m3#", "" };
+		{ 18, 18705, "", "=q4=Mature Black Dragon Sinew", "=ds=#m3#", "" };
 		{ 24, 17966, "", "=q2=Onyxia Hide Backpack", "=ds=#e1#", "" };
 		{ 26, 17969, "", "=q2=Red Sack of Gems", "", "" };
 		{ 27, 17964, "", "=q2=Gray Sack of Gems", "", "" };
@@ -175,7 +187,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 23, 61777, "", "=q4=Leggings of the Glorious Champion", "", "", ""};
 		{ 24, 61778, "", "=q4=Gloves of the Glorious Champion", "", "", ""};
 		{ 25, 61779, "", "=q4=Sabatons of the Glorious Champion", "", "", ""};
-		{ 26, 61780, "", "=q4=Helm of the Glorious Defender", "", "", ""};
 		{ 27, 61781, "", "=q4=Pauldrons of the Glorious Defender", "", "", ""};
 		{ 28, 61782, "", "=q4=Chestguard of the Glorious Defender", "", "", ""};
 		{ 29, 61783, "", "=q4=Leggings of the Glorious Defender", "", "", ""};
@@ -194,20 +205,14 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 6, 61790, "", "=q4=Gloves of the Glorious Hero", "", "", ""};
 		{ 7, 61791, "", "=q4=Sabatons of the Glorious Hero", "", "", ""};
 		{ 8, 61792, "", "=q4=Adopted Whelp", "", "", ""};
-		{ 9, 61793, "", "=q4=Ancient Cornerstone Grimoire", "", "", ""};
 		{ 10, 61798, "", "=q4=Boots of Contempt", "", "", ""};
-		{ 11, 61799, "", "=q4=Boots of Vitriol", "", "", ""};
-		{ 12, 61800, "", "=q4=Chain Slippers of the Caldera", "", "", ""};
 		{ 13, 61801, "", "=q4=Cloak of Forewarning", "", "", ""};
 		{ 14, 61802, "", "=q4=Cuffs of Malevolence", "", "", ""};
-		{ 15, 61803, "", "=q4=Cuffs of Spite", "", "", ""};
 		{ 16, 61804, "", "=q4=Deathbringer", "", "", ""};
 		{ 17, 61805, "", "=q4=Draconic Focusing Leystone", "", "", ""};
 		{ 18, 61806, "", "=q4=Dragon Slayer's Sword", "", "", ""};
-		{ 19, 61807, "", "=q4=Dragon's Blood Cape", "", "", ""};
 		{ 21, 61809, "", "=q4=Faceted Beryl Palm Stone", "", "", ""};
 		{ 22, 61810, "", "=q4=Fury of the Black Flight", "", "", ""};
-		{ 23, 61811, "", "=q4=Heatproof Escutcheon", "", "", ""};
 		{ 24, 61812, "", "=q4=Idol of Starlight", "", "", ""};
 		{ 25, 61813, "", "=q4=Libram of Consecrated Ground", "", "", ""};
 		{ 26, 61815, "", "=q3=Pattern: Onyxia Scale Breastplate", "", "", ""};
@@ -226,8 +231,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 3, 61820, "", "=q4=Onyxia Scale Shield", "", "", ""};
 		{ 4, 61823, "", "=q3=Pattern: Red Dragooonscale Shoulders", "", "", ""};
 		{ 5, 61822, "", "=q3=Red Dragooonscale Shoulders", "", "", ""};
-		{ 6, 61825, "", "=q3=Pattern: Red Dragonscale Leggings", "", "", ""};
-		{ 7, 61824, "", "=q3=Red Dragonscale Leggings", "", "", ""};
 		{ 8, 61827, "", "=q3=Pattern: Red Dragonscale Boots", "", "", ""};
 		{ 9, 61826, "", "=q4=Red Dragonscale Boots", "", "", ""};
 		{ 10, 61828, "", "=q4=Premonition", "", "", ""};
@@ -336,9 +339,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 20, 61659, "", "=q4=Ashen Giantstalker's Bracers", "=q1=#m1# =ds=#c2#", "", "0.18%"};
 		{ 21, 61658, "", "=q4=Ashen Earthfury Bracers", "=q1=#m1# =ds=#c7#", "", "0.06%"};
 		{ 22, 61657, "", "=q4=Ashen Bracers of Might", "=q1=#m1# =ds=#c9#", "", "0.16%"};
-		{ 23, 61831, "", "=q4=Scorched Arcanist Belt", "=q1=#m1# =ds=#c3#", "", "0.16%"};
 		{ 24, 61832, "", "=q4=Scorched Cenarion Belt", "=q1=#m1# =ds=#c1#", "", "0.16%"};
-		{ 25, 61833, "", "=q4=Scorched Earthfury Belt", "=q1=#m1# =ds=#c7#", "", "0.07%"};
 		{ 26, 61747, "", "=q4=Scorched Felheart Bracers", "=q1=#m1# =ds=#c8#", "", "0.16%"};
 		{ 27, 61745, "", "=q4=Scorched Cenarion Bracers", "=q1=#m1# =ds=#c1#", "", "0.17%"};
 		{ 28, 61746, "", "=q4=Scorched Earthfury Bracers", "=q1=#m1# =ds=#c7#", "", "0.06%"};
