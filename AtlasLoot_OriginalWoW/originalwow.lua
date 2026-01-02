@@ -84,36 +84,45 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	--- Dungeons & Raids ---
 	------------------------
 
-		----------------------
-		--- Abandoned Loot ---
-		----------------------
+		---------------------
+		--- Onyxia's Lair ---
+		---------------------
 
 	AtlasLoot_Data["Onyxia_1"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleEpoch["Ortorg the Ardent"], ""};
 		{ 2, 61800, "", "=q4=Chain Slippers of the Caldera", "=ds=#s12#, #a3#", "", ""};
 		{ 3, 61799, "", "=q4=Boots of Vitriol", "=ds=#s12#, #a2#", "", ""};
-		{ 4, 61811, "", "=q4=Heatproof Escutcheon", "=ds=#w8#", "", ""};
+		{ 4, 61796, "", "=q4=Ashen Giantstalker's Belt", "=ds=#s10#, #a3#", "", ""};
+		{ 5, 61811, "", "=q4=Heatproof Escutcheon", "=ds=#w8#", "", ""};
+		{ 6, 18202, "", "=q4=Eskhandar's Left Claw", "=ds=#w13#", "", ""};
+		{ 7, 61828, "", "=q4=Premonition", "=ds=#w9#", "", ""};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleEpoch["Atressian"], ""};
 		{ 17, 61833, "", "=q4=Scorched Earthfury Belt", "=ds=#s10#, #a3#", "", ""};
-		{ 18, 61831, "", "=q4=Scorched Arcanist Belt", "=ds=#s10#, #a1#", "", ""};
-		{ 19, 61803, "", "=q4=Cuffs of Spite", "=ds=#s8#, #a1#", "", ""};
-		{ 20, 61793, "", "=q4=Ancient Cornerstone Grimoire", "=ds=#s15#", "", ""};
-		{ 21, 61837, "", "=q4=Vis'kag the Bloodletter", "=ds=#h1# #w10#", "" };
+		{ 18, 61832, "", "=q4=Scorched Cenarion Belt", "=ds=#s10#, #a2#", "", ""};
+		{ 19, 61831, "", "=q4=Scorched Arcanist Belt", "=ds=#s10#, #a1#", "", ""};
+		{ 20, 61834, "", "=q4=Scorched Felheart Belt", "=ds=#s10#, #a1#", "", ""};
+		{ 21, 61803, "", "=q4=Cuffs of Spite", "=ds=#s8#, #a1#", "", ""};
+		{ 22, 61793, "", "=q4=Ancient Cornerstone Grimoire", "=ds=#s15#", "", ""};
+		{ 23, 61837, "", "=q4=Vis'kag the Bloodletter", "=ds=#h1# #w10#", "", "" };
 		Next = "Onyxia_2";
 	};
 
 	AtlasLoot_Data["Onyxia_2"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Onyxia"], ""};
 		{ 2, 61807, "", "=q4=Dragon's Blood Cape", "=ds=#s4#", "", ""};
-		{ 3, 61808, "", "=q4=Effigy of the Dragon Worshippers", "=ds=#w12#", "", ""};
-		{ 5, 61774, "", "=q4=Helm of the Glorious Champion", "=ds=#c4#,=ds=#c6#,=ds=#c8#", "", ""};
-		{ 6, 61780, "", "=q4=Helm of the Glorious Defender", "=ds=#c9#,=ds=#c2#,=ds=#c1#", "", ""};
-		{ 9, 61825, "", "=q3=Pattern: Red Dragonscale Leggings", "=ds=#p7# (300)", "", ""};
-		{ 10, 61824, "", "=q3=Red Dragonscale Leggings", "=ds=#s11#, #a3#", "", ""};
-		{ 12, 12698, "", "=q3=Plans: Dawnbringer Shoulders", "=ds=#p2# (290)", "" };
-		{ 13, 12625, "", "=q3=Dawnbringer Shoulders", "=ds=#s3#, #a4#", "" };
+		{ 3, 18205, "", "=q4=Eskhandar's Collar", "=ds=#s2#", "", "" };
+		{ 4, 17064, "", "=q4=Shard of the Scale", "=ds=#s14#", "" };
+		{ 5, 61808, "", "=q4=Effigy of the Dragon Worshippers", "=ds=#w12#", "", ""};
+		{ 6, 61804, "", "=q4=Deathbringer", "=ds=#h2#, #w1#", "", ""};
+		{ 11, 61825, "", "=q3=Pattern: Red Dragonscale Leggings", "=ds=#p7# (300)", "", ""};
+		{ 12, 61824, "", "=q3=Red Dragonscale Leggings", "=ds=#s11#, #a3#", "", ""};
+		{ 13, 12698, "", "=q3=Plans: Dawnbringer Shoulders", "=ds=#p2# (290)", "" };
+		{ 14, 12625, "", "=q3=Dawnbringer Shoulders", "=ds=#s3#, #a4#", "" };
 		{ 17, 18423, "", "=q4=Head of Onyxia", "=ds=#m3#", "" };
 		{ 18, 18705, "", "=q4=Mature Black Dragon Sinew", "=ds=#m3#", "" };
+		{ 20, 61774, "", "=q4=Helm of the Glorious Champion", "=ds=#c4#,=ds=#c6#,=ds=#c8#", "", ""};
+		{ 21, 61780, "", "=q4=Helm of the Glorious Defender", "=ds=#c9#,=ds=#c2#,=ds=#c1#", "", ""};
+		{ 22, 61786, "", "=q4=Helm of the Glorious Hero", "=ds=#c5#,=ds=#c7#,=ds=#c3#", "", ""};
 		{ 24, 17966, "", "=q2=Onyxia Hide Backpack", "=ds=#e1#", "" };
 		{ 26, 17969, "", "=q2=Red Sack of Gems", "", "" };
 		{ 27, 17964, "", "=q2=Gray Sack of Gems", "", "" };
@@ -198,7 +207,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	AtlasLoot_Data["Abandoned3"] = {
 		{ 1, 61785, "", "=q4=Sabatons of the Glorious Defender", "", "", ""};
-		{ 2, 61786, "", "=q4=Helm of the Glorious Hero", "", "", ""};
 		{ 3, 61787, "", "=q4=Pauldrons of the Glorious Hero", "", "", ""};
 		{ 4, 61788, "", "=q4=Chestguard of the Glorious Hero", "", "", ""};
 		{ 5, 61789, "", "=q4=Leggings of the Glorious Hero", "", "", ""};
@@ -208,7 +216,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 10, 61798, "", "=q4=Boots of Contempt", "", "", ""};
 		{ 13, 61801, "", "=q4=Cloak of Forewarning", "", "", ""};
 		{ 14, 61802, "", "=q4=Cuffs of Malevolence", "", "", ""};
-		{ 16, 61804, "", "=q4=Deathbringer", "", "", ""};
 		{ 17, 61805, "", "=q4=Draconic Focusing Leystone", "", "", ""};
 		{ 18, 61806, "", "=q4=Dragon Slayer's Sword", "", "", ""};
 		{ 21, 61809, "", "=q4=Faceted Beryl Palm Stone", "", "", ""};
@@ -233,7 +240,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 5, 61822, "", "=q3=Red Dragooonscale Shoulders", "", "", ""};
 		{ 8, 61827, "", "=q3=Pattern: Red Dragonscale Boots", "", "", ""};
 		{ 9, 61826, "", "=q4=Red Dragonscale Boots", "", "", ""};
-		{ 10, 61828, "", "=q4=Premonition", "", "", ""};
 		{ 11, 61829, "", "=q4=Ring of Binding", "", "", ""};
 		{ 12, 61830, "", "=q4=Sapphiron Drape", "", "", ""};
 		{ 13, 61835, "", "=q4=Shroud of the Cloaked Mists", "", "", ""};
@@ -332,18 +338,15 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 13, 61756, "", "=q4=Smoky Lawbringer Bracers", "=q1=#m1# =ds=#c4#", "", "0.11%"};
 		{ 14, 61757, "", "=q4=Smoky Vambraces of Prophecy", "=q1=#m1# =ds=#c5#", "", "0.16%"};
 		{ 15, 61797, "", "=q4=Ashen Nightslayer Belt", "=q1=#m1# =ds=#c6#", "", "0.15%"};
-		{ 16, 61796, "", "=q4=Ashen Giantstalker's Belt", "=q1=#m1# =ds=#c2#", "", "0.17%"};
 		{ 17, 61660, "", "=q4=Ashen Nightslayer Bracelets", "=q1=#m1# =ds=#c6#", "", "0.17%"};
 		{ 18, 61794, "", "=q4=Ashen Belt of Might", "=q1=#m1# =ds=#c9#", "", "0.16%"};
 		{ 19, 61795, "", "=q4=Ashen Earthfury Belt", "=q1=#m1# =ds=#c7#", "", "0.07%"};
 		{ 20, 61659, "", "=q4=Ashen Giantstalker's Bracers", "=q1=#m1# =ds=#c2#", "", "0.18%"};
 		{ 21, 61658, "", "=q4=Ashen Earthfury Bracers", "=q1=#m1# =ds=#c7#", "", "0.06%"};
 		{ 22, 61657, "", "=q4=Ashen Bracers of Might", "=q1=#m1# =ds=#c9#", "", "0.16%"};
-		{ 24, 61832, "", "=q4=Scorched Cenarion Belt", "=q1=#m1# =ds=#c1#", "", "0.16%"};
 		{ 26, 61747, "", "=q4=Scorched Felheart Bracers", "=q1=#m1# =ds=#c8#", "", "0.16%"};
 		{ 27, 61745, "", "=q4=Scorched Cenarion Bracers", "=q1=#m1# =ds=#c1#", "", "0.17%"};
 		{ 28, 61746, "", "=q4=Scorched Earthfury Bracers", "=q1=#m1# =ds=#c7#", "", "0.06%"};
-		{ 29, 61834, "", "=q4=Scorched Felheart Belt", "=q1=#m1# =ds=#c8#", "", "0.19%"};
 		{ 30, 61744, "", "=q4=Scorched Arcanist Bindings", "=q1=#m1# =ds=#c3#", "", "0.16%"};
 		Prev = "Abandoned6";
 		Back = "SETMENU";
@@ -958,10 +961,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 4, 13178, "", "=q3=Rosewine Circle", "=ds=#s13#", "", "21.48%"};
 		{ 5, 60406, "", "=q3=Doomsayer's Cuffs", "=ds=#s8#, #a4#", "", ""};
 		{ 6, 60411, "", "=q3=Helm of Averted Doom", "=ds=#s1#, #a4#", "", ""};
-
 		{ 8, 18784, "", "=q3=Top Half of Advanced Armorsmithing: Volume III", "=ds=#m3#", "", "10.30%"};
 		{ 9, 12725, "", "=q3=Plans: Enchanted Thorium Helm", "=q1=#m4#: =ds=#p2# (300)"};
-
 		{ 11, 12712, "", "=q1=Warosh's Mojo", "=ds=#m3#", "", "100%"};
 		{ 12, 15867, "", "=q2=Prismcharm", "=q1=#m4#: =ds=#s14#"};
 		Next = "LBRSZigris";
@@ -971,9 +972,10 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 	AtlasLoot_Data["LBRSZigris"] = {
 		{ 1, 13253, "", "=q3=Hands of Power", "=ds=#s9#, #a1#", "", "14.22%"};
 		{ 2, 13252, "", "=q3=Cloudrunner Girdle", "=ds=#s10#, #a2#", "", "15.48%"};
-		{ 5, 12835, "", "=q3=Plans: Annihilator", "=ds=#p2# (300)", "", "8.37%"};
-		{ 6, 12798, "", "=q3=Annihilator", "=ds=#h1#, #w1#"};
-		{ 3, 60416, "", "=q3=Scout's shroud of Preparedness", "=ds=#s4#", "", ""};
+		{ 3, 60418, "", "=q3=Surplus Sanctified Bracers", "=ds=#s8#, #a4#", "", ""};
+		{ 4, 60416, "", "=q3=Scout's shroud of Preparedness", "=ds=#s4#", "", ""};
+		{ 6, 12835, "", "=q3=Plans: Annihilator", "=ds=#p2# (300)", "", "8.37%"};
+		{ 7, 12798, "", "=q3=Annihilator", "=ds=#h1#, #w1#"};
 		Next = "LBRSSlavener";
 		Prev = "LBRSDoomhowl";
 	};
