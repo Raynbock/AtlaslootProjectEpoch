@@ -90,12 +90,16 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 
 	AtlasLoot_Data["Onyxia_1"] = {
 		{ 1, 0, "INV_Box_01", "=q6="..BabbleEpoch["Ortorg the Ardent"], ""};
-		{ 2, 61800, "", "=q4=Chain Slippers of the Caldera", "=ds=#s12#, #a3#", "", ""};
-		{ 3, 61799, "", "=q4=Boots of Vitriol", "=ds=#s12#, #a2#", "", ""};
-		{ 4, 61796, "", "=q4=Ashen Giantstalker's Belt", "=ds=#s10#, #a3#", "", ""};
-		{ 5, 61811, "", "=q4=Heatproof Escutcheon", "=ds=#w8#", "", ""};
-		{ 6, 18202, "", "=q4=Eskhandar's Left Claw", "=ds=#w13#", "", ""};
-		{ 7, 61828, "", "=q4=Premonition", "=ds=#w9#", "", ""};
+		{ 2, 61794, "", "=q4=Ashen Belt of Might", "=ds=#s10#, #a4#", "", ""};
+		{ 3, 61796, "", "=q4=Ashen Giantstalker's Belt", "=ds=#s10#, #a3#", "", ""};
+		{ 4, 61795, "", "=q4=Ashen Earthfury Belt", "=ds=#s10#, #a3#", "", ""};
+		{ 5, 61797, "", "=q4=Ashen Nightslayer Belt", "=ds=#s10#, #a2#", "", ""};
+		{ 6, 61800, "", "=q4=Chain Slippers of the Caldera", "=ds=#s12#, #a3#", "", ""};
+		{ 7, 61799, "", "=q4=Boots of Vitriol", "=ds=#s12#, #a2#", "", ""};
+		{ 8, 61802, "", "=q4=Cuffs of Malevolence", "=ds=#s8#, #a1#", "", ""};
+		{ 9, 61811, "", "=q4=Heatproof Escutcheon", "=ds=#w8#", "", ""};
+		{ 10, 18202, "", "=q4=Eskhandar's Left Claw", "=ds=#w13#", "", ""};
+		{ 11, 61828, "", "=q4=Premonition", "=ds=#w9#", "", ""};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleEpoch["Atressian"], ""};
 		{ 17, 61833, "", "=q4=Scorched Earthfury Belt", "=ds=#s10#, #a3#", "", ""};
 		{ 18, 61832, "", "=q4=Scorched Cenarion Belt", "=ds=#s10#, #a2#", "", ""};
@@ -112,8 +116,10 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 2, 61807, "", "=q4=Dragon's Blood Cape", "=ds=#s4#", "", ""};
 		{ 3, 18205, "", "=q4=Eskhandar's Collar", "=ds=#s2#", "", "" };
 		{ 4, 17064, "", "=q4=Shard of the Scale", "=ds=#s14#", "" };
-		{ 5, 61808, "", "=q4=Effigy of the Dragon Worshippers", "=ds=#w12#", "", ""};
-		{ 6, 61804, "", "=q4=Deathbringer", "=ds=#h2#, #w1#", "", ""};
+		{ 5, 90505, "", "=q4=Broodmother's Eye", "=ds=#s14#", "" };
+		{ 6, 61808, "", "=q4=Effigy of the Dragon Worshippers", "=ds=#w12#", "", ""};
+		{ 7, 61804, "", "=q4=Deathbringer", "=ds=#h2#, #w1#", "", ""};
+		{ 8, 90504, "", "=q4=Roh'umir il Lronash", "=ds=#h3#, #w6#", "", ""};
 		{ 11, 61825, "", "=q3=Pattern: Red Dragonscale Leggings", "=ds=#p7# (300)", "", ""};
 		{ 12, 61824, "", "=q3=Red Dragonscale Leggings", "=ds=#s11#, #a3#", "", ""};
 		{ 13, 12698, "", "=q3=Plans: Dawnbringer Shoulders", "=ds=#p2# (290)", "" };
@@ -215,7 +221,6 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 8, 61792, "", "=q4=Adopted Whelp", "", "", ""};
 		{ 10, 61798, "", "=q4=Boots of Contempt", "", "", ""};
 		{ 13, 61801, "", "=q4=Cloak of Forewarning", "", "", ""};
-		{ 14, 61802, "", "=q4=Cuffs of Malevolence", "", "", ""};
 		{ 17, 61805, "", "=q4=Draconic Focusing Leystone", "", "", ""};
 		{ 18, 61806, "", "=q4=Dragon Slayer's Sword", "", "", ""};
 		{ 21, 61809, "", "=q4=Faceted Beryl Palm Stone", "", "", ""};
@@ -337,10 +342,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 12, 61755, "", "=q4=Smoky Lawbringer Belt", "=q1=#m1# =ds=#c4#", "", "0.10%"};
 		{ 13, 61756, "", "=q4=Smoky Lawbringer Bracers", "=q1=#m1# =ds=#c4#", "", "0.11%"};
 		{ 14, 61757, "", "=q4=Smoky Vambraces of Prophecy", "=q1=#m1# =ds=#c5#", "", "0.16%"};
-		{ 15, 61797, "", "=q4=Ashen Nightslayer Belt", "=q1=#m1# =ds=#c6#", "", "0.15%"};
 		{ 17, 61660, "", "=q4=Ashen Nightslayer Bracelets", "=q1=#m1# =ds=#c6#", "", "0.17%"};
-		{ 18, 61794, "", "=q4=Ashen Belt of Might", "=q1=#m1# =ds=#c9#", "", "0.16%"};
-		{ 19, 61795, "", "=q4=Ashen Earthfury Belt", "=q1=#m1# =ds=#c7#", "", "0.07%"};
 		{ 20, 61659, "", "=q4=Ashen Giantstalker's Bracers", "=q1=#m1# =ds=#c2#", "", "0.18%"};
 		{ 21, 61658, "", "=q4=Ashen Earthfury Bracers", "=q1=#m1# =ds=#c7#", "", "0.06%"};
 		{ 22, 61657, "", "=q4=Ashen Bracers of Might", "=q1=#m1# =ds=#c9#", "", "0.16%"};
