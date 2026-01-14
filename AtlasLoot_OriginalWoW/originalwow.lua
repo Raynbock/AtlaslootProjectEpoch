@@ -100,6 +100,7 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 9, 61811, "", "=q4=Heatproof Escutcheon", "=ds=#w8#", "", ""};
 		{ 10, 18202, "", "=q4=Eskhandar's Left Claw", "=ds=#w13#", "", ""};
 		{ 11, 61828, "", "=q4=Premonition", "=ds=#w9#", "", ""};
+		{ 12, 61806, "", "=q4=Dragon Slayer's Sword", "", "", ""};
 		{ 16, 0, "INV_Box_01", "=q6="..BabbleEpoch["Atressian"], ""};
 		{ 17, 61833, "", "=q4=Scorched Earthfury Belt", "=ds=#s10#, #a3#", "", ""};
 		{ 18, 61832, "", "=q4=Scorched Cenarion Belt", "=ds=#s10#, #a2#", "", ""};
@@ -107,7 +108,10 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 20, 61834, "", "=q4=Scorched Felheart Belt", "=ds=#s10#, #a1#", "", ""};
 		{ 21, 61803, "", "=q4=Cuffs of Spite", "=ds=#s8#, #a1#", "", ""};
 		{ 22, 61793, "", "=q4=Ancient Cornerstone Grimoire", "=ds=#s15#", "", ""};
-		{ 23, 61837, "", "=q4=Vis'kag the Bloodletter", "=ds=#h1# #w10#", "", "" };
+		{ 23, 61798, "", "=q4=Boots of Contempt", "", "", ""};
+		{ 24, 61837, "", "=q4=Vis'kag the Bloodletter", "=ds=#h1# #w10#", "", "" };
+		{ 25, 61830, "", "=q4=Sapphiron Drape", "", "", ""};
+		{ 26, 61809, "", "=q4=Faceted Beryl Palm Stone", "", "", ""};
 		Next = "Onyxia_2";
 	};
 
@@ -120,6 +124,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 6, 61808, "", "=q4=Effigy of the Dragon Worshippers", "=ds=#w12#", "", ""};
 		{ 7, 61804, "", "=q4=Deathbringer", "=ds=#h2#, #w1#", "", ""};
 		{ 8, 90504, "", "=q4=Roh'umir il Lronash", "=ds=#h3#, #w6#", "", ""};
+		{ 9, 61810, "", "=q4=Fury of the Black Flight", "", "", ""};
+		{ 10, 61835, "", "=q4=Shroud of the Cloaked Mists", "", "", ""};
 		{ 11, 61825, "", "=q3=Pattern: Red Dragonscale Leggings", "=ds=#p7# (300)", "", ""};
 		{ 12, 61824, "", "=q3=Red Dragonscale Leggings", "=ds=#s11#, #a3#", "", ""};
 		{ 13, 12698, "", "=q3=Plans: Dawnbringer Shoulders", "=ds=#p2# (290)", "" };
@@ -219,12 +225,12 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 6, 61790, "", "=q4=Gloves of the Glorious Hero", "", "", ""};
 		{ 7, 61791, "", "=q4=Sabatons of the Glorious Hero", "", "", ""};
 		{ 8, 61792, "", "=q4=Adopted Whelp", "", "", ""};
-		{ 10, 61798, "", "=q4=Boots of Contempt", "", "", ""};
+		
 		{ 13, 61801, "", "=q4=Cloak of Forewarning", "", "", ""};
 		{ 17, 61805, "", "=q4=Draconic Focusing Leystone", "", "", ""};
-		{ 18, 61806, "", "=q4=Dragon Slayer's Sword", "", "", ""};
-		{ 21, 61809, "", "=q4=Faceted Beryl Palm Stone", "", "", ""};
-		{ 22, 61810, "", "=q4=Fury of the Black Flight", "", "", ""};
+		
+		
+		
 		{ 24, 61812, "", "=q4=Idol of Starlight", "", "", ""};
 		{ 25, 61813, "", "=q4=Libram of Consecrated Ground", "", "", ""};
 		{ 26, 61815, "", "=q3=Pattern: Onyxia Scale Breastplate", "", "", ""};
@@ -246,8 +252,8 @@ local BabbleFaction = AtlasLoot_GetLocaleLibBabble("LibBabble-Faction-3.0")
 		{ 8, 61827, "", "=q3=Pattern: Red Dragonscale Boots", "", "", ""};
 		{ 9, 61826, "", "=q4=Red Dragonscale Boots", "", "", ""};
 		{ 11, 61829, "", "=q4=Ring of Binding", "", "", ""};
-		{ 12, 61830, "", "=q4=Sapphiron Drape", "", "", ""};
-		{ 13, 61835, "", "=q4=Shroud of the Cloaked Mists", "", "", ""};
+		
+	
 		{ 14, 61836, "", "=q4=Totem of Draconic Might", "", "", ""};
 		{ 16, 61838, "", "=q4=Woven Shadowthread Chemise", "", "", ""};
 		{ 17, 61839, "", "=q1=Black Dragonscale Protector", "", "", ""};
