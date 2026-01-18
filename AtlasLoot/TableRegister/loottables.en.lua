@@ -171,6 +171,7 @@ end
   -- Onyxia (Level 80)
 	AtlasLoot_TableNames["Onyxia_1"] = { BabbleBoss["Onyxia"], "AtlasLootOriginalWoW" };
 	AtlasLoot_TableNames["Onyxia_2"] = { BabbleBoss["Onyxia"], "AtlasLootOriginalWoW" };
+	AtlasLoot_TableNames["Onyxia_3"] = { BabbleBoss["Onyxia"], "AtlasLootOriginalWoW" };
   -- Ragefire Chasm
 	AtlasLoot_TableNames["RagefireChasm"] = { BabbleZone["Ragefire Chasm"], "AtlasLootOriginalWoW" };
   -- Razorfen Downs
